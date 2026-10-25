@@ -1,0 +1,95 @@
+Evaluate the 12 independent preservation tasks below.
+Use only each task's passage as factual evidence. The claim is the entire proposition
+whose preservation you must assess; its presence is not evidence for its own truth.
+The optional question_cue may focus on part of the passage or be unrelated. Do not
+answer it. Do not use it as factual evidence. It does not change the preservation task.
+Do not use tools, browse, read files, consult other agents, or use outside facts.
+For every case decide:
+supported = the passage entails the ENTIRE claim, including every participant,
+restriction, quantity, location, condition, time, order, unit and negation;
+not_supported = any part is absent, contradicted or otherwise not established;
+uncertain = you cannot resolve the entailment.
+An empty passage supplies no facts. Evaluate each task independently.
+Return ONLY one JSON array with exactly one object per case and exactly these fields:
+case_id: copy the ID;
+decision: supported, not_supported, or uncertain;
+evidence: a list of exact, contiguous, nonempty quotes from THIS passage, or [];
+rationale: a nonempty explanation of at most 60 whitespace-separated words.
+A supported decision requires at least one passage quote. Do not quote the claim
+or question_cue as passage evidence. Do not add fields, Markdown, or commentary.
+
+TASKS:
+[
+  {
+    "case_id": "C6982c815393df300ecd7",
+    "claim": "At Halen's prism studio, Mira lifts the red screen before she rotates the prism.",
+    "passage": "At Halen's prism studio, Mira lifts the red screen before she rotates the prism.",
+    "question_cue": "Which mountain looks distant?"
+  },
+  {
+    "case_id": "C8c965ac00dc2404d4671",
+    "claim": "At Orlo's ceramic quay, each crate holds exactly seven copper tiles.",
+    "passage": "At Orlo's ceramic quay, each crate holds exactly seven copper tiles.",
+    "question_cue": ""
+  },
+  {
+    "case_id": "C33844b7e2131a00f0791",
+    "claim": "At Ressa's lantern pier, the brass bell rings after the violet flag rises, and it never rings earlier.",
+    "passage": "",
+    "question_cue": ""
+  },
+  {
+    "case_id": "Cd6f8984538e9b81958cf",
+    "claim": "At Esi's ribbon workshop, Pavo carries the green spool to the loft.",
+    "passage": "The green spool is carried to the loft by Pavo at Esi's ribbon workshop.",
+    "question_cue": "Which river crosses the valley?"
+  },
+  {
+    "case_id": "C0d87498955ec41154baf",
+    "claim": "At Fera's mosaic depot, the lever is pulled only if the white disk is present.",
+    "passage": "At Fera's mosaic depot, the presence of the white disk is necessary for the lever to be pulled.",
+    "question_cue": ""
+  },
+  {
+    "case_id": "Cf09787f9a048501ab282",
+    "claim": "At Delvi's sand observatory, the blue shutter stays closed today.",
+    "passage": "",
+    "question_cue": "Which shutter stays closed?"
+  },
+  {
+    "case_id": "C8378c7051f3e03bba3e1",
+    "claim": "Nemi's amber beacon emits a four-second flash beside the east arch.",
+    "passage": "",
+    "question_cue": "Which flower blooms beside the distant lake?"
+  },
+  {
+    "case_id": "C579272be4cb56d793dda",
+    "claim": "At Ruven's chalk harbor, the word tal names the narrow inlet, not the entire bay.",
+    "passage": "At Ruven's chalk harbor, the word tal names the narrow inlet.",
+    "question_cue": ""
+  },
+  {
+    "case_id": "C16b54a0d9fb6cc9bd1ac",
+    "claim": "At Tavik's wax garden, the round tray cools faster than the square tray.",
+    "passage": "At Tavik's wax garden, cooling is slower for the square tray than for the round tray.",
+    "question_cue": "Which two tray shapes are compared?"
+  },
+  {
+    "case_id": "C8c96e0358add862dc861",
+    "claim": "At Zuri's glass ferry, the violet lamp glows for 500 milliseconds.",
+    "passage": "At Zuri's glass ferry, the violet lamp glows for 500 seconds.",
+    "question_cue": "Which lamp glows?"
+  },
+  {
+    "case_id": "Cefe3d85abab3634aa5f8",
+    "claim": "At Vexa's paper aviary, the silver vane does not touch the upper rail.",
+    "passage": "At Vexa's paper aviary, the silver vane does not touch the upper rail.",
+    "question_cue": "Which vane is described?"
+  },
+  {
+    "case_id": "C40babdecaffb8fe3b79c",
+    "claim": "At Leto's reed pavilion, at least one orange basket contains no pebbles.",
+    "passage": "At Leto's reed pavilion, every orange basket contains pebbles.",
+    "question_cue": "Which river crosses the valley?"
+  }
+]

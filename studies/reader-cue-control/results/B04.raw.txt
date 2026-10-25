@@ -1,0 +1,74 @@
+[
+  {
+    "case_id": "C263370213bfd87eae8eb",
+    "decision": "supported",
+    "evidence": ["At Ruven's chalk harbor, the word tal names the narrow inlet, not the entire bay."],
+    "rationale": "The passage explicitly establishes the location, the word's meaning, and the exclusion of the entire bay."
+  },
+  {
+    "case_id": "Ccf96d7612d8bd6248571",
+    "decision": "supported",
+    "evidence": ["Next to the east arch, Nemi's amber beacon emits a flash lasting four seconds."],
+    "rationale": "The passage identifies the same beacon, four-second flash duration, and position beside the east arch."
+  },
+  {
+    "case_id": "C14a37d21bcdca5d5fb7c",
+    "decision": "supported",
+    "evidence": ["At Ressa's lantern pier, the brass bell rings after the violet flag rises; before that, the bell never rings."],
+    "rationale": "The passage explicitly places the ringing after the flag rises and excludes earlier ringing at the specified location."
+  },
+  {
+    "case_id": "C22835ee0440dd191cbbf",
+    "decision": "not_supported",
+    "evidence": [],
+    "rationale": "The empty passage establishes no facts about the garden, trays, or their relative cooling speeds."
+  },
+  {
+    "case_id": "C14a4ac49a32ea5edb8eb",
+    "decision": "not_supported",
+    "evidence": [],
+    "rationale": "The empty passage establishes no facts about Pavo, the workshop, the spool, or its destination."
+  },
+  {
+    "case_id": "C0022d43f3ed030672f29",
+    "decision": "not_supported",
+    "evidence": ["At Halen's prism studio, Mira lifts the red screen after she rotates the prism."],
+    "rationale": "The passage says Mira lifts the screen after rotating the prism, contradicting the claimed order."
+  },
+  {
+    "case_id": "C5ed0cdb25a5d1182dbe6",
+    "decision": "supported",
+    "evidence": ["Today, the blue shutter at Delvi's sand observatory remains shut."],
+    "rationale": "Remaining shut today entails staying closed today, with the shutter and location matching the claim."
+  },
+  {
+    "case_id": "C474add542da9192b1b5b",
+    "decision": "not_supported",
+    "evidence": ["At Vexa's paper aviary, the silver vane touches the upper rail."],
+    "rationale": "The passage affirms contact between the silver vane and the upper rail, contradicting the claim's negation."
+  },
+  {
+    "case_id": "C4750f94c96fd4c09d359",
+    "decision": "supported",
+    "evidence": ["At Zuri's glass ferry, the violet lamp glows for 500 milliseconds."],
+    "rationale": "The passage explicitly states the same lamp, location, duration, and time unit."
+  },
+  {
+    "case_id": "Cf96e0a6fcd5fdddc0d08",
+    "decision": "not_supported",
+    "evidence": ["At Orlo's ceramic quay, each crate holds exactly eight copper tiles."],
+    "rationale": "The passage specifies exactly eight tiles per crate, contradicting the claimed quantity of exactly seven."
+  },
+  {
+    "case_id": "C21c915eafa7932a9d97f",
+    "decision": "not_supported",
+    "evidence": [],
+    "rationale": "The empty passage establishes no condition governing the lever or the white disk."
+  },
+  {
+    "case_id": "Cfcb1721383665bc0dcc4",
+    "decision": "supported",
+    "evidence": ["At Leto's reed pavilion, at least one orange basket contains no pebbles."],
+    "rationale": "The passage explicitly establishes the location and the existence of at least one orange basket containing no pebbles."
+  }
+]

@@ -1,0 +1,74 @@
+[
+  {
+    "case_id": "C00538eecb212612ed6de",
+    "decision": "not_supported",
+    "evidence": [],
+    "rationale": "The passage is empty and establishes none of the claim."
+  },
+  {
+    "case_id": "Cf035065ce54049ff0f72",
+    "decision": "supported",
+    "evidence": ["Next to the east arch, Nemi's amber beacon emits a flash lasting four seconds."],
+    "rationale": "The passage establishes the same beacon, location, flash, and four-second duration."
+  },
+  {
+    "case_id": "C3acf3d95a6ccf0e8207f",
+    "decision": "supported",
+    "evidence": ["At Delvi's sand observatory, the blue shutter stays closed today."],
+    "rationale": "The passage explicitly states the entire claim."
+  },
+  {
+    "case_id": "C30d15115eb5b473ba05d",
+    "decision": "supported",
+    "evidence": ["Every crate at Orlo's ceramic quay contains precisely seven tiles made of copper."],
+    "rationale": "Every crate contains precisely seven copper tiles at the stated location, matching all parts of the claim."
+  },
+  {
+    "case_id": "C86a78687d24a2a5fe961",
+    "decision": "supported",
+    "evidence": ["At Ressa's lantern pier, the brass bell rings after the violet flag rises, and it never rings earlier."],
+    "rationale": "The passage explicitly establishes the location, order, and prohibition on earlier ringing."
+  },
+  {
+    "case_id": "C8514b3325fe17c262dc6",
+    "decision": "supported",
+    "evidence": ["At Leto's reed pavilion, at least one orange basket contains no pebbles."],
+    "rationale": "The passage explicitly states the entire claim, including the existential quantity and absence of pebbles."
+  },
+  {
+    "case_id": "Cd147c8bdcd0c25864ef7",
+    "decision": "supported",
+    "evidence": ["At Vexa's paper aviary, there is no contact between the silver vane and the upper rail."],
+    "rationale": "No contact between the named objects entails that the silver vane does not touch the upper rail at the stated location."
+  },
+  {
+    "case_id": "Cb72c21ede0d41e9e87be",
+    "decision": "not_supported",
+    "evidence": ["At Tavik's wax garden, the round tray cools more slowly than the square tray."],
+    "rationale": "The passage states that the round tray cools more slowly, contradicting the claim that it cools faster."
+  },
+  {
+    "case_id": "C1103bc74fdb58fc4e50c",
+    "decision": "not_supported",
+    "evidence": ["At Fera's mosaic depot, if the white disk is present, the lever is pulled."],
+    "rationale": "The passage makes disk presence sufficient for pulling the lever. The claim instead makes disk presence necessary, which the passage does not establish."
+  },
+  {
+    "case_id": "C39efcba4ea3ec7ff62f4",
+    "decision": "not_supported",
+    "evidence": ["At Halen's prism studio, Mira lifts the red screen after she rotates the prism."],
+    "rationale": "The passage places lifting after rotation, contradicting the claimed order."
+  },
+  {
+    "case_id": "C2ba3b1bd6f5892d6feff",
+    "decision": "not_supported",
+    "evidence": [],
+    "rationale": "The passage is empty and provides no evidence about what the word names."
+  },
+  {
+    "case_id": "C7503f1722667bf233eb9",
+    "decision": "not_supported",
+    "evidence": [],
+    "rationale": "The passage is empty and establishes none of the claimed action, participants, object, or locations."
+  }
+]

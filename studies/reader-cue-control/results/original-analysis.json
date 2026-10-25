@@ -1,0 +1,315 @@
+{
+  "expected_cases": 144,
+  "valid_cases": 144,
+  "response_complete": true,
+  "uncertain": 0,
+  "cells": [
+    {
+      "variant": "literal",
+      "cue": "absent",
+      "denominator": 12,
+      "valid": 12,
+      "missing_or_invalid": 0,
+      "positive": 12,
+      "uncertain": 0,
+      "negative": 0,
+      "positive_rate_bounds": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "variant": "literal",
+      "cue": "relevant",
+      "denominator": 12,
+      "valid": 12,
+      "missing_or_invalid": 0,
+      "positive": 12,
+      "uncertain": 0,
+      "negative": 0,
+      "positive_rate_bounds": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "variant": "literal",
+      "cue": "unrelated",
+      "denominator": 12,
+      "valid": 12,
+      "missing_or_invalid": 0,
+      "positive": 12,
+      "uncertain": 0,
+      "negative": 0,
+      "positive_rate_bounds": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "variant": "paraphrase",
+      "cue": "absent",
+      "denominator": 12,
+      "valid": 12,
+      "missing_or_invalid": 0,
+      "positive": 12,
+      "uncertain": 0,
+      "negative": 0,
+      "positive_rate_bounds": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "variant": "paraphrase",
+      "cue": "relevant",
+      "denominator": 12,
+      "valid": 12,
+      "missing_or_invalid": 0,
+      "positive": 12,
+      "uncertain": 0,
+      "negative": 0,
+      "positive_rate_bounds": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "variant": "paraphrase",
+      "cue": "unrelated",
+      "denominator": 12,
+      "valid": 12,
+      "missing_or_invalid": 0,
+      "positive": 12,
+      "uncertain": 0,
+      "negative": 0,
+      "positive_rate_bounds": [
+        1.0,
+        1.0
+      ]
+    },
+    {
+      "variant": "corrupted",
+      "cue": "absent",
+      "denominator": 12,
+      "valid": 12,
+      "missing_or_invalid": 0,
+      "positive": 0,
+      "uncertain": 0,
+      "negative": 12,
+      "positive_rate_bounds": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "variant": "corrupted",
+      "cue": "relevant",
+      "denominator": 12,
+      "valid": 12,
+      "missing_or_invalid": 0,
+      "positive": 0,
+      "uncertain": 0,
+      "negative": 12,
+      "positive_rate_bounds": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "variant": "corrupted",
+      "cue": "unrelated",
+      "denominator": 12,
+      "valid": 12,
+      "missing_or_invalid": 0,
+      "positive": 0,
+      "uncertain": 0,
+      "negative": 12,
+      "positive_rate_bounds": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "variant": "empty",
+      "cue": "absent",
+      "denominator": 12,
+      "valid": 12,
+      "missing_or_invalid": 0,
+      "positive": 0,
+      "uncertain": 0,
+      "negative": 12,
+      "positive_rate_bounds": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "variant": "empty",
+      "cue": "relevant",
+      "denominator": 12,
+      "valid": 12,
+      "missing_or_invalid": 0,
+      "positive": 0,
+      "uncertain": 0,
+      "negative": 12,
+      "positive_rate_bounds": [
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "variant": "empty",
+      "cue": "unrelated",
+      "denominator": 12,
+      "valid": 12,
+      "missing_or_invalid": 0,
+      "positive": 0,
+      "uncertain": 0,
+      "negative": 12,
+      "positive_rate_bounds": [
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "primary": {
+    "contrast": "corrupted relevant minus unrelated positive-support rate",
+    "source_denominator": 12,
+    "difference_bounds": [
+      0.0,
+      0.0
+    ],
+    "point_difference": 0.0,
+    "per_source": [
+      {
+        "source_id": "amber_beacon",
+        "absent": 0,
+        "relevant": 0,
+        "unrelated": 0,
+        "relevant_minus_unrelated_bounds": [
+          0,
+          0
+        ]
+      },
+      {
+        "source_id": "ceramic_quay",
+        "absent": 0,
+        "relevant": 0,
+        "unrelated": 0,
+        "relevant_minus_unrelated_bounds": [
+          0,
+          0
+        ]
+      },
+      {
+        "source_id": "chalk_harbor",
+        "absent": 0,
+        "relevant": 0,
+        "unrelated": 0,
+        "relevant_minus_unrelated_bounds": [
+          0,
+          0
+        ]
+      },
+      {
+        "source_id": "glass_ferry",
+        "absent": 0,
+        "relevant": 0,
+        "unrelated": 0,
+        "relevant_minus_unrelated_bounds": [
+          0,
+          0
+        ]
+      },
+      {
+        "source_id": "lantern_pier",
+        "absent": 0,
+        "relevant": 0,
+        "unrelated": 0,
+        "relevant_minus_unrelated_bounds": [
+          0,
+          0
+        ]
+      },
+      {
+        "source_id": "mosaic_depot",
+        "absent": 0,
+        "relevant": 0,
+        "unrelated": 0,
+        "relevant_minus_unrelated_bounds": [
+          0,
+          0
+        ]
+      },
+      {
+        "source_id": "paper_aviary",
+        "absent": 0,
+        "relevant": 0,
+        "unrelated": 0,
+        "relevant_minus_unrelated_bounds": [
+          0,
+          0
+        ]
+      },
+      {
+        "source_id": "prism_studio",
+        "absent": 0,
+        "relevant": 0,
+        "unrelated": 0,
+        "relevant_minus_unrelated_bounds": [
+          0,
+          0
+        ]
+      },
+      {
+        "source_id": "reed_pavilion",
+        "absent": 0,
+        "relevant": 0,
+        "unrelated": 0,
+        "relevant_minus_unrelated_bounds": [
+          0,
+          0
+        ]
+      },
+      {
+        "source_id": "ribbon_workshop",
+        "absent": 0,
+        "relevant": 0,
+        "unrelated": 0,
+        "relevant_minus_unrelated_bounds": [
+          0,
+          0
+        ]
+      },
+      {
+        "source_id": "sand_observatory",
+        "absent": 0,
+        "relevant": 0,
+        "unrelated": 0,
+        "relevant_minus_unrelated_bounds": [
+          0,
+          0
+        ]
+      },
+      {
+        "source_id": "wax_garden",
+        "absent": 0,
+        "relevant": 0,
+        "unrelated": 0,
+        "relevant_minus_unrelated_bounds": [
+          0,
+          0
+        ]
+      }
+    ]
+  },
+  "scope": "Descriptive fixed-stimulus contrast only; no p-value, population confidence interval, human benefit or learned-reader claim.",
+  "custody_issues": [],
+  "raw_issues": [],
+  "packet_issues": [],
+  "operational_complete": true,
+  "freeze_sha256": "2fe369a5d8a13ed58659447c505882b2b9e9a3e057d72c7d3b21cc1a66664cd9",
+  "tool_trace_disclosure": "Not exposed; no verified claim of zero tool use or hard isolation.",
+  "result_kind": "Captured AI judgments, subject to independent postrun semantic and custody review."
+}

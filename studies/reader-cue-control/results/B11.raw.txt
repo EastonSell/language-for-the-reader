@@ -1,0 +1,74 @@
+[
+  {
+    "case_id": "Ca0077e9011ff7a60cde5",
+    "decision": "supported",
+    "evidence": ["At Orlo's ceramic quay, each crate holds exactly seven copper tiles."],
+    "rationale": "The passage states the entire claim, including the location, universal quantity, exact count, and tile material."
+  },
+  {
+    "case_id": "C1c8bc928fe6cd30c2550",
+    "decision": "supported",
+    "evidence": ["At Fera's mosaic depot, the presence of the white disk is necessary for the lever to be pulled."],
+    "rationale": "The white disk being necessary means the lever is pulled only if that disk is present."
+  },
+  {
+    "case_id": "Ceafd7aa738530a1f031a",
+    "decision": "supported",
+    "evidence": ["At Halen's prism studio, Mira's lifting of the red screen precedes her rotation of the prism."],
+    "rationale": "The passage establishes the same person, location, objects, and order of actions."
+  },
+  {
+    "case_id": "Ccc772478b65bb0050df3",
+    "decision": "not_supported",
+    "evidence": ["At Zuri's glass ferry, the violet lamp glows for 500 seconds."],
+    "rationale": "The passage specifies 500 seconds, not 500 milliseconds."
+  },
+  {
+    "case_id": "Cb79ead47b4eabfaca1b8",
+    "decision": "not_supported",
+    "evidence": ["At Ruven's chalk harbor, the word tal names the narrow inlet."],
+    "rationale": "The passage establishes that tal names the narrow inlet but does not establish that it does not also name the entire bay."
+  },
+  {
+    "case_id": "Cd93f30f6404895e8cf02",
+    "decision": "not_supported",
+    "evidence": [],
+    "rationale": "The empty passage provides no evidence about the shutter, its location, or its state today."
+  },
+  {
+    "case_id": "Cd968af1aeeff0907956e",
+    "decision": "not_supported",
+    "evidence": [],
+    "rationale": "The empty passage does not establish the existence of an orange basket containing no pebbles."
+  },
+  {
+    "case_id": "Ce574060749dc1f235646",
+    "decision": "not_supported",
+    "evidence": ["At Esi's ribbon workshop, Tilo carries the green spool to the loft."],
+    "rationale": "The passage attributes the carrying to Tilo and does not establish that Pavo carries the spool."
+  },
+  {
+    "case_id": "C45d18bfe62206415b576",
+    "decision": "supported",
+    "evidence": ["At Tavik's wax garden, cooling is slower for the square tray than for the round tray."],
+    "rationale": "The square tray cooling slower than the round tray entails that the round tray cools faster than the square tray."
+  },
+  {
+    "case_id": "Cced91a3f5e0d8fffd556",
+    "decision": "supported",
+    "evidence": ["Nemi's amber beacon emits a four-second flash beside the east arch."],
+    "rationale": "The passage states the entire claim, including the beacon, flash duration, and location."
+  },
+  {
+    "case_id": "Cd9df9a7baf689ef67f34",
+    "decision": "supported",
+    "evidence": ["At Vexa's paper aviary, the silver vane does not touch the upper rail."],
+    "rationale": "The passage explicitly states the same location, vane, rail, and absence of contact."
+  },
+  {
+    "case_id": "C98694a3dfb93ccdb304f",
+    "decision": "not_supported",
+    "evidence": [],
+    "rationale": "The empty passage establishes neither when the bell rings nor that it never rings before the flag rises."
+  }
+]

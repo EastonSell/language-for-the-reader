@@ -1,0 +1,74 @@
+[
+  {
+    "case_id": "C2a4b5fd55ae47cd0f916",
+    "decision": "not_supported",
+    "evidence": [],
+    "rationale": "The empty passage establishes no cooling comparison or other facts in the claim."
+  },
+  {
+    "case_id": "C89bba55a134d725cb802",
+    "decision": "not_supported",
+    "evidence": ["At Vexa's paper aviary, the silver vane touches the upper rail."],
+    "rationale": "The passage states that the vane touches the rail, contradicting the claimed negation."
+  },
+  {
+    "case_id": "C7d95ce31b970c949a75b",
+    "decision": "supported",
+    "evidence": ["Today, the blue shutter at Delvi's sand observatory remains shut."],
+    "rationale": "Remaining shut today entails staying closed today, with the same shutter and location."
+  },
+  {
+    "case_id": "C1b458c869ae366034b7e",
+    "decision": "not_supported",
+    "evidence": ["Nemi's amber beacon emits a four-second flash."],
+    "rationale": "The flash and its duration are established, but the location beside the east arch is absent."
+  },
+  {
+    "case_id": "C199f39861c053e86f076",
+    "decision": "not_supported",
+    "evidence": ["At Orlo's ceramic quay, each crate holds exactly eight copper tiles."],
+    "rationale": "The passage specifies exactly eight tiles per crate, not exactly seven."
+  },
+  {
+    "case_id": "C32241df43fa8a6640bca",
+    "decision": "supported",
+    "evidence": ["At Esi's ribbon workshop, Pavo carries the green spool to the loft."],
+    "rationale": "The passage explicitly states the entire claim."
+  },
+  {
+    "case_id": "Cbff0b83e69c8c488fbc8",
+    "decision": "not_supported",
+    "evidence": [],
+    "rationale": "The empty passage establishes no condition for pulling the lever."
+  },
+  {
+    "case_id": "Ccac333c94382ff696e8d",
+    "decision": "not_supported",
+    "evidence": [],
+    "rationale": "The empty passage establishes neither action nor their order."
+  },
+  {
+    "case_id": "C070afa26547e296d12a2",
+    "decision": "supported",
+    "evidence": ["At Ressa's lantern pier, the brass bell rings after the violet flag rises; before that, the bell never rings."],
+    "rationale": "The passage establishes ringing after the flag rises and explicitly excludes earlier ringing."
+  },
+  {
+    "case_id": "Cb41aadfba1cfa87fd8b0",
+    "decision": "supported",
+    "evidence": ["At Leto's reed pavilion, there is an orange basket without any pebbles."],
+    "rationale": "The existence of an orange basket without any pebbles entails that at least one orange basket contains no pebbles."
+  },
+  {
+    "case_id": "Ce9f37d92c0e8a243f21a",
+    "decision": "supported",
+    "evidence": ["At Zuri's glass ferry, the violet lamp glows for 500 milliseconds."],
+    "rationale": "The passage explicitly establishes the lamp, location, duration, and unit specified in the claim."
+  },
+  {
+    "case_id": "C0af56309c9bd0916fe27",
+    "decision": "supported",
+    "evidence": ["At Ruven's chalk harbor, the word tal names the narrow inlet, not the entire bay."],
+    "rationale": "The passage explicitly states the entire claim, including the exclusion of the entire bay."
+  }
+]

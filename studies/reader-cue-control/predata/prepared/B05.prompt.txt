@@ -1,0 +1,95 @@
+Evaluate the 12 independent preservation tasks below.
+Use only each task's passage as factual evidence. The claim is the entire proposition
+whose preservation you must assess; its presence is not evidence for its own truth.
+The optional question_cue may focus on part of the passage or be unrelated. Do not
+answer it. Do not use it as factual evidence. It does not change the preservation task.
+Do not use tools, browse, read files, consult other agents, or use outside facts.
+For every case decide:
+supported = the passage entails the ENTIRE claim, including every participant,
+restriction, quantity, location, condition, time, order, unit and negation;
+not_supported = any part is absent, contradicted or otherwise not established;
+uncertain = you cannot resolve the entailment.
+An empty passage supplies no facts. Evaluate each task independently.
+Return ONLY one JSON array with exactly one object per case and exactly these fields:
+case_id: copy the ID;
+decision: supported, not_supported, or uncertain;
+evidence: a list of exact, contiguous, nonempty quotes from THIS passage, or [];
+rationale: a nonempty explanation of at most 60 whitespace-separated words.
+A supported decision requires at least one passage quote. Do not quote the claim
+or question_cue as passage evidence. Do not add fields, Markdown, or commentary.
+
+TASKS:
+[
+  {
+    "case_id": "C2a4b5fd55ae47cd0f916",
+    "claim": "At Tavik's wax garden, the round tray cools faster than the square tray.",
+    "passage": "",
+    "question_cue": "Which cloud floats over the mountain?"
+  },
+  {
+    "case_id": "C89bba55a134d725cb802",
+    "claim": "At Vexa's paper aviary, the silver vane does not touch the upper rail.",
+    "passage": "At Vexa's paper aviary, the silver vane touches the upper rail.",
+    "question_cue": "Which mountain looks distant?"
+  },
+  {
+    "case_id": "C7d95ce31b970c949a75b",
+    "claim": "At Delvi's sand observatory, the blue shutter stays closed today.",
+    "passage": "Today, the blue shutter at Delvi's sand observatory remains shut.",
+    "question_cue": "Which mountain looks distant?"
+  },
+  {
+    "case_id": "C1b458c869ae366034b7e",
+    "claim": "Nemi's amber beacon emits a four-second flash beside the east arch.",
+    "passage": "Nemi's amber beacon emits a four-second flash.",
+    "question_cue": ""
+  },
+  {
+    "case_id": "C199f39861c053e86f076",
+    "claim": "At Orlo's ceramic quay, each crate holds exactly seven copper tiles.",
+    "passage": "At Orlo's ceramic quay, each crate holds exactly eight copper tiles.",
+    "question_cue": "What metal are the tiles made of?"
+  },
+  {
+    "case_id": "C32241df43fa8a6640bca",
+    "claim": "At Esi's ribbon workshop, Pavo carries the green spool to the loft.",
+    "passage": "At Esi's ribbon workshop, Pavo carries the green spool to the loft.",
+    "question_cue": ""
+  },
+  {
+    "case_id": "Cbff0b83e69c8c488fbc8",
+    "claim": "At Fera's mosaic depot, the lever is pulled only if the white disk is present.",
+    "passage": "",
+    "question_cue": "What color is the disk?"
+  },
+  {
+    "case_id": "Ccac333c94382ff696e8d",
+    "claim": "At Halen's prism studio, Mira lifts the red screen before she rotates the prism.",
+    "passage": "",
+    "question_cue": ""
+  },
+  {
+    "case_id": "C070afa26547e296d12a2",
+    "claim": "At Ressa's lantern pier, the brass bell rings after the violet flag rises, and it never rings earlier.",
+    "passage": "At Ressa's lantern pier, the brass bell rings after the violet flag rises; before that, the bell never rings.",
+    "question_cue": "When does the brass bell ring?"
+  },
+  {
+    "case_id": "Cb41aadfba1cfa87fd8b0",
+    "claim": "At Leto's reed pavilion, at least one orange basket contains no pebbles.",
+    "passage": "At Leto's reed pavilion, there is an orange basket without any pebbles.",
+    "question_cue": ""
+  },
+  {
+    "case_id": "Ce9f37d92c0e8a243f21a",
+    "claim": "At Zuri's glass ferry, the violet lamp glows for 500 milliseconds.",
+    "passage": "At Zuri's glass ferry, the violet lamp glows for 500 milliseconds.",
+    "question_cue": "Which flower blooms?"
+  },
+  {
+    "case_id": "C0af56309c9bd0916fe27",
+    "claim": "At Ruven's chalk harbor, the word tal names the narrow inlet, not the entire bay.",
+    "passage": "At Ruven's chalk harbor, the word tal names the narrow inlet, not the entire bay.",
+    "question_cue": "Which inlet does the word name?"
+  }
+]

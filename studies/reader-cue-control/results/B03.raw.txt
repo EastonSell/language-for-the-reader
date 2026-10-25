@@ -1,0 +1,74 @@
+[
+  {
+    "case_id": "C8ae90dd843ff3fd41f2c",
+    "decision": "supported",
+    "evidence": ["Today, the blue shutter at Delvi's sand observatory remains shut."],
+    "rationale": "Remaining shut today entails staying closed today, with the same shutter and location."
+  },
+  {
+    "case_id": "Cb6d053d8717556622d81",
+    "decision": "supported",
+    "evidence": ["At Ressa's lantern pier, the brass bell rings after the violet flag rises, and it never rings earlier."],
+    "rationale": "The passage explicitly establishes the complete claim, including the event order and prohibition on earlier ringing."
+  },
+  {
+    "case_id": "C8fdb380923db80bbfb65",
+    "decision": "not_supported",
+    "evidence": [],
+    "rationale": "The empty passage supplies no evidence establishing any part of the claim."
+  },
+  {
+    "case_id": "C1a9cd6f71668dbd97bea",
+    "decision": "not_supported",
+    "evidence": [],
+    "rationale": "The empty passage supplies no evidence about either tray or their cooling rates."
+  },
+  {
+    "case_id": "C373aea884e41c8943d11",
+    "decision": "not_supported",
+    "evidence": ["At Vexa's paper aviary, the silver vane touches the upper rail."],
+    "rationale": "The passage states that the vane touches the upper rail, contradicting the claimed absence of contact."
+  },
+  {
+    "case_id": "C2b2cdb0e58fd96ec3c87",
+    "decision": "not_supported",
+    "evidence": [],
+    "rationale": "The empty passage supplies no evidence about what the word tal names."
+  },
+  {
+    "case_id": "C13495e36fb426cbe73e5",
+    "decision": "supported",
+    "evidence": ["Next to the east arch, Nemi's amber beacon emits a flash lasting four seconds."],
+    "rationale": "The passage establishes the same beacon, flash duration, and location beside the east arch."
+  },
+  {
+    "case_id": "Cce26229e11deecfc464b",
+    "decision": "supported",
+    "evidence": ["At Zuri's glass ferry, the violet lamp glows for 500 milliseconds."],
+    "rationale": "The passage explicitly states the complete claim, including the lamp, location, duration, and unit."
+  },
+  {
+    "case_id": "C38ffff917b76e2265b7b",
+    "decision": "supported",
+    "evidence": ["Every crate at Orlo's ceramic quay contains precisely seven tiles made of copper."],
+    "rationale": "Every crate containing precisely seven copper tiles entails each crate holding exactly seven copper tiles at the stated location."
+  },
+  {
+    "case_id": "C9b2da34360db8e9ebdad",
+    "decision": "not_supported",
+    "evidence": ["At Fera's mosaic depot, if the white disk is present, the lever is pulled."],
+    "rationale": "The passage makes the disk's presence sufficient for pulling the lever. The claim makes it necessary, which the passage does not establish."
+  },
+  {
+    "case_id": "Cc18636439936d0027a61",
+    "decision": "supported",
+    "evidence": ["At Leto's reed pavilion, at least one orange basket contains no pebbles."],
+    "rationale": "The passage explicitly establishes the complete claim, including the existence of an orange basket with no pebbles."
+  },
+  {
+    "case_id": "Cab4d77c8d83f8d74c9fe",
+    "decision": "not_supported",
+    "evidence": ["At Halen's prism studio, Mira lifts the red screen after she rotates the prism."],
+    "rationale": "The passage places the lifting after the rotation, contradicting the claimed order."
+  }
+]

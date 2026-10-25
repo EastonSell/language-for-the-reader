@@ -1,0 +1,1154 @@
+[
+  {
+    "block_id": "B04",
+    "case_id": "C0022d43f3ed030672f29",
+    "source_id": "prism_studio",
+    "variant": "corrupted",
+    "cue": "unrelated",
+    "gold_support": false
+  },
+  {
+    "block_id": "B02",
+    "case_id": "C00538eecb212612ed6de",
+    "source_id": "glass_ferry",
+    "variant": "empty",
+    "cue": "unrelated",
+    "gold_support": false
+  },
+  {
+    "block_id": "B07",
+    "case_id": "C043c4b2950b417d77d0e",
+    "source_id": "prism_studio",
+    "variant": "empty",
+    "cue": "unrelated",
+    "gold_support": false
+  },
+  {
+    "block_id": "B05",
+    "case_id": "C070afa26547e296d12a2",
+    "source_id": "lantern_pier",
+    "variant": "paraphrase",
+    "cue": "relevant",
+    "gold_support": true
+  },
+  {
+    "block_id": "B05",
+    "case_id": "C0af56309c9bd0916fe27",
+    "source_id": "chalk_harbor",
+    "variant": "literal",
+    "cue": "relevant",
+    "gold_support": true
+  },
+  {
+    "block_id": "B10",
+    "case_id": "C0d87498955ec41154baf",
+    "source_id": "mosaic_depot",
+    "variant": "paraphrase",
+    "cue": "absent",
+    "gold_support": true
+  },
+  {
+    "block_id": "B06",
+    "case_id": "C0e4d5dc6b45a1f05ba7c",
+    "source_id": "ceramic_quay",
+    "variant": "corrupted",
+    "cue": "unrelated",
+    "gold_support": false
+  },
+  {
+    "block_id": "B02",
+    "case_id": "C1103bc74fdb58fc4e50c",
+    "source_id": "mosaic_depot",
+    "variant": "corrupted",
+    "cue": "relevant",
+    "gold_support": false
+  },
+  {
+    "block_id": "B12",
+    "case_id": "C122f7a48e4b974b4c94c",
+    "source_id": "ribbon_workshop",
+    "variant": "corrupted",
+    "cue": "relevant",
+    "gold_support": false
+  },
+  {
+    "block_id": "B03",
+    "case_id": "C13495e36fb426cbe73e5",
+    "source_id": "amber_beacon",
+    "variant": "paraphrase",
+    "cue": "relevant",
+    "gold_support": true
+  },
+  {
+    "block_id": "B04",
+    "case_id": "C14a37d21bcdca5d5fb7c",
+    "source_id": "lantern_pier",
+    "variant": "paraphrase",
+    "cue": "absent",
+    "gold_support": true
+  },
+  {
+    "block_id": "B04",
+    "case_id": "C14a4ac49a32ea5edb8eb",
+    "source_id": "ribbon_workshop",
+    "variant": "empty",
+    "cue": "unrelated",
+    "gold_support": false
+  },
+  {
+    "block_id": "B10",
+    "case_id": "C16b54a0d9fb6cc9bd1ac",
+    "source_id": "wax_garden",
+    "variant": "paraphrase",
+    "cue": "relevant",
+    "gold_support": true
+  },
+  {
+    "block_id": "B05",
+    "case_id": "C199f39861c053e86f076",
+    "source_id": "ceramic_quay",
+    "variant": "corrupted",
+    "cue": "relevant",
+    "gold_support": false
+  },
+  {
+    "block_id": "B03",
+    "case_id": "C1a9cd6f71668dbd97bea",
+    "source_id": "wax_garden",
+    "variant": "empty",
+    "cue": "absent",
+    "gold_support": false
+  },
+  {
+    "block_id": "B05",
+    "case_id": "C1b458c869ae366034b7e",
+    "source_id": "amber_beacon",
+    "variant": "corrupted",
+    "cue": "absent",
+    "gold_support": false
+  },
+  {
+    "block_id": "B11",
+    "case_id": "C1c8bc928fe6cd30c2550",
+    "source_id": "mosaic_depot",
+    "variant": "paraphrase",
+    "cue": "relevant",
+    "gold_support": true
+  },
+  {
+    "block_id": "B01",
+    "case_id": "C1f90da87442c798658bd",
+    "source_id": "amber_beacon",
+    "variant": "literal",
+    "cue": "unrelated",
+    "gold_support": true
+  },
+  {
+    "block_id": "B01",
+    "case_id": "C20269fa4a60dad46c801",
+    "source_id": "paper_aviary",
+    "variant": "paraphrase",
+    "cue": "relevant",
+    "gold_support": true
+  },
+  {
+    "block_id": "B04",
+    "case_id": "C21c915eafa7932a9d97f",
+    "source_id": "mosaic_depot",
+    "variant": "empty",
+    "cue": "absent",
+    "gold_support": false
+  },
+  {
+    "block_id": "B04",
+    "case_id": "C22835ee0440dd191cbbf",
+    "source_id": "wax_garden",
+    "variant": "empty",
+    "cue": "relevant",
+    "gold_support": false
+  },
+  {
+    "block_id": "B07",
+    "case_id": "C24a182587c6848f0e1c5",
+    "source_id": "paper_aviary",
+    "variant": "empty",
+    "cue": "relevant",
+    "gold_support": false
+  },
+  {
+    "block_id": "B04",
+    "case_id": "C263370213bfd87eae8eb",
+    "source_id": "chalk_harbor",
+    "variant": "literal",
+    "cue": "absent",
+    "gold_support": true
+  },
+  {
+    "block_id": "B01",
+    "case_id": "C2683ccaf73a981506f02",
+    "source_id": "ceramic_quay",
+    "variant": "paraphrase",
+    "cue": "absent",
+    "gold_support": true
+  },
+  {
+    "block_id": "B01",
+    "case_id": "C277676858d4100f1a3df",
+    "source_id": "lantern_pier",
+    "variant": "literal",
+    "cue": "absent",
+    "gold_support": true
+  },
+  {
+    "block_id": "B06",
+    "case_id": "C29e916385a7d57976185",
+    "source_id": "sand_observatory",
+    "variant": "corrupted",
+    "cue": "absent",
+    "gold_support": false
+  },
+  {
+    "block_id": "B05",
+    "case_id": "C2a4b5fd55ae47cd0f916",
+    "source_id": "wax_garden",
+    "variant": "empty",
+    "cue": "unrelated",
+    "gold_support": false
+  },
+  {
+    "block_id": "B08",
+    "case_id": "C2a7f810b40848eca8d2b",
+    "source_id": "amber_beacon",
+    "variant": "empty",
+    "cue": "absent",
+    "gold_support": false
+  },
+  {
+    "block_id": "B03",
+    "case_id": "C2b2cdb0e58fd96ec3c87",
+    "source_id": "chalk_harbor",
+    "variant": "empty",
+    "cue": "unrelated",
+    "gold_support": false
+  },
+  {
+    "block_id": "B02",
+    "case_id": "C2ba3b1bd6f5892d6feff",
+    "source_id": "chalk_harbor",
+    "variant": "empty",
+    "cue": "relevant",
+    "gold_support": false
+  },
+  {
+    "block_id": "B08",
+    "case_id": "C2f3d52232107b27a95e5",
+    "source_id": "lantern_pier",
+    "variant": "corrupted",
+    "cue": "relevant",
+    "gold_support": false
+  },
+  {
+    "block_id": "B02",
+    "case_id": "C30d15115eb5b473ba05d",
+    "source_id": "ceramic_quay",
+    "variant": "paraphrase",
+    "cue": "relevant",
+    "gold_support": true
+  },
+  {
+    "block_id": "B05",
+    "case_id": "C32241df43fa8a6640bca",
+    "source_id": "ribbon_workshop",
+    "variant": "literal",
+    "cue": "absent",
+    "gold_support": true
+  },
+  {
+    "block_id": "B09",
+    "case_id": "C337e970f2080d7e1c295",
+    "source_id": "glass_ferry",
+    "variant": "corrupted",
+    "cue": "absent",
+    "gold_support": false
+  },
+  {
+    "block_id": "B10",
+    "case_id": "C33844b7e2131a00f0791",
+    "source_id": "lantern_pier",
+    "variant": "empty",
+    "cue": "absent",
+    "gold_support": false
+  },
+  {
+    "block_id": "B06",
+    "case_id": "C33f9a65653d9037799ba",
+    "source_id": "prism_studio",
+    "variant": "empty",
+    "cue": "relevant",
+    "gold_support": false
+  },
+  {
+    "block_id": "B01",
+    "case_id": "C349246e68271b3d51e18",
+    "source_id": "chalk_harbor",
+    "variant": "empty",
+    "cue": "absent",
+    "gold_support": false
+  },
+  {
+    "block_id": "B07",
+    "case_id": "C351ceee484d062c07f2d",
+    "source_id": "chalk_harbor",
+    "variant": "paraphrase",
+    "cue": "absent",
+    "gold_support": true
+  },
+  {
+    "block_id": "B12",
+    "case_id": "C36514cb69d9cb2667f87",
+    "source_id": "reed_pavilion",
+    "variant": "empty",
+    "cue": "relevant",
+    "gold_support": false
+  },
+  {
+    "block_id": "B03",
+    "case_id": "C373aea884e41c8943d11",
+    "source_id": "paper_aviary",
+    "variant": "corrupted",
+    "cue": "absent",
+    "gold_support": false
+  },
+  {
+    "block_id": "B01",
+    "case_id": "C38c25ab417f76ae087d0",
+    "source_id": "ribbon_workshop",
+    "variant": "corrupted",
+    "cue": "unrelated",
+    "gold_support": false
+  },
+  {
+    "block_id": "B03",
+    "case_id": "C38ffff917b76e2265b7b",
+    "source_id": "ceramic_quay",
+    "variant": "paraphrase",
+    "cue": "unrelated",
+    "gold_support": true
+  },
+  {
+    "block_id": "B01",
+    "case_id": "C39297c873d286d96d758",
+    "source_id": "glass_ferry",
+    "variant": "empty",
+    "cue": "relevant",
+    "gold_support": false
+  },
+  {
+    "block_id": "B02",
+    "case_id": "C39efcba4ea3ec7ff62f4",
+    "source_id": "prism_studio",
+    "variant": "corrupted",
+    "cue": "absent",
+    "gold_support": false
+  },
+  {
+    "block_id": "B02",
+    "case_id": "C3acf3d95a6ccf0e8207f",
+    "source_id": "sand_observatory",
+    "variant": "literal",
+    "cue": "unrelated",
+    "gold_support": true
+  },
+  {
+    "block_id": "B07",
+    "case_id": "C3b2b5c02d338fb8b1766",
+    "source_id": "glass_ferry",
+    "variant": "paraphrase",
+    "cue": "relevant",
+    "gold_support": true
+  },
+  {
+    "block_id": "B10",
+    "case_id": "C40babdecaffb8fe3b79c",
+    "source_id": "reed_pavilion",
+    "variant": "corrupted",
+    "cue": "unrelated",
+    "gold_support": false
+  },
+  {
+    "block_id": "B11",
+    "case_id": "C45d18bfe62206415b576",
+    "source_id": "wax_garden",
+    "variant": "paraphrase",
+    "cue": "unrelated",
+    "gold_support": true
+  },
+  {
+    "block_id": "B04",
+    "case_id": "C474add542da9192b1b5b",
+    "source_id": "paper_aviary",
+    "variant": "corrupted",
+    "cue": "relevant",
+    "gold_support": false
+  },
+  {
+    "block_id": "B04",
+    "case_id": "C4750f94c96fd4c09d359",
+    "source_id": "glass_ferry",
+    "variant": "literal",
+    "cue": "relevant",
+    "gold_support": true
+  },
+  {
+    "block_id": "B09",
+    "case_id": "C4b7687c8cc9d659bb2ea",
+    "source_id": "ceramic_quay",
+    "variant": "empty",
+    "cue": "unrelated",
+    "gold_support": false
+  },
+  {
+    "block_id": "B01",
+    "case_id": "C52e7484278a30074a05e",
+    "source_id": "wax_garden",
+    "variant": "corrupted",
+    "cue": "relevant",
+    "gold_support": false
+  },
+  {
+    "block_id": "B06",
+    "case_id": "C55dc6d7a0529d7c0a8d8",
+    "source_id": "reed_pavilion",
+    "variant": "paraphrase",
+    "cue": "relevant",
+    "gold_support": true
+  },
+  {
+    "block_id": "B08",
+    "case_id": "C55eab37fe36c826aca82",
+    "source_id": "reed_pavilion",
+    "variant": "corrupted",
+    "cue": "absent",
+    "gold_support": false
+  },
+  {
+    "block_id": "B06",
+    "case_id": "C570cbe31bc287f6fc5e4",
+    "source_id": "glass_ferry",
+    "variant": "paraphrase",
+    "cue": "absent",
+    "gold_support": true
+  },
+  {
+    "block_id": "B10",
+    "case_id": "C579272be4cb56d793dda",
+    "source_id": "chalk_harbor",
+    "variant": "corrupted",
+    "cue": "absent",
+    "gold_support": false
+  },
+  {
+    "block_id": "B06",
+    "case_id": "C5c04cb003293552fba25",
+    "source_id": "chalk_harbor",
+    "variant": "literal",
+    "cue": "unrelated",
+    "gold_support": true
+  },
+  {
+    "block_id": "B04",
+    "case_id": "C5ed0cdb25a5d1182dbe6",
+    "source_id": "sand_observatory",
+    "variant": "paraphrase",
+    "cue": "relevant",
+    "gold_support": true
+  },
+  {
+    "block_id": "B01",
+    "case_id": "C6367c35eb9a6132878e6",
+    "source_id": "mosaic_depot",
+    "variant": "corrupted",
+    "cue": "absent",
+    "gold_support": false
+  },
+  {
+    "block_id": "B09",
+    "case_id": "C64503be47c7531526b2f",
+    "source_id": "reed_pavilion",
+    "variant": "corrupted",
+    "cue": "relevant",
+    "gold_support": false
+  },
+  {
+    "block_id": "B06",
+    "case_id": "C65c5dde93c8e27144377",
+    "source_id": "amber_beacon",
+    "variant": "corrupted",
+    "cue": "relevant",
+    "gold_support": false
+  },
+  {
+    "block_id": "B07",
+    "case_id": "C662a150e59827cc2c3a2",
+    "source_id": "sand_observatory",
+    "variant": "corrupted",
+    "cue": "relevant",
+    "gold_support": false
+  },
+  {
+    "block_id": "B10",
+    "case_id": "C6982c815393df300ecd7",
+    "source_id": "prism_studio",
+    "variant": "literal",
+    "cue": "unrelated",
+    "gold_support": true
+  },
+  {
+    "block_id": "B09",
+    "case_id": "C6afd75560a490237d99c",
+    "source_id": "amber_beacon",
+    "variant": "empty",
+    "cue": "relevant",
+    "gold_support": false
+  },
+  {
+    "block_id": "B12",
+    "case_id": "C72cdca05ae86025045e5",
+    "source_id": "ceramic_quay",
+    "variant": "literal",
+    "cue": "unrelated",
+    "gold_support": true
+  },
+  {
+    "block_id": "B08",
+    "case_id": "C7388098f921ca26db76a",
+    "source_id": "ceramic_quay",
+    "variant": "empty",
+    "cue": "relevant",
+    "gold_support": false
+  },
+  {
+    "block_id": "B02",
+    "case_id": "C7503f1722667bf233eb9",
+    "source_id": "ribbon_workshop",
+    "variant": "empty",
+    "cue": "absent",
+    "gold_support": false
+  },
+  {
+    "block_id": "B06",
+    "case_id": "C7d44fe23949a9d3d9f06",
+    "source_id": "wax_garden",
+    "variant": "literal",
+    "cue": "absent",
+    "gold_support": true
+  },
+  {
+    "block_id": "B05",
+    "case_id": "C7d95ce31b970c949a75b",
+    "source_id": "sand_observatory",
+    "variant": "paraphrase",
+    "cue": "unrelated",
+    "gold_support": true
+  },
+  {
+    "block_id": "B12",
+    "case_id": "C7e7c9fc649896edf2acb",
+    "source_id": "wax_garden",
+    "variant": "corrupted",
+    "cue": "absent",
+    "gold_support": false
+  },
+  {
+    "block_id": "B08",
+    "case_id": "C7f00c43752b04e6b7c92",
+    "source_id": "mosaic_depot",
+    "variant": "literal",
+    "cue": "relevant",
+    "gold_support": true
+  },
+  {
+    "block_id": "B01",
+    "case_id": "C7fbcb46512a118070965",
+    "source_id": "prism_studio",
+    "variant": "paraphrase",
+    "cue": "unrelated",
+    "gold_support": true
+  },
+  {
+    "block_id": "B10",
+    "case_id": "C8378c7051f3e03bba3e1",
+    "source_id": "amber_beacon",
+    "variant": "empty",
+    "cue": "unrelated",
+    "gold_support": false
+  },
+  {
+    "block_id": "B12",
+    "case_id": "C83c43dd824ac28de8a94",
+    "source_id": "chalk_harbor",
+    "variant": "corrupted",
+    "cue": "unrelated",
+    "gold_support": false
+  },
+  {
+    "block_id": "B02",
+    "case_id": "C8514b3325fe17c262dc6",
+    "source_id": "reed_pavilion",
+    "variant": "literal",
+    "cue": "absent",
+    "gold_support": true
+  },
+  {
+    "block_id": "B02",
+    "case_id": "C86a78687d24a2a5fe961",
+    "source_id": "lantern_pier",
+    "variant": "literal",
+    "cue": "relevant",
+    "gold_support": true
+  },
+  {
+    "block_id": "B07",
+    "case_id": "C898215253d09bfb3a32c",
+    "source_id": "reed_pavilion",
+    "variant": "paraphrase",
+    "cue": "unrelated",
+    "gold_support": true
+  },
+  {
+    "block_id": "B05",
+    "case_id": "C89bba55a134d725cb802",
+    "source_id": "paper_aviary",
+    "variant": "corrupted",
+    "cue": "unrelated",
+    "gold_support": false
+  },
+  {
+    "block_id": "B08",
+    "case_id": "C8aa15d9fbab1b4d9ef91",
+    "source_id": "sand_observatory",
+    "variant": "corrupted",
+    "cue": "unrelated",
+    "gold_support": false
+  },
+  {
+    "block_id": "B03",
+    "case_id": "C8ae90dd843ff3fd41f2c",
+    "source_id": "sand_observatory",
+    "variant": "paraphrase",
+    "cue": "absent",
+    "gold_support": true
+  },
+  {
+    "block_id": "B10",
+    "case_id": "C8c965ac00dc2404d4671",
+    "source_id": "ceramic_quay",
+    "variant": "literal",
+    "cue": "absent",
+    "gold_support": true
+  },
+  {
+    "block_id": "B10",
+    "case_id": "C8c96e0358add862dc861",
+    "source_id": "glass_ferry",
+    "variant": "corrupted",
+    "cue": "relevant",
+    "gold_support": false
+  },
+  {
+    "block_id": "B03",
+    "case_id": "C8fdb380923db80bbfb65",
+    "source_id": "ribbon_workshop",
+    "variant": "empty",
+    "cue": "relevant",
+    "gold_support": false
+  },
+  {
+    "block_id": "B09",
+    "case_id": "C906e4987be3823991566",
+    "source_id": "chalk_harbor",
+    "variant": "paraphrase",
+    "cue": "unrelated",
+    "gold_support": true
+  },
+  {
+    "block_id": "B09",
+    "case_id": "C90b849ee18f8466f9f4d",
+    "source_id": "sand_observatory",
+    "variant": "empty",
+    "cue": "absent",
+    "gold_support": false
+  },
+  {
+    "block_id": "B09",
+    "case_id": "C96ecdae20be7358e71f5",
+    "source_id": "prism_studio",
+    "variant": "literal",
+    "cue": "relevant",
+    "gold_support": true
+  },
+  {
+    "block_id": "B11",
+    "case_id": "C98694a3dfb93ccdb304f",
+    "source_id": "lantern_pier",
+    "variant": "empty",
+    "cue": "relevant",
+    "gold_support": false
+  },
+  {
+    "block_id": "B03",
+    "case_id": "C9b2da34360db8e9ebdad",
+    "source_id": "mosaic_depot",
+    "variant": "corrupted",
+    "cue": "unrelated",
+    "gold_support": false
+  },
+  {
+    "block_id": "B12",
+    "case_id": "C9b9fbded7526ad4eb728",
+    "source_id": "mosaic_depot",
+    "variant": "paraphrase",
+    "cue": "unrelated",
+    "gold_support": true
+  },
+  {
+    "block_id": "B08",
+    "case_id": "C9cc31f4d4b3781b0c15b",
+    "source_id": "ribbon_workshop",
+    "variant": "paraphrase",
+    "cue": "absent",
+    "gold_support": true
+  },
+  {
+    "block_id": "B01",
+    "case_id": "C9e859417b7213b478be9",
+    "source_id": "reed_pavilion",
+    "variant": "empty",
+    "cue": "unrelated",
+    "gold_support": false
+  },
+  {
+    "block_id": "B11",
+    "case_id": "Ca0077e9011ff7a60cde5",
+    "source_id": "ceramic_quay",
+    "variant": "literal",
+    "cue": "relevant",
+    "gold_support": true
+  },
+  {
+    "block_id": "B12",
+    "case_id": "Ca2c80e11ed1e7aff4b60",
+    "source_id": "sand_observatory",
+    "variant": "literal",
+    "cue": "absent",
+    "gold_support": true
+  },
+  {
+    "block_id": "B12",
+    "case_id": "Ca4c9218a988443f4d7f0",
+    "source_id": "prism_studio",
+    "variant": "paraphrase",
+    "cue": "relevant",
+    "gold_support": true
+  },
+  {
+    "block_id": "B09",
+    "case_id": "Ca5d52eb17a09a64c6eb5",
+    "source_id": "ribbon_workshop",
+    "variant": "paraphrase",
+    "cue": "relevant",
+    "gold_support": true
+  },
+  {
+    "block_id": "B06",
+    "case_id": "Caac4923f0dee71a5c407",
+    "source_id": "lantern_pier",
+    "variant": "paraphrase",
+    "cue": "unrelated",
+    "gold_support": true
+  },
+  {
+    "block_id": "B03",
+    "case_id": "Cab4d77c8d83f8d74c9fe",
+    "source_id": "prism_studio",
+    "variant": "corrupted",
+    "cue": "relevant",
+    "gold_support": false
+  },
+  {
+    "block_id": "B08",
+    "case_id": "Caf9a49ad7d316e522df2",
+    "source_id": "wax_garden",
+    "variant": "literal",
+    "cue": "unrelated",
+    "gold_support": true
+  },
+  {
+    "block_id": "B06",
+    "case_id": "Cb2db396393ac8ae0d8e8",
+    "source_id": "ribbon_workshop",
+    "variant": "literal",
+    "cue": "relevant",
+    "gold_support": true
+  },
+  {
+    "block_id": "B05",
+    "case_id": "Cb41aadfba1cfa87fd8b0",
+    "source_id": "reed_pavilion",
+    "variant": "paraphrase",
+    "cue": "absent",
+    "gold_support": true
+  },
+  {
+    "block_id": "B12",
+    "case_id": "Cb49b096ff1d745657db4",
+    "source_id": "lantern_pier",
+    "variant": "empty",
+    "cue": "unrelated",
+    "gold_support": false
+  },
+  {
+    "block_id": "B03",
+    "case_id": "Cb6d053d8717556622d81",
+    "source_id": "lantern_pier",
+    "variant": "literal",
+    "cue": "unrelated",
+    "gold_support": true
+  },
+  {
+    "block_id": "B07",
+    "case_id": "Cb6eaf9549e0e2de1447f",
+    "source_id": "lantern_pier",
+    "variant": "corrupted",
+    "cue": "absent",
+    "gold_support": false
+  },
+  {
+    "block_id": "B02",
+    "case_id": "Cb72c21ede0d41e9e87be",
+    "source_id": "wax_garden",
+    "variant": "corrupted",
+    "cue": "unrelated",
+    "gold_support": false
+  },
+  {
+    "block_id": "B11",
+    "case_id": "Cb79ead47b4eabfaca1b8",
+    "source_id": "chalk_harbor",
+    "variant": "corrupted",
+    "cue": "relevant",
+    "gold_support": false
+  },
+  {
+    "block_id": "B07",
+    "case_id": "Cbcf8ca4be9625949afa6",
+    "source_id": "ribbon_workshop",
+    "variant": "literal",
+    "cue": "unrelated",
+    "gold_support": true
+  },
+  {
+    "block_id": "B12",
+    "case_id": "Cbd974625d83974d25ba9",
+    "source_id": "paper_aviary",
+    "variant": "paraphrase",
+    "cue": "absent",
+    "gold_support": true
+  },
+  {
+    "block_id": "B05",
+    "case_id": "Cbff0b83e69c8c488fbc8",
+    "source_id": "mosaic_depot",
+    "variant": "empty",
+    "cue": "relevant",
+    "gold_support": false
+  },
+  {
+    "block_id": "B03",
+    "case_id": "Cc18636439936d0027a61",
+    "source_id": "reed_pavilion",
+    "variant": "literal",
+    "cue": "relevant",
+    "gold_support": true
+  },
+  {
+    "block_id": "B06",
+    "case_id": "Cc571269d1734e590eb13",
+    "source_id": "mosaic_depot",
+    "variant": "empty",
+    "cue": "unrelated",
+    "gold_support": false
+  },
+  {
+    "block_id": "B08",
+    "case_id": "Cc5c9631a64e720f7c9b8",
+    "source_id": "paper_aviary",
+    "variant": "empty",
+    "cue": "unrelated",
+    "gold_support": false
+  },
+  {
+    "block_id": "B05",
+    "case_id": "Ccac333c94382ff696e8d",
+    "source_id": "prism_studio",
+    "variant": "empty",
+    "cue": "absent",
+    "gold_support": false
+  },
+  {
+    "block_id": "B06",
+    "case_id": "Ccb78d5a40c163c461299",
+    "source_id": "paper_aviary",
+    "variant": "empty",
+    "cue": "absent",
+    "gold_support": false
+  },
+  {
+    "block_id": "B11",
+    "case_id": "Ccc772478b65bb0050df3",
+    "source_id": "glass_ferry",
+    "variant": "corrupted",
+    "cue": "unrelated",
+    "gold_support": false
+  },
+  {
+    "block_id": "B03",
+    "case_id": "Cce26229e11deecfc464b",
+    "source_id": "glass_ferry",
+    "variant": "literal",
+    "cue": "absent",
+    "gold_support": true
+  },
+  {
+    "block_id": "B11",
+    "case_id": "Cced91a3f5e0d8fffd556",
+    "source_id": "amber_beacon",
+    "variant": "literal",
+    "cue": "absent",
+    "gold_support": true
+  },
+  {
+    "block_id": "B04",
+    "case_id": "Ccf96d7612d8bd6248571",
+    "source_id": "amber_beacon",
+    "variant": "paraphrase",
+    "cue": "unrelated",
+    "gold_support": true
+  },
+  {
+    "block_id": "B02",
+    "case_id": "Cd147c8bdcd0c25864ef7",
+    "source_id": "paper_aviary",
+    "variant": "paraphrase",
+    "cue": "unrelated",
+    "gold_support": true
+  },
+  {
+    "block_id": "B07",
+    "case_id": "Cd27caff2c3908bb28ee9",
+    "source_id": "mosaic_depot",
+    "variant": "literal",
+    "cue": "absent",
+    "gold_support": true
+  },
+  {
+    "block_id": "B07",
+    "case_id": "Cd2e596c95508bcc385fa",
+    "source_id": "amber_beacon",
+    "variant": "corrupted",
+    "cue": "unrelated",
+    "gold_support": false
+  },
+  {
+    "block_id": "B07",
+    "case_id": "Cd59c2ccc91b5a7c7bc10",
+    "source_id": "ceramic_quay",
+    "variant": "empty",
+    "cue": "absent",
+    "gold_support": false
+  },
+  {
+    "block_id": "B10",
+    "case_id": "Cd6f8984538e9b81958cf",
+    "source_id": "ribbon_workshop",
+    "variant": "paraphrase",
+    "cue": "unrelated",
+    "gold_support": true
+  },
+  {
+    "block_id": "B09",
+    "case_id": "Cd8c6cf0d192578e0c59b",
+    "source_id": "mosaic_depot",
+    "variant": "literal",
+    "cue": "unrelated",
+    "gold_support": true
+  },
+  {
+    "block_id": "B11",
+    "case_id": "Cd93f30f6404895e8cf02",
+    "source_id": "sand_observatory",
+    "variant": "empty",
+    "cue": "unrelated",
+    "gold_support": false
+  },
+  {
+    "block_id": "B08",
+    "case_id": "Cd95fc9f24d52636b7e8b",
+    "source_id": "prism_studio",
+    "variant": "literal",
+    "cue": "absent",
+    "gold_support": true
+  },
+  {
+    "block_id": "B11",
+    "case_id": "Cd968af1aeeff0907956e",
+    "source_id": "reed_pavilion",
+    "variant": "empty",
+    "cue": "absent",
+    "gold_support": false
+  },
+  {
+    "block_id": "B11",
+    "case_id": "Cd9df9a7baf689ef67f34",
+    "source_id": "paper_aviary",
+    "variant": "literal",
+    "cue": "unrelated",
+    "gold_support": true
+  },
+  {
+    "block_id": "B09",
+    "case_id": "Cda415c79300b1b5d4115",
+    "source_id": "lantern_pier",
+    "variant": "corrupted",
+    "cue": "unrelated",
+    "gold_support": false
+  },
+  {
+    "block_id": "B09",
+    "case_id": "Cdac12baade703f544c9b",
+    "source_id": "wax_garden",
+    "variant": "paraphrase",
+    "cue": "absent",
+    "gold_support": true
+  },
+  {
+    "block_id": "B11",
+    "case_id": "Ce574060749dc1f235646",
+    "source_id": "ribbon_workshop",
+    "variant": "corrupted",
+    "cue": "absent",
+    "gold_support": false
+  },
+  {
+    "block_id": "B12",
+    "case_id": "Ce589302ae17cadfa6149",
+    "source_id": "amber_beacon",
+    "variant": "literal",
+    "cue": "relevant",
+    "gold_support": true
+  },
+  {
+    "block_id": "B08",
+    "case_id": "Ce64a21ed385c8bd5fa39",
+    "source_id": "glass_ferry",
+    "variant": "paraphrase",
+    "cue": "unrelated",
+    "gold_support": true
+  },
+  {
+    "block_id": "B08",
+    "case_id": "Ce75da3d6718d8254202e",
+    "source_id": "chalk_harbor",
+    "variant": "paraphrase",
+    "cue": "relevant",
+    "gold_support": true
+  },
+  {
+    "block_id": "B05",
+    "case_id": "Ce9f37d92c0e8a243f21a",
+    "source_id": "glass_ferry",
+    "variant": "literal",
+    "cue": "unrelated",
+    "gold_support": true
+  },
+  {
+    "block_id": "B12",
+    "case_id": "Cea7d9d1912fbba6084e0",
+    "source_id": "glass_ferry",
+    "variant": "empty",
+    "cue": "absent",
+    "gold_support": false
+  },
+  {
+    "block_id": "B01",
+    "case_id": "Ceaed407736e97261a93b",
+    "source_id": "sand_observatory",
+    "variant": "literal",
+    "cue": "relevant",
+    "gold_support": true
+  },
+  {
+    "block_id": "B11",
+    "case_id": "Ceafd7aa738530a1f031a",
+    "source_id": "prism_studio",
+    "variant": "paraphrase",
+    "cue": "absent",
+    "gold_support": true
+  },
+  {
+    "block_id": "B09",
+    "case_id": "Cecf971a30b3778a98a1d",
+    "source_id": "paper_aviary",
+    "variant": "literal",
+    "cue": "absent",
+    "gold_support": true
+  },
+  {
+    "block_id": "B10",
+    "case_id": "Cefe3d85abab3634aa5f8",
+    "source_id": "paper_aviary",
+    "variant": "literal",
+    "cue": "relevant",
+    "gold_support": true
+  },
+  {
+    "block_id": "B02",
+    "case_id": "Cf035065ce54049ff0f72",
+    "source_id": "amber_beacon",
+    "variant": "paraphrase",
+    "cue": "absent",
+    "gold_support": true
+  },
+  {
+    "block_id": "B10",
+    "case_id": "Cf09787f9a048501ab282",
+    "source_id": "sand_observatory",
+    "variant": "empty",
+    "cue": "relevant",
+    "gold_support": false
+  },
+  {
+    "block_id": "B07",
+    "case_id": "Cf6c3362733f7043e7bc8",
+    "source_id": "wax_garden",
+    "variant": "literal",
+    "cue": "relevant",
+    "gold_support": true
+  },
+  {
+    "block_id": "B04",
+    "case_id": "Cf96e0a6fcd5fdddc0d08",
+    "source_id": "ceramic_quay",
+    "variant": "corrupted",
+    "cue": "absent",
+    "gold_support": false
+  },
+  {
+    "block_id": "B04",
+    "case_id": "Cfcb1721383665bc0dcc4",
+    "source_id": "reed_pavilion",
+    "variant": "literal",
+    "cue": "unrelated",
+    "gold_support": true
+  }
+]

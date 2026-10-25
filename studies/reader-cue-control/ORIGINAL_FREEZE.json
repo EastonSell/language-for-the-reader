@@ -1,0 +1,33 @@
+{
+  "schema": 1,
+  "study": "reader-cue-control-20261025-v1",
+  "expected_cases": 144,
+  "expected_contexts": 12,
+  "empirical_judgments_at_freeze": 0,
+  "scope": "Local pre-data content identity, not execution clearance or independent timestamp proof.",
+  "files": {
+    "EXECUTION.md": "212acedff25ed90b5c10e01c8781d3b3ed984f23279252ade72601da45925001",
+    "PLAN.md": "d6a5c92359f87fccd98062dc675c21d1be2c457cbdb5b3ef108370837bfd9d66",
+    "PROTOCOL.md": "e1dc24e1a8f9159fabfb42b3178486d57110b374bb2eadef258e2410a44435a6",
+    "README.md": "04e54a365e5b4b369c6b0356d39d8531dd5f1597448ba72a2d64d62cba450de2",
+    "admission.py": "073db8e98e0bcfbfa8c1aba1bcd9a61fccfddef325800aa2b3f91fde69bd52fa",
+    "prepared/B01.prompt.txt": "5b0a0c585770f210dce7f89a28eba43eef285da4a6c3fcacb44e40cb3c6f2521",
+    "prepared/B02.prompt.txt": "f62f0ec65eaba9f51f62b74c6b7e8d8be1214930fe678acc9fcc3e3cd9776bde",
+    "prepared/B03.prompt.txt": "fd17279fc3597a6b3ba5946c54cd30b366162187f8bc6f440ea59792c8ecf6f7",
+    "prepared/B04.prompt.txt": "76c1882558957d87d3d2169c27fc589c4566235a7496d2882ceeb1954b81289c",
+    "prepared/B05.prompt.txt": "3e0a253d9a57717f553d61f68f9978d5aa7e116a6b1ec1de81d97b66807bad22",
+    "prepared/B06.prompt.txt": "1e048829f26a3064e4b4063746f6d19f06a723cb128cf52befd2dbb296b4b0ec",
+    "prepared/B07.prompt.txt": "1743b016820487643e66eb3d31cb78064d31091940c4405f7ed5b57fbcfabe79",
+    "prepared/B08.prompt.txt": "1cf714d56e14bbd3d68687ea48b386b2574d2bce4279ade5dac878e4a4e5719c",
+    "prepared/B09.prompt.txt": "f676bbf42ad8eeb7538b412a6c2a616c27039c0617bd59f853d6226578afb6cc",
+    "prepared/B10.prompt.txt": "d7e916f9f8fadc53a7ef3d12b9b253fb6ab11612c98736cd93b57ac4e6db326f",
+    "prepared/B11.prompt.txt": "f86b215a50392639002526c1b82bea97519188eba293a1b293a940c15cce4da8",
+    "prepared/B12.prompt.txt": "ac7e093f61e6b36cacc5a76cc44eb5747934e38f39cc2e593fc5d230cab6f571",
+    "prepared/gold-key.json": "902232c5bbcdc727794312fc4b6f4b88684110b6189c89723274bbc0f26186ba",
+    "prepared/packets.json": "19b7386b4746966a85a93b8f9d12dc6dfb3e014eb1bc2e8746dbba65b77fafab",
+    "study/fixtures.json": "d0c246009dd4608b213ba4d3deacdf8353c0a6c2052f6501c2f71fc2e9154790",
+    "study.py": "9e038937b9c5fdadd7cd184862f5b3f34b16c60851f1d1befa73f433a97aac47",
+    "tests/test_admission.py": "f944b39570da8a3f6b6bb847ba418e11e53988db49ff7981986ad8c4e2292001",
+    "tests/test_study.py": "d7bd85592b9e5aa34340523cb784d7707e55eb90d6a55677c2c7318e320fbad6"
+  }
+}

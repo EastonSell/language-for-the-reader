@@ -1,0 +1,17 @@
+{
+  "status": "PASS_PRE_DATA_AND_POSTRUN",
+  "original_freeze_sha256": "2fe369a5d8a13ed58659447c505882b2b9e9a3e057d72c7d3b21cc1a66664cd9",
+  "original_analysis_sha256": "d91ae41aa31926cec674fcabd8338272171b47e8915fbe7a4fb157203024599a",
+  "original_review_sha256": {
+    "reader-review.json": "015a7e9e400bb603f45e29fef728a1f7bf3ee1c0724ae8db26153fcafe97934b",
+    "reader-postrun.json": "52cd94c502aaaa70e696b189746917bc1617ea6bec6a90e90912548063346a8b"
+  },
+  "independence": "Reviewer did not implement the stimuli or analysis and did not provide scientific judgments. Review is an AI review, not a human gold-standard adjudication.",
+  "checks": [
+    "All 12 claim/paraphrase/corrupted triples and all cue information boundaries reviewed before collection.",
+    "All 144 raw decisions and rationales independently checked against the reviewed fixtures after collection.",
+    "Frozen custody and analysis independently reproduced exactly; 12 distinct original context identities checked privately.",
+    "All faithful controls supported and all corrupted/empty passages unsupported; no uncertain, missing, or invalid cells."
+  ],
+  "scope": "Review of original scientific evidence. This public packaging derivative awaits its separate final release review."
+}

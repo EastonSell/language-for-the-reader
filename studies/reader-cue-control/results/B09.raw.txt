@@ -1,0 +1,74 @@
+[
+  {
+    "case_id": "C337e970f2080d7e1c295",
+    "decision": "not_supported",
+    "evidence": ["At Zuri's glass ferry, the violet lamp glows for 500 seconds."],
+    "rationale": "The passage specifies 500 seconds, not 500 milliseconds."
+  },
+  {
+    "case_id": "C4b7687c8cc9d659bb2ea",
+    "decision": "not_supported",
+    "evidence": [],
+    "rationale": "The passage is empty and establishes none of the claim."
+  },
+  {
+    "case_id": "Ca5d52eb17a09a64c6eb5",
+    "decision": "supported",
+    "evidence": ["The green spool is carried to the loft by Pavo at Esi's ribbon workshop."],
+    "rationale": "The passage states the same action, participant, object, destination, and location in passive voice."
+  },
+  {
+    "case_id": "Cdac12baade703f544c9b",
+    "decision": "supported",
+    "evidence": ["At Tavik's wax garden, cooling is slower for the square tray than for the round tray."],
+    "rationale": "The square tray cooling more slowly than the round tray entails that the round tray cools faster at the stated location."
+  },
+  {
+    "case_id": "C90b849ee18f8466f9f4d",
+    "decision": "not_supported",
+    "evidence": [],
+    "rationale": "The passage is empty and establishes none of the claim."
+  },
+  {
+    "case_id": "C6afd75560a490237d99c",
+    "decision": "not_supported",
+    "evidence": [],
+    "rationale": "The passage is empty and establishes none of the claim."
+  },
+  {
+    "case_id": "Cda415c79300b1b5d4115",
+    "decision": "not_supported",
+    "evidence": ["At Ressa's lantern pier, the brass bell rings after the violet flag rises."],
+    "rationale": "The passage establishes ringing after the flag rises but does not establish that the bell never rings earlier."
+  },
+  {
+    "case_id": "Cecf971a30b3778a98a1d",
+    "decision": "supported",
+    "evidence": ["At Vexa's paper aviary, the silver vane does not touch the upper rail."],
+    "rationale": "The passage explicitly states the entire claim, including the negation."
+  },
+  {
+    "case_id": "C64503be47c7531526b2f",
+    "decision": "not_supported",
+    "evidence": ["At Leto's reed pavilion, every orange basket contains pebbles."],
+    "rationale": "Every orange basket containing pebbles contradicts the existence of an orange basket containing none."
+  },
+  {
+    "case_id": "Cd8c6cf0d192578e0c59b",
+    "decision": "supported",
+    "evidence": ["At Fera's mosaic depot, the lever is pulled only if the white disk is present."],
+    "rationale": "The passage explicitly states the entire claim, including the necessary condition."
+  },
+  {
+    "case_id": "C906e4987be3823991566",
+    "decision": "supported",
+    "evidence": ["At Ruven's chalk harbor, tal refers to the narrow inlet and does not refer to the whole bay."],
+    "rationale": "The passage establishes that tal names the narrow inlet and excludes the entire bay."
+  },
+  {
+    "case_id": "C96ecdae20be7358e71f5",
+    "decision": "supported",
+    "evidence": ["At Halen's prism studio, Mira lifts the red screen before she rotates the prism."],
+    "rationale": "The passage explicitly states the entire claim, including the participant, objects, location, and order."
+  }
+]

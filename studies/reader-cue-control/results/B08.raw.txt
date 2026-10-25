@@ -1,0 +1,92 @@
+[
+  {
+    "case_id": "Cc5c9631a64e720f7c9b8",
+    "decision": "not_supported",
+    "evidence": [],
+    "rationale": "The passage is empty and establishes nothing about the vane, rail, or location."
+  },
+  {
+    "case_id": "C2a7f810b40848eca8d2b",
+    "decision": "not_supported",
+    "evidence": [],
+    "rationale": "The passage is empty and establishes nothing about the beacon, flash duration, or location."
+  },
+  {
+    "case_id": "C7388098f921ca26db76a",
+    "decision": "not_supported",
+    "evidence": [],
+    "rationale": "The passage is empty and establishes nothing about crates, tile quantities, or materials."
+  },
+  {
+    "case_id": "C2f3d52232107b27a95e5",
+    "decision": "not_supported",
+    "evidence": [
+      "At Ressa's lantern pier, the brass bell rings after the violet flag rises."
+    ],
+    "rationale": "The passage establishes ringing after the flag rises but does not rule out additional ringing earlier."
+  },
+  {
+    "case_id": "C9cc31f4d4b3781b0c15b",
+    "decision": "supported",
+    "evidence": [
+      "The green spool is carried to the loft by Pavo at Esi's ribbon workshop."
+    ],
+    "rationale": "The passive sentence establishes the same carrier, object, destination, and workshop as the claim."
+  },
+  {
+    "case_id": "Caf9a49ad7d316e522df2",
+    "decision": "supported",
+    "evidence": [
+      "At Tavik's wax garden, the round tray cools faster than the square tray."
+    ],
+    "rationale": "The passage states the entire claim directly."
+  },
+  {
+    "case_id": "C8aa15d9fbab1b4d9ef91",
+    "decision": "not_supported",
+    "evidence": [
+      "At Delvi's sand observatory, the blue shutter stayed closed yesterday."
+    ],
+    "rationale": "The passage establishes the shutter's condition yesterday, not today."
+  },
+  {
+    "case_id": "Ce75da3d6718d8254202e",
+    "decision": "supported",
+    "evidence": [
+      "At Ruven's chalk harbor, tal refers to the narrow inlet and does not refer to the whole bay."
+    ],
+    "rationale": "The passage identifies tal with the narrow inlet and explicitly excludes the entire bay."
+  },
+  {
+    "case_id": "Ce64a21ed385c8bd5fa39",
+    "decision": "supported",
+    "evidence": [
+      "At Zuri's glass ferry, the violet lamp glows for half a second."
+    ],
+    "rationale": "Half a second equals 500 milliseconds; the lamp and location also match."
+  },
+  {
+    "case_id": "C7f00c43752b04e6b7c92",
+    "decision": "supported",
+    "evidence": [
+      "At Fera's mosaic depot, the lever is pulled only if the white disk is present."
+    ],
+    "rationale": "The passage directly states the claimed necessary condition at the specified location."
+  },
+  {
+    "case_id": "Cd95fc9f24d52636b7e8b",
+    "decision": "supported",
+    "evidence": [
+      "At Halen's prism studio, Mira lifts the red screen before she rotates the prism."
+    ],
+    "rationale": "The passage directly states both actions, their order, the participant, and the location."
+  },
+  {
+    "case_id": "C55eab37fe36c826aca82",
+    "decision": "not_supported",
+    "evidence": [
+      "At Leto's reed pavilion, every orange basket contains pebbles."
+    ],
+    "rationale": "Every orange basket containing pebbles rules out an orange basket containing none."
+  }
+]

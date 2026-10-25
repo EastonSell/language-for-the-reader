@@ -1,0 +1,95 @@
+Evaluate the 12 independent preservation tasks below.
+Use only each task's passage as factual evidence. The claim is the entire proposition
+whose preservation you must assess; its presence is not evidence for its own truth.
+The optional question_cue may focus on part of the passage or be unrelated. Do not
+answer it. Do not use it as factual evidence. It does not change the preservation task.
+Do not use tools, browse, read files, consult other agents, or use outside facts.
+For every case decide:
+supported = the passage entails the ENTIRE claim, including every participant,
+restriction, quantity, location, condition, time, order, unit and negation;
+not_supported = any part is absent, contradicted or otherwise not established;
+uncertain = you cannot resolve the entailment.
+An empty passage supplies no facts. Evaluate each task independently.
+Return ONLY one JSON array with exactly one object per case and exactly these fields:
+case_id: copy the ID;
+decision: supported, not_supported, or uncertain;
+evidence: a list of exact, contiguous, nonempty quotes from THIS passage, or [];
+rationale: a nonempty explanation of at most 60 whitespace-separated words.
+A supported decision requires at least one passage quote. Do not quote the claim
+or question_cue as passage evidence. Do not add fields, Markdown, or commentary.
+
+TASKS:
+[
+  {
+    "case_id": "C9b9fbded7526ad4eb728",
+    "claim": "At Fera's mosaic depot, the lever is pulled only if the white disk is present.",
+    "passage": "At Fera's mosaic depot, the presence of the white disk is necessary for the lever to be pulled.",
+    "question_cue": "Which river crosses the valley?"
+  },
+  {
+    "case_id": "Cbd974625d83974d25ba9",
+    "claim": "At Vexa's paper aviary, the silver vane does not touch the upper rail.",
+    "passage": "At Vexa's paper aviary, there is no contact between the silver vane and the upper rail.",
+    "question_cue": ""
+  },
+  {
+    "case_id": "C122f7a48e4b974b4c94c",
+    "claim": "At Esi's ribbon workshop, Pavo carries the green spool to the loft.",
+    "passage": "At Esi's ribbon workshop, Tilo carries the green spool to the loft.",
+    "question_cue": "What color is the spool?"
+  },
+  {
+    "case_id": "C72cdca05ae86025045e5",
+    "claim": "At Orlo's ceramic quay, each crate holds exactly seven copper tiles.",
+    "passage": "At Orlo's ceramic quay, each crate holds exactly seven copper tiles.",
+    "question_cue": "Which flower blooms beside the distant lake?"
+  },
+  {
+    "case_id": "C7e7c9fc649896edf2acb",
+    "claim": "At Tavik's wax garden, the round tray cools faster than the square tray.",
+    "passage": "At Tavik's wax garden, the round tray cools more slowly than the square tray.",
+    "question_cue": ""
+  },
+  {
+    "case_id": "C83c43dd824ac28de8a94",
+    "claim": "At Ruven's chalk harbor, the word tal names the narrow inlet, not the entire bay.",
+    "passage": "At Ruven's chalk harbor, the word tal names the narrow inlet.",
+    "question_cue": "Which cloud floats over the mountain?"
+  },
+  {
+    "case_id": "Ca4c9218a988443f4d7f0",
+    "claim": "At Halen's prism studio, Mira lifts the red screen before she rotates the prism.",
+    "passage": "At Halen's prism studio, Mira's lifting of the red screen precedes her rotation of the prism.",
+    "question_cue": "What does Mira rotate?"
+  },
+  {
+    "case_id": "Cea7d9d1912fbba6084e0",
+    "claim": "At Zuri's glass ferry, the violet lamp glows for 500 milliseconds.",
+    "passage": "",
+    "question_cue": ""
+  },
+  {
+    "case_id": "Ce589302ae17cadfa6149",
+    "claim": "Nemi's amber beacon emits a four-second flash beside the east arch.",
+    "passage": "Nemi's amber beacon emits a four-second flash beside the east arch.",
+    "question_cue": "How long does the amber beacon flash?"
+  },
+  {
+    "case_id": "Cb49b096ff1d745657db4",
+    "claim": "At Ressa's lantern pier, the brass bell rings after the violet flag rises, and it never rings earlier.",
+    "passage": "",
+    "question_cue": "Which cloud floats over the mountain?"
+  },
+  {
+    "case_id": "Ca2c80e11ed1e7aff4b60",
+    "claim": "At Delvi's sand observatory, the blue shutter stays closed today.",
+    "passage": "At Delvi's sand observatory, the blue shutter stays closed today.",
+    "question_cue": ""
+  },
+  {
+    "case_id": "C36514cb69d9cb2667f87",
+    "claim": "At Leto's reed pavilion, at least one orange basket contains no pebbles.",
+    "passage": "",
+    "question_cue": "What color are the baskets?"
+  }
+]

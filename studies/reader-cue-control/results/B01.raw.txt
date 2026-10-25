@@ -1,0 +1,74 @@
+[
+  {
+    "case_id": "C6367c35eb9a6132878e6",
+    "decision": "not_supported",
+    "evidence": ["At Fera's mosaic depot, if the white disk is present, the lever is pulled."],
+    "rationale": "The passage makes the disk's presence sufficient for pulling the lever, not necessary. It does not establish that the lever is pulled only when the disk is present."
+  },
+  {
+    "case_id": "C9e859417b7213b478be9",
+    "decision": "not_supported",
+    "evidence": [],
+    "rationale": "The empty passage supplies no facts establishing an orange basket without pebbles at this location."
+  },
+  {
+    "case_id": "Ceaed407736e97261a93b",
+    "decision": "supported",
+    "evidence": ["At Delvi's sand observatory, the blue shutter stays closed today."],
+    "rationale": "The passage explicitly states the entire claim, including the location, shutter, closed state, and time."
+  },
+  {
+    "case_id": "C52e7484278a30074a05e",
+    "decision": "not_supported",
+    "evidence": ["At Tavik's wax garden, the round tray cools more slowly than the square tray."],
+    "rationale": "The passage says the round tray cools more slowly, contradicting the claim that it cools faster."
+  },
+  {
+    "case_id": "C2683ccaf73a981506f02",
+    "decision": "supported",
+    "evidence": ["Every crate at Orlo's ceramic quay contains precisely seven tiles made of copper."],
+    "rationale": "Every crate containing precisely seven tiles made of copper establishes that each crate at the specified location holds exactly seven copper tiles."
+  },
+  {
+    "case_id": "C7fbcb46512a118070965",
+    "decision": "supported",
+    "evidence": ["At Halen's prism studio, Mira's lifting of the red screen precedes her rotation of the prism."],
+    "rationale": "The passage states that Mira lifts the red screen before rotating the prism at the specified studio."
+  },
+  {
+    "case_id": "C277676858d4100f1a3df",
+    "decision": "supported",
+    "evidence": ["At Ressa's lantern pier, the brass bell rings after the violet flag rises, and it never rings earlier."],
+    "rationale": "The passage explicitly establishes the location, bell, flag, event order, and prohibition on earlier ringing."
+  },
+  {
+    "case_id": "C1f90da87442c798658bd",
+    "decision": "supported",
+    "evidence": ["Nemi's amber beacon emits a four-second flash beside the east arch."],
+    "rationale": "The passage explicitly states the entire claim, including the beacon, flash duration, and position beside the east arch."
+  },
+  {
+    "case_id": "C39297c873d286d96d758",
+    "decision": "not_supported",
+    "evidence": [],
+    "rationale": "The empty passage establishes nothing about the lamp, location, or glow duration."
+  },
+  {
+    "case_id": "C20269fa4a60dad46c801",
+    "decision": "supported",
+    "evidence": ["At Vexa's paper aviary, there is no contact between the silver vane and the upper rail."],
+    "rationale": "No contact between the silver vane and upper rail means the vane does not touch that rail at the specified location."
+  },
+  {
+    "case_id": "C349246e68271b3d51e18",
+    "decision": "not_supported",
+    "evidence": [],
+    "rationale": "The empty passage provides no evidence for the meaning of tal or its exclusion of the entire bay."
+  },
+  {
+    "case_id": "C38c25ab417f76ae087d0",
+    "decision": "not_supported",
+    "evidence": ["At Esi's ribbon workshop, Tilo carries the green spool to the loft."],
+    "rationale": "The passage identifies Tilo as carrying the spool. It does not establish that Pavo carries it."
+  }
+]

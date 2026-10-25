@@ -1,0 +1,270 @@
+{
+  "schema": 1,
+  "kind": "post-data metadata-only public derivative",
+  "original_freeze_sha256": "2fe369a5d8a13ed58659447c505882b2b9e9a3e057d72c7d3b21cc1a66664cd9",
+  "public_freeze_sha256": "6920558fb2ff773f522d0af7ede91cf3320c4b24a63f55591e8ee3b082bfc078",
+  "predata_files": [
+    {
+      "path": "EXECUTION.md",
+      "original_sha256": "212acedff25ed90b5c10e01c8781d3b3ed984f23279252ade72601da45925001",
+      "public_sha256": "6ea96bab28c57c138d3354a5ccca74fdf778dfce3afd4da23600f94b358cada3",
+      "changed": true
+    },
+    {
+      "path": "PLAN.md",
+      "original_sha256": "d6a5c92359f87fccd98062dc675c21d1be2c457cbdb5b3ef108370837bfd9d66",
+      "public_sha256": "d6a5c92359f87fccd98062dc675c21d1be2c457cbdb5b3ef108370837bfd9d66",
+      "changed": false
+    },
+    {
+      "path": "PROTOCOL.md",
+      "original_sha256": "e1dc24e1a8f9159fabfb42b3178486d57110b374bb2eadef258e2410a44435a6",
+      "public_sha256": "f50a49599c68a1cb8e39c3e63a11faeb7c4615634bc51d3c00993ef5225ce8b5",
+      "changed": true
+    },
+    {
+      "path": "README.md",
+      "original_sha256": "04e54a365e5b4b369c6b0356d39d8531dd5f1597448ba72a2d64d62cba450de2",
+      "public_sha256": "08acd3cd232ebc3dd7d2e6806df1f7d5be5a0155f930701a505665711f337173",
+      "changed": true
+    },
+    {
+      "path": "admission.py",
+      "original_sha256": "073db8e98e0bcfbfa8c1aba1bcd9a61fccfddef325800aa2b3f91fde69bd52fa",
+      "public_sha256": "073db8e98e0bcfbfa8c1aba1bcd9a61fccfddef325800aa2b3f91fde69bd52fa",
+      "changed": false
+    },
+    {
+      "path": "prepared/B01.prompt.txt",
+      "original_sha256": "5b0a0c585770f210dce7f89a28eba43eef285da4a6c3fcacb44e40cb3c6f2521",
+      "public_sha256": "5b0a0c585770f210dce7f89a28eba43eef285da4a6c3fcacb44e40cb3c6f2521",
+      "changed": false
+    },
+    {
+      "path": "prepared/B02.prompt.txt",
+      "original_sha256": "f62f0ec65eaba9f51f62b74c6b7e8d8be1214930fe678acc9fcc3e3cd9776bde",
+      "public_sha256": "f62f0ec65eaba9f51f62b74c6b7e8d8be1214930fe678acc9fcc3e3cd9776bde",
+      "changed": false
+    },
+    {
+      "path": "prepared/B03.prompt.txt",
+      "original_sha256": "fd17279fc3597a6b3ba5946c54cd30b366162187f8bc6f440ea59792c8ecf6f7",
+      "public_sha256": "fd17279fc3597a6b3ba5946c54cd30b366162187f8bc6f440ea59792c8ecf6f7",
+      "changed": false
+    },
+    {
+      "path": "prepared/B04.prompt.txt",
+      "original_sha256": "76c1882558957d87d3d2169c27fc589c4566235a7496d2882ceeb1954b81289c",
+      "public_sha256": "76c1882558957d87d3d2169c27fc589c4566235a7496d2882ceeb1954b81289c",
+      "changed": false
+    },
+    {
+      "path": "prepared/B05.prompt.txt",
+      "original_sha256": "3e0a253d9a57717f553d61f68f9978d5aa7e116a6b1ec1de81d97b66807bad22",
+      "public_sha256": "3e0a253d9a57717f553d61f68f9978d5aa7e116a6b1ec1de81d97b66807bad22",
+      "changed": false
+    },
+    {
+      "path": "prepared/B06.prompt.txt",
+      "original_sha256": "1e048829f26a3064e4b4063746f6d19f06a723cb128cf52befd2dbb296b4b0ec",
+      "public_sha256": "1e048829f26a3064e4b4063746f6d19f06a723cb128cf52befd2dbb296b4b0ec",
+      "changed": false
+    },
+    {
+      "path": "prepared/B07.prompt.txt",
+      "original_sha256": "1743b016820487643e66eb3d31cb78064d31091940c4405f7ed5b57fbcfabe79",
+      "public_sha256": "1743b016820487643e66eb3d31cb78064d31091940c4405f7ed5b57fbcfabe79",
+      "changed": false
+    },
+    {
+      "path": "prepared/B08.prompt.txt",
+      "original_sha256": "1cf714d56e14bbd3d68687ea48b386b2574d2bce4279ade5dac878e4a4e5719c",
+      "public_sha256": "1cf714d56e14bbd3d68687ea48b386b2574d2bce4279ade5dac878e4a4e5719c",
+      "changed": false
+    },
+    {
+      "path": "prepared/B09.prompt.txt",
+      "original_sha256": "f676bbf42ad8eeb7538b412a6c2a616c27039c0617bd59f853d6226578afb6cc",
+      "public_sha256": "f676bbf42ad8eeb7538b412a6c2a616c27039c0617bd59f853d6226578afb6cc",
+      "changed": false
+    },
+    {
+      "path": "prepared/B10.prompt.txt",
+      "original_sha256": "d7e916f9f8fadc53a7ef3d12b9b253fb6ab11612c98736cd93b57ac4e6db326f",
+      "public_sha256": "d7e916f9f8fadc53a7ef3d12b9b253fb6ab11612c98736cd93b57ac4e6db326f",
+      "changed": false
+    },
+    {
+      "path": "prepared/B11.prompt.txt",
+      "original_sha256": "f86b215a50392639002526c1b82bea97519188eba293a1b293a940c15cce4da8",
+      "public_sha256": "f86b215a50392639002526c1b82bea97519188eba293a1b293a940c15cce4da8",
+      "changed": false
+    },
+    {
+      "path": "prepared/B12.prompt.txt",
+      "original_sha256": "ac7e093f61e6b36cacc5a76cc44eb5747934e38f39cc2e593fc5d230cab6f571",
+      "public_sha256": "ac7e093f61e6b36cacc5a76cc44eb5747934e38f39cc2e593fc5d230cab6f571",
+      "changed": false
+    },
+    {
+      "path": "prepared/gold-key.json",
+      "original_sha256": "902232c5bbcdc727794312fc4b6f4b88684110b6189c89723274bbc0f26186ba",
+      "public_sha256": "902232c5bbcdc727794312fc4b6f4b88684110b6189c89723274bbc0f26186ba",
+      "changed": false
+    },
+    {
+      "path": "prepared/packets.json",
+      "original_sha256": "19b7386b4746966a85a93b8f9d12dc6dfb3e014eb1bc2e8746dbba65b77fafab",
+      "public_sha256": "19b7386b4746966a85a93b8f9d12dc6dfb3e014eb1bc2e8746dbba65b77fafab",
+      "changed": false
+    },
+    {
+      "path": "study/fixtures.json",
+      "original_sha256": "d0c246009dd4608b213ba4d3deacdf8353c0a6c2052f6501c2f71fc2e9154790",
+      "public_sha256": "d0c246009dd4608b213ba4d3deacdf8353c0a6c2052f6501c2f71fc2e9154790",
+      "changed": false
+    },
+    {
+      "path": "study.py",
+      "original_sha256": "9e038937b9c5fdadd7cd184862f5b3f34b16c60851f1d1befa73f433a97aac47",
+      "public_sha256": "9e038937b9c5fdadd7cd184862f5b3f34b16c60851f1d1befa73f433a97aac47",
+      "changed": false
+    },
+    {
+      "path": "tests/test_admission.py",
+      "original_sha256": "f944b39570da8a3f6b6bb847ba418e11e53988db49ff7981986ad8c4e2292001",
+      "public_sha256": "f944b39570da8a3f6b6bb847ba418e11e53988db49ff7981986ad8c4e2292001",
+      "changed": false
+    },
+    {
+      "path": "tests/test_study.py",
+      "original_sha256": "d7bd85592b9e5aa34340523cb784d7707e55eb90d6a55677c2c7318e320fbad6",
+      "public_sha256": "d7bd85592b9e5aa34340523cb784d7707e55eb90d6a55677c2c7318e320fbad6",
+      "changed": false
+    }
+  ],
+  "receipts": {
+    "original_sha256": "ffad35001f36b8edf75cac46d9d66ad981848f9ff90d9b1bfda0e217dd7c321a",
+    "public_sha256": "8bf8a2bf50eb4240613e4fb63d2d6309b3cc61d4755e56d742eae4c71120a76a",
+    "changed_fields": [
+      "context_id"
+    ],
+    "transformation": "Replace each actual private context identity with context-01 through context-12 in block order. Private mapping retained separately. All other fields and values unchanged."
+  },
+  "analysis": {
+    "original_sha256": "d91ae41aa31926cec674fcabd8338272171b47e8915fbe7a4fb157203024599a",
+    "public_sha256": "ad0ad230623777621102e8e00b517acde808f50cef5f1412e5ca0df40234aa89",
+    "changed_fields": [
+      "freeze_sha256"
+    ],
+    "transformation": "Rerun unchanged analyzer against public metadata derivative. Every scientific, custody, denominator and outcome value is identical."
+  },
+  "raw_outputs": [
+    {
+      "path": "B01.raw.txt",
+      "original_sha256": "eb098bd223470480168bc21660120b1d4b1a01b557990f737f848ddf6a545097",
+      "public_sha256": "eb098bd223470480168bc21660120b1d4b1a01b557990f737f848ddf6a545097",
+      "changed": false
+    },
+    {
+      "path": "B02.raw.txt",
+      "original_sha256": "447a3ab49c0705864576eb56250777bea305bf55ba7a5e1337408a98c79ef5ee",
+      "public_sha256": "447a3ab49c0705864576eb56250777bea305bf55ba7a5e1337408a98c79ef5ee",
+      "changed": false
+    },
+    {
+      "path": "B03.raw.txt",
+      "original_sha256": "76cae23f5dbf46b080f20e8a20d9452d5931c2cfe0662f9f2df0bcefedd8c2ca",
+      "public_sha256": "76cae23f5dbf46b080f20e8a20d9452d5931c2cfe0662f9f2df0bcefedd8c2ca",
+      "changed": false
+    },
+    {
+      "path": "B04.raw.txt",
+      "original_sha256": "afb468eaebed127bc3dee9f47bf4d2c781f7877110cee0c8101246d9a145d510",
+      "public_sha256": "afb468eaebed127bc3dee9f47bf4d2c781f7877110cee0c8101246d9a145d510",
+      "changed": false
+    },
+    {
+      "path": "B05.raw.txt",
+      "original_sha256": "103592ebde0e93d8a12008e57cbd8388f4b262010f665b06c175f0df69c5a860",
+      "public_sha256": "103592ebde0e93d8a12008e57cbd8388f4b262010f665b06c175f0df69c5a860",
+      "changed": false
+    },
+    {
+      "path": "B06.raw.txt",
+      "original_sha256": "34511604ebd81a5f4b452260e988237b1488f2dd056409e6deefbf78ad0d1fd1",
+      "public_sha256": "34511604ebd81a5f4b452260e988237b1488f2dd056409e6deefbf78ad0d1fd1",
+      "changed": false
+    },
+    {
+      "path": "B07.raw.txt",
+      "original_sha256": "2ccc05b36aa4cd9a058e1dcd1b4e2c1dc9d2aec015bf5bb0a7cdbe2c1a6fd96a",
+      "public_sha256": "2ccc05b36aa4cd9a058e1dcd1b4e2c1dc9d2aec015bf5bb0a7cdbe2c1a6fd96a",
+      "changed": false
+    },
+    {
+      "path": "B08.raw.txt",
+      "original_sha256": "2528b06499c890c2357fc9d742825e03e8b293781eee2bc0b722f9dcdfdbd323",
+      "public_sha256": "2528b06499c890c2357fc9d742825e03e8b293781eee2bc0b722f9dcdfdbd323",
+      "changed": false
+    },
+    {
+      "path": "B09.raw.txt",
+      "original_sha256": "b4700504e5c3d44663e0e09b8700f44772efdb270439780d291def843cdbbfbf",
+      "public_sha256": "b4700504e5c3d44663e0e09b8700f44772efdb270439780d291def843cdbbfbf",
+      "changed": false
+    },
+    {
+      "path": "B10.raw.txt",
+      "original_sha256": "fdbae9fa22dff399e3cb184cefd41dc7fb5aeccb6fc892993024c159a7469249",
+      "public_sha256": "fdbae9fa22dff399e3cb184cefd41dc7fb5aeccb6fc892993024c159a7469249",
+      "changed": false
+    },
+    {
+      "path": "B11.raw.txt",
+      "original_sha256": "d685cc76f6ff4e221777b3f948bf6c91242942389caf8dedd8d5361266825f38",
+      "public_sha256": "d685cc76f6ff4e221777b3f948bf6c91242942389caf8dedd8d5361266825f38",
+      "changed": false
+    },
+    {
+      "path": "B12.raw.txt",
+      "original_sha256": "cf14d0e5bfa855339710f41bfa34d81fafeffaff52cdbd773f7ef57b50528d3b",
+      "public_sha256": "cf14d0e5bfa855339710f41bfa34d81fafeffaff52cdbd773f7ef57b50528d3b",
+      "changed": false
+    }
+  ],
+  "documentation_changes": [
+    {
+      "path": "EXECUTION.md",
+      "original_sha256": "212acedff25ed90b5c10e01c8781d3b3ed984f23279252ade72601da45925001",
+      "public_sha256": "6ea96bab28c57c138d3354a5ccca74fdf778dfce3afd4da23600f94b358cada3",
+      "kind": "post-data documentation terminology only"
+    },
+    {
+      "path": "PROTOCOL.md",
+      "original_sha256": "e1dc24e1a8f9159fabfb42b3178486d57110b374bb2eadef258e2410a44435a6",
+      "public_sha256": "f50a49599c68a1cb8e39c3e63a11faeb7c4615634bc51d3c00993ef5225ce8b5",
+      "kind": "post-data documentation terminology only"
+    },
+    {
+      "path": "README.md",
+      "original_sha256": "04e54a365e5b4b369c6b0356d39d8531dd5f1597448ba72a2d64d62cba450de2",
+      "public_sha256": "08acd3cd232ebc3dd7d2e6806df1f7d5be5a0155f930701a505665711f337173",
+      "kind": "post-data documentation terminology only"
+    }
+  ],
+  "private_omissions": [
+    "Actual context identities and their mapping",
+    "Collection-management messages and local filesystem paths",
+    "Private invocation records and raw operator logs"
+  ],
+  "review_derivative": {
+    "original_review_sha256": {
+      "reader-review.json": "015a7e9e400bb603f45e29fef728a1f7bf3ee1c0724ae8db26153fcafe97934b",
+      "reader-postrun.json": "52cd94c502aaaa70e696b189746917bc1617ea6bec6a90e90912548063346a8b"
+    },
+    "public_sha256": "a538289ba8b4b5d3726ea55f9c393544625334f9e06da282e8f21d172f069931",
+    "transformation": "Summarize scientific review findings; omit internal labels and paths. Original review receipts retained privately."
+  },
+  "scientific_immutability": "All stimuli, keys, exact prompts, algorithms, tests and raw judgments are byte-identical to their original versions."
+}

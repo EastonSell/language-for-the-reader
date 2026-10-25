@@ -1,0 +1,74 @@
+[
+  {
+    "case_id": "C6982c815393df300ecd7",
+    "decision": "supported",
+    "evidence": ["At Halen's prism studio, Mira lifts the red screen before she rotates the prism."],
+    "rationale": "The passage explicitly states the same participant, location, actions, screen color, and temporal order."
+  },
+  {
+    "case_id": "C8c965ac00dc2404d4671",
+    "decision": "supported",
+    "evidence": ["At Orlo's ceramic quay, each crate holds exactly seven copper tiles."],
+    "rationale": "The passage explicitly establishes exactly seven copper tiles in each crate at the specified location."
+  },
+  {
+    "case_id": "C33844b7e2131a00f0791",
+    "decision": "not_supported",
+    "evidence": [],
+    "rationale": "The empty passage establishes none of the claimed facts."
+  },
+  {
+    "case_id": "Cd6f8984538e9b81958cf",
+    "decision": "supported",
+    "evidence": ["The green spool is carried to the loft by Pavo at Esi's ribbon workshop."],
+    "rationale": "The passive construction establishes the same carrier, object, destination, and location."
+  },
+  {
+    "case_id": "C0d87498955ec41154baf",
+    "decision": "supported",
+    "evidence": ["At Fera's mosaic depot, the presence of the white disk is necessary for the lever to be pulled."],
+    "rationale": "Making the white disk's presence necessary for pulling the lever is equivalent to pulling the lever only if that disk is present."
+  },
+  {
+    "case_id": "Cf09787f9a048501ab282",
+    "decision": "not_supported",
+    "evidence": [],
+    "rationale": "The empty passage supplies no facts about the shutter, its state, location, or time."
+  },
+  {
+    "case_id": "C8378c7051f3e03bba3e1",
+    "decision": "not_supported",
+    "evidence": [],
+    "rationale": "The empty passage supplies no facts about the beacon, flash duration, or location."
+  },
+  {
+    "case_id": "C579272be4cb56d793dda",
+    "decision": "not_supported",
+    "evidence": ["At Ruven's chalk harbor, the word tal names the narrow inlet."],
+    "rationale": "The passage establishes that tal names the narrow inlet but does not establish that it does not also name the entire bay."
+  },
+  {
+    "case_id": "C16b54a0d9fb6cc9bd1ac",
+    "decision": "supported",
+    "evidence": ["At Tavik's wax garden, cooling is slower for the square tray than for the round tray."],
+    "rationale": "The square tray cooling more slowly than the round tray entails that the round tray cools faster than the square tray."
+  },
+  {
+    "case_id": "C8c96e0358add862dc861",
+    "decision": "not_supported",
+    "evidence": ["At Zuri's glass ferry, the violet lamp glows for 500 seconds."],
+    "rationale": "The passage specifies a duration of 500 seconds, not 500 milliseconds."
+  },
+  {
+    "case_id": "Cefe3d85abab3634aa5f8",
+    "decision": "supported",
+    "evidence": ["At Vexa's paper aviary, the silver vane does not touch the upper rail."],
+    "rationale": "The passage explicitly states the entire claim, including the negation and the specified vane, rail, and location."
+  },
+  {
+    "case_id": "C40babdecaffb8fe3b79c",
+    "decision": "not_supported",
+    "evidence": ["At Leto's reed pavilion, every orange basket contains pebbles."],
+    "rationale": "The passage states that every orange basket contains pebbles, contradicting the claimed existence of an orange basket containing no pebbles."
+  }
+]

@@ -1,0 +1,92 @@
+[
+  {
+    "case_id": "C043c4b2950b417d77d0e",
+    "decision": "not_supported",
+    "evidence": [],
+    "rationale": "The passage is empty and establishes none of the claim."
+  },
+  {
+    "case_id": "Cd2e596c95508bcc385fa",
+    "decision": "not_supported",
+    "evidence": [
+      "Nemi's amber beacon emits a four-second flash."
+    ],
+    "rationale": "The passage establishes the beacon and flash duration but does not place them beside the east arch."
+  },
+  {
+    "case_id": "Cb6eaf9549e0e2de1447f",
+    "decision": "not_supported",
+    "evidence": [
+      "At Ressa's lantern pier, the brass bell rings after the violet flag rises."
+    ],
+    "rationale": "The passage establishes a ringing after the flag rises, but it does not establish that the bell never rings earlier."
+  },
+  {
+    "case_id": "C24a182587c6848f0e1c5",
+    "decision": "not_supported",
+    "evidence": [],
+    "rationale": "The passage is empty and does not establish the vane's location or lack of contact with the rail."
+  },
+  {
+    "case_id": "Cf6c3362733f7043e7bc8",
+    "decision": "supported",
+    "evidence": [
+      "At Tavik's wax garden, the round tray cools faster than the square tray."
+    ],
+    "rationale": "The passage explicitly states the entire claim, including the location, tray shapes, and comparative cooling speed."
+  },
+  {
+    "case_id": "C898215253d09bfb3a32c",
+    "decision": "supported",
+    "evidence": [
+      "At Leto's reed pavilion, there is an orange basket without any pebbles."
+    ],
+    "rationale": "The existence of an orange basket without any pebbles entails that at least one orange basket contains no pebbles at the stated location."
+  },
+  {
+    "case_id": "Cbcf8ca4be9625949afa6",
+    "decision": "supported",
+    "evidence": [
+      "At Esi's ribbon workshop, Pavo carries the green spool to the loft."
+    ],
+    "rationale": "The passage explicitly states the entire claim, including the participant, object, location, and destination."
+  },
+  {
+    "case_id": "C662a150e59827cc2c3a2",
+    "decision": "not_supported",
+    "evidence": [
+      "At Delvi's sand observatory, the blue shutter stayed closed yesterday."
+    ],
+    "rationale": "The passage describes the shutter yesterday, not today."
+  },
+  {
+    "case_id": "C351ceee484d062c07f2d",
+    "decision": "supported",
+    "evidence": [
+      "At Ruven's chalk harbor, tal refers to the narrow inlet and does not refer to the whole bay."
+    ],
+    "rationale": "The passage establishes both that tal names the narrow inlet and that it does not name the entire bay at the stated location."
+  },
+  {
+    "case_id": "Cd27caff2c3908bb28ee9",
+    "decision": "supported",
+    "evidence": [
+      "At Fera's mosaic depot, the lever is pulled only if the white disk is present."
+    ],
+    "rationale": "The passage explicitly states the entire claim, preserving the necessary condition introduced by only if."
+  },
+  {
+    "case_id": "Cd59c2ccc91b5a7c7bc10",
+    "decision": "not_supported",
+    "evidence": [],
+    "rationale": "The passage is empty and establishes none of the claimed location, contents, or quantity."
+  },
+  {
+    "case_id": "C3b2b5c02d338fb8b1766",
+    "decision": "supported",
+    "evidence": [
+      "At Zuri's glass ferry, the violet lamp glows for half a second."
+    ],
+    "rationale": "Half a second equals 500 milliseconds, so the passage establishes the entire claim."
+  }
+]
