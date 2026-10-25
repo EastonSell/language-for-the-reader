@@ -53,6 +53,8 @@ python tooling/run_tests.py
 
 These commands need no model, API or download. The run regenerates all 12 synthetic models, splits and histories; the text-only baseline omits binary weights. Use fresh output paths. The aggregate runner separates NumPy/tooling tests from the optional pretrained suite.
 
+The aggregate runner also verifies the published [reader answerability audit](studies/reader-answerability-audit/README.md) against its release hashes and runs its 24 tests without changing the sealed evidence. To check only that audit with the Python standard library, run `python -B tooling/run_tests.py --reader-audit-only`. See [audit check scope and failure handling](tooling/READER_AUDIT_CHECKS.md). This rechecks retained evidence; it does not collect new judgments or demonstrate reader learning.
+
 `sha256sum -c MANIFEST.sha256` checks the historical baseline snapshot, including an older README hash. Its README mismatch is expected after later documentation edits; that manifest is preserved as history, not a current-tree integrity certificate.
 
 For the optional suite, follow the isolated setup and pinned-model fetch in [pretrained/README.md](pretrained/README.md), then run:
