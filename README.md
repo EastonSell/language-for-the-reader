@@ -10,6 +10,7 @@ The current experiments use explicit presentation requests, small structured tas
 - [Work through a two-minute content-and-presentation example](docs/START_HERE.md).
 - [Read the research overview](docs/RESEARCH_OVERVIEW.md) for motivation, hypotheses, controls and the path toward reader studies.
 - [Inspect the pretrained pilot's raw generations and findings](pretrained/results/RESULTS.md), or start with the faster synthetic experiment below.
+- [Inspect the bounded AI-only answerability versus full-proposition audit](studies/reader-answerability-audit/README.md), including preserved raw judgments and offline reproduction.
 
 ## Watch the narrated explanation
 

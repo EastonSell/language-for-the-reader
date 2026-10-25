@@ -1,0 +1,86 @@
+[
+  {
+    "case_id": "Cc4836e9b79f6a0",
+    "decision": "supported",
+    "answer": "The passage explicitly states that the pulley does not lift the counterweight today.",
+    "evidence": ["The pulley does not lift the counterweight today."],
+    "rationale": "The passage states the entire claim verbatim."
+  },
+  {
+    "case_id": "C25e2189be736f9",
+    "decision": "answerable",
+    "answer": "Diffusion spreads dye through the liquid.",
+    "evidence": ["dye is dispersed through the liquid by diffusion."],
+    "rationale": "The passage explicitly identifies diffusion as the process dispersing dye."
+  },
+  {
+    "case_id": "C7d7347200b1a39",
+    "decision": "unanswerable",
+    "answer": "The passage does not identify what drives one gear turn.",
+    "evidence": [],
+    "rationale": "The passage is empty and supplies no facts."
+  },
+  {
+    "case_id": "C7f0851d98c0ddd",
+    "decision": "answerable",
+    "answer": "The narrow tray evaporates faster.",
+    "evidence": ["evaporation is faster from the narrow tray than the wide tray."],
+    "rationale": "The passage directly compares the trays and identifies the narrow tray as faster."
+  },
+  {
+    "case_id": "C9b4ed31a584bbc",
+    "decision": "supported",
+    "answer": "Nira's signal lasts a quarter of a second, equivalent to 250 milliseconds, beside the bubble tube.",
+    "evidence": ["Beside the bubble tube, the duration of Nira's signal is a quarter of a second."],
+    "rationale": "A quarter of a second equals 250 milliseconds; the participant and location also match."
+  },
+  {
+    "case_id": "Cc098462428c612",
+    "decision": "not_supported",
+    "answer": "The passage supplies no information about Savo, the axle, the mask, or rehearsal.",
+    "evidence": [],
+    "rationale": "An empty passage cannot establish any part of the claim."
+  },
+  {
+    "case_id": "Cb18e369b0e45bc",
+    "decision": "not_supported",
+    "answer": "The passage describes Luma's blue bead settling lower, not Luma's suspension.",
+    "evidence": ["Luma's blue bead settles lower in the jar than the colored solution's surface."],
+    "rationale": "The claim substitutes a suspension for the blue bead without passage support."
+  },
+  {
+    "case_id": "Cb557edcc76c322",
+    "decision": "supported",
+    "answer": "A sample containing a spiral shell is a necessary condition for Tola to change the baseline.",
+    "evidence": ["Tola changes the baseline only if the sample includes a spiral shell."],
+    "rationale": "The passage explicitly states the same conditional restriction as the claim."
+  },
+  {
+    "case_id": "C51f6f6b59de60d",
+    "decision": "answerable",
+    "answer": "The estimate might exceed baseline if the sample changes.",
+    "evidence": ["the estimate may exceed baseline if the sample changes."],
+    "rationale": "The passage explicitly supplies the condition under which the estimate may exceed baseline."
+  },
+  {
+    "case_id": "C72b7c0d39cddcd",
+    "decision": "answerable",
+    "answer": "Balance is checked only after the dock closes.",
+    "evidence": ["Balance is checked only after the dock closes."],
+    "rationale": "The passage directly states when balance is checked."
+  },
+  {
+    "case_id": "Ca392bb2c85f5fa",
+    "decision": "supported",
+    "answer": "Navo's mesh does not refer to the whole filter assembly in the maze.",
+    "evidence": ["In the maze, Navo's mesh does not refer to the entire filter assembly."],
+    "rationale": "The claim preserves the passage's participant, location, referent, and negation."
+  },
+  {
+    "case_id": "C654326a0ef42fe",
+    "decision": "unanswerable",
+    "answer": "A signal cannot appear at six marks or less. The passage does not establish which higher readings permit a signal.",
+    "evidence": ["A signal cannot appear at a reading of six marks or less; whether it appears at higher readings is not specified."],
+    "rationale": "The passage establishes a necessary lower bound but does not identify any readings where a signal can actually appear."
+  }
+]

@@ -1,0 +1,96 @@
+Evaluate the 12 independent passage tasks below. Use only each task's passage.
+Do not use tools, browse, read files, consult other agents, or use outside facts.
+Do not assume that a question or claim supplies facts missing from its passage.
+For question tasks, answer the query from the passage and decide:
+answerable = the passage supports a definite answer to the question;
+unanswerable = the passage does not supply enough information for a definite answer;
+uncertain = you cannot resolve its answerability.
+For claim tasks, decide:
+supported = the passage entails the ENTIRE claim, including each participant, restriction,
+quantity, location, condition, time and negation;
+not_supported = any part of the claim is absent, contradicted or otherwise not established;
+uncertain = you cannot resolve its entailment.
+An empty passage supplies no facts. Evaluate each task independently.
+Return ONLY one JSON array with exactly one object per case, using exactly these fields:
+case_id: copy the ID;
+decision: one of the three labels for that task;
+answer: a concise answer or explanation, at most 80 whitespace-separated words;
+evidence: a list of exact, contiguous, nonempty quotes from THIS passage, or [] if none;
+rationale: at most 60 whitespace-separated words explaining the decision.
+Do not quote the query as passage evidence. Do not add fields, Markdown or commentary.
+
+TASKS:
+[
+  {
+    "case_id": "Cc4836e9b79f6a0",
+    "passage": "Aven's ramp carries three paper kites toward the dock's painted edge. The pulley does not lift the counterweight today. Not all kite positions provide balance.",
+    "query": "The pulley does not lift the counterweight today.",
+    "task": "claim"
+  },
+  {
+    "case_id": "C25e2189be736f9",
+    "passage": "In Navo's glass maze, the filter separates large flakes from the liquid. The mesh is the netlike material inside it. Refraction bends light at glass, while dye is dispersed through the liquid by diffusion.",
+    "query": "What spreads dye through liquid?",
+    "task": "question"
+  },
+  {
+    "case_id": "C7d7347200b1a39",
+    "passage": "",
+    "query": "What drives one gear turn?",
+    "task": "question"
+  },
+  {
+    "case_id": "C7f0851d98c0ddd",
+    "passage": "On Luma's ink terrace, evaporation is faster from the narrow tray than the wide tray. Condensation collects above both trays. The solution stands left of the suspension.",
+    "query": "Which tray evaporates faster?",
+    "task": "question"
+  },
+  {
+    "case_id": "C9b4ed31a584bbc",
+    "passage": "Beside the bubble tube, the duration of Nira's signal is a quarter of a second. The threshold stays at four marks. The sensor records an interval of two seconds between the first two bubbles.",
+    "query": "Nira's signal lasts 250 milliseconds beside the bubble tube.",
+    "task": "claim"
+  },
+  {
+    "case_id": "Cc098462428c612",
+    "passage": "",
+    "query": "Savo moves the axle before the mask opens during rehearsal.",
+    "task": "claim"
+  },
+  {
+    "case_id": "Cb18e369b0e45bc",
+    "passage": "Luma's blue bead settles lower in the jar than the colored solution's surface. Evaporation removes more water from the uncovered cup. Condensation is heavier on the colder lid.",
+    "query": "Luma's suspension settles lower in the jar than the colored solution's surface.",
+    "task": "claim"
+  },
+  {
+    "case_id": "Cb557edcc76c322",
+    "passage": "Tola changes the baseline only if the sample includes a spiral shell. Including one does not require a change. The estimate concerns the color variable in tomorrow's round.",
+    "query": "Tola changes the baseline only if the sample includes a spiral shell.",
+    "task": "claim"
+  },
+  {
+    "case_id": "C51f6f6b59de60d",
+    "passage": "For Tola's shell game, the estimate may exceed baseline if the sample changes. The variable is the number of striped shells. The shells remain inside a square blue box.",
+    "query": "When might estimate exceed baseline?",
+    "task": "question"
+  },
+  {
+    "case_id": "C72b7c0d39cddcd",
+    "passage": "At Aven's kite dock, the counterweight is not attached to the red kite. The pulley hangs over the ramp. Balance is checked only after the dock closes.",
+    "query": "When is balance checked?",
+    "task": "question"
+  },
+  {
+    "case_id": "Ca392bb2c85f5fa",
+    "passage": "In the maze, Navo's mesh does not refer to the entire filter assembly. Diffusion is the dye's spreading process. Refraction is a change in light direction, not a change in dye position.",
+    "query": "Navo's mesh does not mean the whole filter assembly in the maze.",
+    "task": "claim"
+  },
+  {
+    "case_id": "C654326a0ef42fe",
+    "passage": "At Nira's bubble clock, the sensor records one bubble every eight seconds. The interval is measured in seconds. A signal cannot appear at a reading of six marks or less; whether it appears at higher readings is not specified.",
+    "query": "At what readings may a signal appear?",
+    "task": "question"
+  }
+]

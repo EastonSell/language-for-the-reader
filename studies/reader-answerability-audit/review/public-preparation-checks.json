@@ -1,0 +1,54 @@
+{
+  "all_scientific_analysis_fields_unchanged": true,
+  "byte_identical_artifacts_checked": 29,
+  "checked_utc": "2026-10-25T05:47:15.101771+00:00",
+  "fresh_directory_reproduction": {
+    "copied_public_tree_only": true,
+    "network_or_model_calls": false,
+    "passed": true,
+    "private_files_required": false,
+    "retained_tree_unchanged_after_commands": true
+  },
+  "kind": "postrun_public_preparation_validation",
+  "limitations": [
+    "Public seal assembled after the run, not preregistration.",
+    "Opaque aliases are not original runtime identities.",
+    "Tool traces and backend model/transport identities remain unexposed.",
+    "Scientific semantic review was AI-only; no human comprehension or new trained-reader result."
+  ],
+  "manifested_payload_files": 41,
+  "original_noncache_files_checked_unchanged": 61,
+  "performed_by": "Public derivative preparer; separate review is not claimed by this record.",
+  "privacy_scan": {
+    "categories": [
+      "owner_file_id",
+      "runtime_absolute_path",
+      "private_url",
+      "operational_routing_api",
+      "credential_shape"
+    ],
+    "findings": [],
+    "scope": "Full textual public-tree pattern scan plus manual review of retained materials and receipt/report transformations. A clean scan is not a universal proof of absence."
+  },
+  "public_files_checked": 43,
+  "public_verifier_tests": {
+    "failures": 0,
+    "scope": "Standard-library integration and synthetic tamper tests; no new AI data.",
+    "tests_passed": 24
+  },
+  "reproduction": {
+    "both_no_passage_positive": 0,
+    "cases": 96,
+    "corrupted_entailment_positive": 0,
+    "corrupted_legacy_positive": 11,
+    "entailment_literal_positive": 12,
+    "entailment_paraphrase_positive": 12,
+    "exact_quotes": 75,
+    "observed_window_seconds": 297,
+    "operational_gate_under_recorded_context_evidence": true,
+    "paired_sources": 12,
+    "primary_difference": 0.9166666666666666,
+    "source_git_blobs": 4
+  },
+  "status": "passed"
+}

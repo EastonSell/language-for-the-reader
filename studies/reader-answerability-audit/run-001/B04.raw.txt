@@ -1,0 +1,86 @@
+[
+  {
+    "case_id": "Cdf41590a2e22df",
+    "decision": "supported",
+    "answer": "The passage explicitly states that the spring drives the gear through one turn.",
+    "evidence": ["In Savo's mask automaton, the spring drives the gear through one turn."],
+    "rationale": "The passage states the entire claim directly."
+  },
+  {
+    "case_id": "Cf7f67ccdb64f27",
+    "decision": "answerable",
+    "answer": "Luma's suspension.",
+    "evidence": ["Luma's suspension settles lower in the jar than the colored solution's surface."],
+    "rationale": "The passage explicitly identifies the suspension as settling below the colored solution's surface."
+  },
+  {
+    "case_id": "C687b863f575c79",
+    "decision": "answerable",
+    "answer": "The sample must include a striped shell.",
+    "evidence": ["Tola changes the baseline only if the sample includes a striped shell."],
+    "rationale": "The phrase \"only if\" makes inclusion of a striped shell a necessary condition for changing the baseline."
+  },
+  {
+    "case_id": "C9d9f3421c8b769",
+    "decision": "unanswerable",
+    "answer": "The passage provides no information about what mesh means.",
+    "evidence": [],
+    "rationale": "The passage is empty and cannot establish the meaning of mesh."
+  },
+  {
+    "case_id": "C000a38c1ec62b8",
+    "decision": "unanswerable",
+    "answer": "The signal's duration cannot be determined.",
+    "evidence": [],
+    "rationale": "The empty passage provides no facts about the signal or its duration."
+  },
+  {
+    "case_id": "C08cd88e034dba6",
+    "decision": "not_supported",
+    "answer": "The passage does not establish any comparison of evaporation rates.",
+    "evidence": [],
+    "rationale": "The passage is empty and supplies no facts supporting the claim."
+  },
+  {
+    "case_id": "C4d3739e8dbb873",
+    "decision": "supported",
+    "answer": "Balance checks occur only after the dock closes.",
+    "evidence": ["Balance checks take place after the dock has closed, and at no earlier time."],
+    "rationale": "The passage explicitly places all balance checks after closure and excludes earlier checks."
+  },
+  {
+    "case_id": "Ca8f56f6944bddd",
+    "decision": "not_supported",
+    "answer": "The passage attributes dye spreading to refraction, not diffusion.",
+    "evidence": ["Refraction bends light at glass, while refraction spreads dye through liquid."],
+    "rationale": "The passage never establishes that diffusion spreads dye; outside knowledge cannot replace its stated mechanism."
+  },
+  {
+    "case_id": "C5c3fb69b944fd1",
+    "decision": "supported",
+    "answer": "The estimate may exceed baseline if the sample changes.",
+    "evidence": ["For Tola's shell game, it is possible for the estimate to be above baseline if the sample changes."],
+    "rationale": "The claim preserves the passage's possibility and its condition."
+  },
+  {
+    "case_id": "Caf15f16fc28742",
+    "decision": "unanswerable",
+    "answer": "Whether the pulley lifts the counterweight today is not stated.",
+    "evidence": ["Yesterday, the pulley did not lift the counterweight."],
+    "rationale": "The passage describes yesterday, which does not establish what happens today."
+  },
+  {
+    "case_id": "C8dd92c9982412b",
+    "decision": "answerable",
+    "answer": "Savo moving the axle precedes the mask opening.",
+    "evidence": ["During rehearsal, the mask opens after Savo has moved the axle."],
+    "rationale": "The passage explicitly establishes this temporal order, without establishing causation."
+  },
+  {
+    "case_id": "C74c25c22ea7809",
+    "decision": "not_supported",
+    "answer": "The passage says a signal appears above six marks but does not say it appears only above that threshold.",
+    "evidence": ["A signal appears above a threshold of six marks."],
+    "rationale": "The claim adds an exclusivity restriction that the passage does not establish."
+  }
+]

@@ -1,0 +1,5 @@
+{
+  "kind": "postrun_public_derivative_seal",
+  "public_manifest_sha256": "ed880344b01b7a7c42da62c1ef4323278d4fd71696c85b9599523205a466be62",
+  "scope": "Postrun public derivative integrity only, not preregistration, independent timestamp proof or original runtime identity attestation."
+}

@@ -1,0 +1,86 @@
+[
+  {
+    "case_id": "C79cafe31128305",
+    "decision": "answerable",
+    "answer": "Only after the dock has closed.",
+    "evidence": ["Balance checks take place after the dock has closed, and at no earlier time."],
+    "rationale": "The passage explicitly specifies when balance checks occur."
+  },
+  {
+    "case_id": "C99ca100a162148",
+    "decision": "unanswerable",
+    "answer": "The passage does not identify which tray evaporates faster.",
+    "evidence": [],
+    "rationale": "The passage is empty and supplies no comparison."
+  },
+  {
+    "case_id": "Cd195c7a13ea2e6",
+    "decision": "not_supported",
+    "answer": "The relative levels of the suspension and solution are not established.",
+    "evidence": [],
+    "rationale": "The empty passage supplies no facts supporting the claim."
+  },
+  {
+    "case_id": "C1ca727ee3bd72c",
+    "decision": "supported",
+    "answer": "Savo moves the axle before the mask opens during rehearsal.",
+    "evidence": ["Savo moves the axle before the mask opens during rehearsal."],
+    "rationale": "The passage states the entire claim explicitly."
+  },
+  {
+    "case_id": "C60911ebeb4cc13",
+    "decision": "answerable",
+    "answer": "Refraction.",
+    "evidence": ["refraction spreads dye through liquid."],
+    "rationale": "The passage explicitly identifies refraction as spreading dye through liquid."
+  },
+  {
+    "case_id": "C1d59646f0600ae",
+    "decision": "answerable",
+    "answer": "If the sample changes.",
+    "evidence": ["it is possible for the estimate to be above baseline if the sample changes."],
+    "rationale": "The passage provides the condition under which exceeding baseline is possible."
+  },
+  {
+    "case_id": "Cbf7a0d7b63b6b5",
+    "decision": "answerable",
+    "answer": "At readings above six marks.",
+    "evidence": ["A signal appears above a threshold of six marks."],
+    "rationale": "The signal condition is explicitly given as exceeding six marks."
+  },
+  {
+    "case_id": "Cdea5961d58518b",
+    "decision": "supported",
+    "answer": "A spiral shell is necessary, but not sufficient, for Tola to change the baseline.",
+    "evidence": ["Unless the sample contains a spiral shell, Tola does not change the baseline.", "Including one does not require a change."],
+    "rationale": "The absence of a spiral shell rules out a baseline change, establishing the claimed necessary condition."
+  },
+  {
+    "case_id": "Cf254cf116d3bf8",
+    "decision": "not_supported",
+    "answer": "The passage says Navo's mesh means the whole filter assembly.",
+    "evidence": ["Navo's mesh means the whole filter assembly in the maze."],
+    "rationale": "The passage directly contradicts the claim's negation."
+  },
+  {
+    "case_id": "C161917b5f1c2b9",
+    "decision": "supported",
+    "answer": "The pulley does not lift the counterweight today.",
+    "evidence": ["Today, the counterweight is not raised by the pulley."],
+    "rationale": "The passage explicitly denies that the pulley raises the counterweight today."
+  },
+  {
+    "case_id": "Ce858725221d0ed",
+    "decision": "not_supported",
+    "answer": "The duration is established, but the location beside the bubble tube is not.",
+    "evidence": ["Nira's signal lasts 250 milliseconds."],
+    "rationale": "The passage supports the duration but does not establish the claim's location."
+  },
+  {
+    "case_id": "C62655d264522ff",
+    "decision": "answerable",
+    "answer": "The spring.",
+    "evidence": ["the spring drives the gear through one turn."],
+    "rationale": "The passage explicitly identifies the spring as driving one gear turn."
+  }
+]

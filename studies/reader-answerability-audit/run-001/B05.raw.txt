@@ -1,0 +1,86 @@
+[
+  {
+    "case_id": "C417cc724ecbd56",
+    "decision": "answerable",
+    "answer": "The wide tray.",
+    "evidence": ["evaporation is faster from the wide tray than the narrow tray."],
+    "rationale": "The passage explicitly identifies the wide tray as evaporating faster."
+  },
+  {
+    "case_id": "C4fc254f95a5ef8",
+    "decision": "unanswerable",
+    "answer": "The passage supplies no readings at which a signal may appear.",
+    "evidence": [],
+    "rationale": "The passage is empty."
+  },
+  {
+    "case_id": "C9c69b11c69e362",
+    "decision": "not_supported",
+    "answer": "Neither the signal's duration nor its location is established.",
+    "evidence": [],
+    "rationale": "The empty passage supplies no facts supporting the claim."
+  },
+  {
+    "case_id": "C19df92761abcab",
+    "decision": "not_supported",
+    "answer": "The passage describes yesterday, not today.",
+    "evidence": ["Yesterday, the pulley did not lift the counterweight."],
+    "rationale": "Yesterday's failure to lift does not establish whether the pulley lifts the counterweight today."
+  },
+  {
+    "case_id": "Ce3230f615a1222",
+    "decision": "answerable",
+    "answer": "After the dock closes.",
+    "evidence": ["Balance is checked after the dock closes."],
+    "rationale": "The passage explicitly states when balance is checked."
+  },
+  {
+    "case_id": "Cece5c6460d3ff9",
+    "decision": "answerable",
+    "answer": "The spring.",
+    "evidence": ["one full revolution of the gear is driven by the spring."],
+    "rationale": "The passage identifies the spring as driving one full gear revolution."
+  },
+  {
+    "case_id": "C1445a5353d58ce",
+    "decision": "supported",
+    "answer": "Savo moves the axle before the mask opens during rehearsal.",
+    "evidence": ["During rehearsal, the mask opens after Savo has moved the axle."],
+    "rationale": "The passage establishes the claimed temporal order, without needing to establish causation."
+  },
+  {
+    "case_id": "C637c6f82aa5b73",
+    "decision": "not_supported",
+    "answer": "The passage does not establish what Navo's mesh means.",
+    "evidence": [],
+    "rationale": "The empty passage supplies no facts supporting the negated claim."
+  },
+  {
+    "case_id": "C744e9d1200ff57",
+    "decision": "unanswerable",
+    "answer": "The passage does not identify what spreads dye through liquid.",
+    "evidence": [],
+    "rationale": "The passage is empty, so no answer can be derived from it."
+  },
+  {
+    "case_id": "Ce810d89a5fb2c8",
+    "decision": "supported",
+    "answer": "Luma's suspension settles lower in the jar than the colored solution's surface.",
+    "evidence": ["Luma's suspension settles lower in the jar than the colored solution's surface."],
+    "rationale": "The passage states the entire claim explicitly."
+  },
+  {
+    "case_id": "C55aea26b6c4489",
+    "decision": "answerable",
+    "answer": "If the box opens.",
+    "evidence": ["the estimate may exceed baseline if the box opens."],
+    "rationale": "The passage explicitly gives the condition under which the estimate may exceed baseline."
+  },
+  {
+    "case_id": "Cefc4e19918b6bd",
+    "decision": "not_supported",
+    "answer": "The stated requirement is a striped shell, not a spiral shell.",
+    "evidence": ["Tola changes the baseline only if the sample includes a striped shell."],
+    "rationale": "The passage establishes a striped-shell requirement but supplies no spiral-shell requirement."
+  }
+]

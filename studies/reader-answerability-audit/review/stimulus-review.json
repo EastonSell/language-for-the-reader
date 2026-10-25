@@ -1,0 +1,290 @@
+{
+  "kind": "independent_pre_data_stimulus_review_not_answerer_results",
+  "status": "semantic_controls_approved_after_pre_data_revisions",
+  "answerers_run_by_reviewer": 0,
+  "all_data_unrun_at_review": true,
+  "review_basis": "Full modified passages, including unchanged surrounding clauses; source-faithfulness rather than external-world truth. This is AI semantic review, not human ground truth.",
+  "files_sha256": {
+    "study/fixtures.json": "0554e123a49af9c67dd3d77ba7d17927861d951faef7470d4d42e220c732e2bf",
+    "source/source-aware-packet.json": "89774c847c81830ba8654de4baeba7b79574f40fbfa2e134e32b2ad2176aafae",
+    "source/selection-controls-README.md": "9e815cf92eb0078a4e0c039cc9c4b32c50428019b1c3dd296fe11ffa19cd52a6",
+    "source/historical-rubric.md": "64bced330fb4f59d951ac4fb798eecc16cb2aa199200afb375069369c5e642e2"
+  },
+  "summary": {
+    "literal_supported": 12,
+    "paraphrase_supported": 12,
+    "corrupted_full_target_not_entailed": 12,
+    "semantic_blockers_remaining": 0
+  },
+  "stimuli": [
+    {
+      "source_id": "kite_dock-01",
+      "proposition_id": "kite_dock-01-p3",
+      "claim": "Balance is checked only after the dock closes.",
+      "legacy_question": "When is balance checked?",
+      "literal": {
+        "supported": true,
+        "reason": "The source states the target verbatim. The prohibition on checks before closure is part of the claim."
+      },
+      "paraphrase": {
+        "text": "Balance checks take place after the dock has closed, and at no earlier time.",
+        "supported": true,
+        "reason": "After the dock has closed plus at no earlier time preserves the temporal restriction."
+      },
+      "corruption": {
+        "text": "Balance is checked after the dock closes.",
+        "full_target_entailed": false,
+        "reason": "The replacement establishes after-closing checks but does not exclude earlier checks. Neither remaining sentence supplies that exclusion."
+      },
+      "review_note": "Omission, not contradiction. The question asks when, so a passage-grounded answer need not certify exclusion."
+    },
+    {
+      "source_id": "kite_dock-02",
+      "proposition_id": "kite_dock-02-p2",
+      "claim": "The pulley does not lift the counterweight today.",
+      "legacy_question": "Does the pulley lift the counterweight today?",
+      "literal": {
+        "supported": true,
+        "reason": "The source explicitly denies the pulley lifting the counterweight today."
+      },
+      "paraphrase": {
+        "text": "Today, the counterweight is not raised by the pulley.",
+        "supported": true,
+        "reason": "Passive voice and raised preserve participant, polarity, and today."
+      },
+      "corruption": {
+        "text": "Yesterday, the pulley did not lift the counterweight.",
+        "full_target_entailed": false,
+        "reason": "A denial concerning yesterday does not establish the target denial concerning today. Other source sentences do not fill today."
+      },
+      "review_note": "The saved question supplies today. This stimulus can test certification failure, not identify a causal question-restoration effect by itself."
+    },
+    {
+      "source_id": "bubble_clock-01",
+      "proposition_id": "bubble_clock-01-p3",
+      "claim": "A signal appears only above a threshold of six marks.",
+      "legacy_question": "At what readings may a signal appear?",
+      "literal": {
+        "supported": true,
+        "reason": "Only above six marks restricts signal occurrence to readings greater than six; it is not a sufficiency statement."
+      },
+      "paraphrase": {
+        "text": "A signal cannot appear at a reading of six marks or less; whether it appears at higher readings is not specified.",
+        "supported": true,
+        "reason": "The paraphrase explicitly excludes readings at or below six and leaves higher readings non-guaranteed, preserving the necessary-condition reading."
+      },
+      "corruption": {
+        "text": "A signal appears above a threshold of six marks.",
+        "full_target_entailed": false,
+        "reason": "Appears above six does not exclude occurrence at six or lower. The sensor timing and interval sentences do not restore the threshold restriction."
+      },
+      "review_note": "Review uses the source rule as a necessary condition, not a claim that every higher reading produces a signal."
+    },
+    {
+      "source_id": "bubble_clock-02",
+      "proposition_id": "bubble_clock-02-p1",
+      "claim": "Nira's signal lasts 250 milliseconds beside the bubble tube.",
+      "legacy_question": "How long does the signal last?",
+      "literal": {
+        "supported": true,
+        "reason": "Duration, Nira, and beside the bubble tube are all explicitly present."
+      },
+      "paraphrase": {
+        "text": "Beside the bubble tube, the duration of Nira's signal is a quarter of a second.",
+        "supported": true,
+        "reason": "A quarter second equals 250 milliseconds; participant and location remain explicit."
+      },
+      "corruption": {
+        "text": "Nira's signal lasts 250 milliseconds.",
+        "full_target_entailed": false,
+        "reason": "Duration and participant survive, but beside the bubble tube is absent from the entire modified passage."
+      },
+      "review_note": "The narrow duration question is answerable without establishing the omitted location. This is not a question-answer correctness error."
+    },
+    {
+      "source_id": "ink_terrace-01",
+      "proposition_id": "ink_terrace-01-p1",
+      "claim": "On Luma's ink terrace, evaporation is faster from the wide tray than the narrow tray.",
+      "legacy_question": "Which tray evaporates faster?",
+      "literal": {
+        "supported": true,
+        "reason": "The source explicitly orders wide-tray evaporation above narrow-tray evaporation on Luma's ink terrace."
+      },
+      "paraphrase": {
+        "text": "On Luma's ink terrace, the narrow tray's evaporation is slower than the wide tray's.",
+        "supported": true,
+        "reason": "Narrow slower than wide is the inverse expression of the same comparative ordering in the same setting."
+      },
+      "corruption": {
+        "text": "On Luma's ink terrace, evaporation is faster from the narrow tray than the wide tray.",
+        "full_target_entailed": false,
+        "reason": "The replacement explicitly reverses which tray is faster. Condensation above both trays does not restore the original ordering."
+      },
+      "review_note": "Source-faithfulness only; no external evaporation assumptions are needed."
+    },
+    {
+      "source_id": "ink_terrace-02",
+      "proposition_id": "ink_terrace-02-p1",
+      "claim": "Luma's suspension settles lower in the jar than the colored solution's surface.",
+      "legacy_question": "What is lower than the colored solution's surface?",
+      "literal": {
+        "supported": true,
+        "reason": "The lower entity is explicitly Luma's suspension, located in the jar relative to the colored solution surface."
+      },
+      "paraphrase": {
+        "text": "In the jar, Luma's settled suspension lies beneath the colored solution's surface.",
+        "supported": true,
+        "reason": "The revised paraphrase retains Luma's suspension, the jar, and the lower-than relation. Settled suspension beneath expresses the stated resulting position."
+      },
+      "corruption": {
+        "text": "Luma's blue bead settles lower in the jar than the colored solution's surface.",
+        "full_target_entailed": false,
+        "reason": "The replacement asserts the location of a blue bead instead of the suspension. Neither remaining sentence establishes the suspension's position."
+      },
+      "review_note": "Initial paraphrase moved the Luma association to the jar. The reviewed revision resolves that binding ambiguity."
+    },
+    {
+      "source_id": "mask_automaton-01",
+      "proposition_id": "mask_automaton-01-p1",
+      "claim": "In Savo's mask automaton, the spring drives the gear through one turn.",
+      "legacy_question": "What drives one gear turn?",
+      "literal": {
+        "supported": true,
+        "reason": "The source states driver, gear, one turn, and Savo's automaton."
+      },
+      "paraphrase": {
+        "text": "In Savo's mask automaton, one full revolution of the gear is driven by the spring.",
+        "supported": true,
+        "reason": "One full revolution and passive driven by preserve the one-turn rotation and roles."
+      },
+      "corruption": {
+        "text": "In Savo's mask automaton, the spring drives the gear.",
+        "full_target_entailed": false,
+        "reason": "Drives the gear does not establish the one-turn quantity: partial, different, or unspecified movement remains possible. The following axle and pivot sentences do not supply it."
+      },
+      "review_note": "The saved question itself mentions one gear turn. An answer identifying the spring is not evidence that the passage states the quantity."
+    },
+    {
+      "source_id": "mask_automaton-02",
+      "proposition_id": "mask_automaton-02-p1",
+      "claim": "Savo moves the axle before the mask opens during rehearsal.",
+      "legacy_question": "What precedes the mask opening?",
+      "literal": {
+        "supported": true,
+        "reason": "The source explicitly provides movement before opening and the rehearsal setting."
+      },
+      "paraphrase": {
+        "text": "During rehearsal, the mask opens after Savo has moved the axle.",
+        "supported": true,
+        "reason": "Opening after Savo has moved the axle expresses the same order, with rehearsal retained and no causal claim added."
+      },
+      "corruption": {
+        "text": "Savo moves the axle before the mask opens.",
+        "full_target_entailed": false,
+        "reason": "The modified text omits rehearsal everywhere. The following caution about order and cause does not supply that occasion."
+      },
+      "review_note": "The paraphrase does not turn temporal precedence into causation."
+    },
+    {
+      "source_id": "shell_forecast-01",
+      "proposition_id": "shell_forecast-01-p1",
+      "claim": "For Tola's shell game, the estimate may exceed baseline if the sample changes.",
+      "legacy_question": "When might estimate exceed baseline?",
+      "literal": {
+        "supported": true,
+        "reason": "The source gives possible exceedance of baseline conditional on a sample change, not guaranteed exceedance or necessarily a causal effect."
+      },
+      "paraphrase": {
+        "text": "For Tola's shell game, it is possible for the estimate to be above baseline if the sample changes.",
+        "supported": true,
+        "reason": "The revised possible-to-be-above-baseline wording preserves possibility and the sample-change condition without adding causation."
+      },
+      "corruption": {
+        "text": "For Tola's shell game, the estimate may exceed baseline if the box opens.",
+        "full_target_entailed": false,
+        "reason": "Opening the box replaces changing the sample. The source does not equate those conditions or otherwise establish exceedance conditional on sample changes."
+      },
+      "review_note": "Initial can put wording suggested causal capability. The reviewed revision resolves this addition. Not-supported does not require proving the original proposition false."
+    },
+    {
+      "source_id": "shell_forecast-02",
+      "proposition_id": "shell_forecast-02-p1",
+      "claim": "Tola changes the baseline only if the sample includes a spiral shell.",
+      "legacy_question": "What is necessary for a baseline change?",
+      "literal": {
+        "supported": true,
+        "reason": "Only if makes a spiral shell a necessary condition for Tola's baseline change. The next sentence separately denies sufficiency."
+      },
+      "paraphrase": {
+        "text": "Unless the sample contains a spiral shell, Tola does not change the baseline.",
+        "supported": true,
+        "reason": "Unless the sample contains a spiral shell, Tola does not change the baseline is the equivalent necessary-condition form. The following one still refers to a spiral shell."
+      },
+      "corruption": {
+        "text": "Tola changes the baseline only if the sample includes a striped shell.",
+        "full_target_entailed": false,
+        "reason": "A striped shell replaces a spiral shell. The following one now refers to a striped shell and only denies its sufficiency; it does not restore a spiral requirement."
+      },
+      "review_note": "A sample could contain a striped shell without a spiral shell. No outside shell taxonomy is assumed."
+    },
+    {
+      "source_id": "glass_maze-01",
+      "proposition_id": "glass_maze-01-p4",
+      "claim": "Diffusion spreads dye through liquid.",
+      "legacy_question": "What spreads dye through liquid?",
+      "literal": {
+        "supported": true,
+        "reason": "The complete claim is the lowercase diffusion clause after while in the original combined sentence. Casefold matching identifies it once; the preceding refraction clause is retained."
+      },
+      "paraphrase": {
+        "text": "Dye is dispersed through the liquid by diffusion.",
+        "supported": true,
+        "reason": "Dispersed through the liquid by diffusion preserves the dye-spreading process and medium."
+      },
+      "corruption": {
+        "text": "Refraction spreads dye through liquid.",
+        "full_target_entailed": false,
+        "reason": "The replacement assigns dye spreading to refraction, leaving no assertion that diffusion spreads dye. The preceding light-bending clause does not supply diffusion."
+      },
+      "review_note": "Do not repair the fictional passage with physical knowledge. The modified passage can consistently assign both light bending and dye spreading to refraction for this audit."
+    },
+    {
+      "source_id": "glass_maze-02",
+      "proposition_id": "glass_maze-02-p1",
+      "claim": "Navo's mesh does not mean the whole filter assembly in the maze.",
+      "legacy_question": "Does mesh mean the whole filter assembly?",
+      "literal": {
+        "supported": true,
+        "reason": "The source explicitly excludes whole-filter-assembly meaning for Navo's mesh in the maze."
+      },
+      "paraphrase": {
+        "text": "In the maze, Navo's mesh does not refer to the entire filter assembly.",
+        "supported": true,
+        "reason": "The revised paraphrase keeps Navo attached to mesh, preserves the maze setting, and retains the whole-assembly exclusion."
+      },
+      "corruption": {
+        "text": "Navo's mesh means the whole filter assembly in the maze.",
+        "full_target_entailed": false,
+        "reason": "The replacement affirmatively equates mesh with the whole filter assembly. The retained diffusion and refraction clauses do not negate that assertion."
+      },
+      "review_note": "The conservative revision removes added glass/maze-possession wording; the original natural reading was not itself a demonstrated failure."
+    }
+  ],
+  "resolved_pre_data_findings": [
+    {
+      "source_id": "ink_terrace-02",
+      "finding": "Unlicensed relocation of Luma association from suspension to jar.",
+      "resolution": "Explicitly retain Luma's settled suspension in the jar."
+    },
+    {
+      "source_id": "shell_forecast-01",
+      "finding": "Conditional possibility paraphrased as causal capability.",
+      "resolution": "Use possible to be above baseline if the sample changes."
+    },
+    {
+      "source_id": "glass_maze-02",
+      "finding": "Conservative cleanup of extra glass/maze-possession wording.",
+      "resolution": "In the maze, Navo's mesh retains original participant binding."
+    }
+  ]
+}

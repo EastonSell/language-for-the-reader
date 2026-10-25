@@ -1,0 +1,36 @@
+{
+  "agreement_check_count": 233,
+  "all_96_response_schemas_and_case_coverage_valid": true,
+  "disposition": "approved_with_stated_limitations",
+  "exact_quote_failures": 0,
+  "exact_quotes_checked": 75,
+  "fresh_supplied_tests_passed": 21,
+  "gates": {
+    "complete_structurally_valid_and_receipt_admitted": true,
+    "difference_at_least_3_of_12": true,
+    "entailment_literal_at_least_11_of_12": true,
+    "entailment_no_passage_at_most_1_of_12": true,
+    "entailment_paraphrase_at_least_11_of_12": true
+  },
+  "independent_check_count": 1915,
+  "independent_recomputation_before_scorer_inspection": true,
+  "kind": "sanitized_postrun_review_summary",
+  "model_identity": "Inherited setting, no override recorded; backend model/version unknown",
+  "observed_window_seconds": 297.0,
+  "operational_gate_met_under_recorded_admission": true,
+  "primary": {
+    "denominator": 12,
+    "difference": 0.9166666666666666,
+    "difference_numerator": 11,
+    "entailment_false_certificates": 0,
+    "legacy_false_certificates": 11
+  },
+  "raw_capture_scope": "Manually copied visible FINAL_ANSWER payloads; unavailable transport bytes cannot be independently authenticated.",
+  "recorded_context_scope": "Original review checked all eight coordinator-recorded contexts. Public aliases do not independently verify original runtime identity or hidden tool access.",
+  "results_claim_review": "No required correction: bounded arithmetic, historical failure, task mismatch, nonindependence and telemetry limitations accurately disclosed.",
+  "reviewed_utc": "2026-10-25T05:34:19.673136+00:00",
+  "scope": "Summary of a private postrun AI review, assembled after the run. Counts describe that review, not the new public verifier. Original review contents are not fully available for public reauthentication.",
+  "source_receipt_sha256": "0ee42cfcd6b5c1f70e93871b57a9bf20bc8aceecd5d2754248513de6d16b5d74",
+  "timing_scope": "Coordinator pre-dispatch and receipt observations only",
+  "tool_trace_audit": "not_exposed, null counts; not verified zero"
+}

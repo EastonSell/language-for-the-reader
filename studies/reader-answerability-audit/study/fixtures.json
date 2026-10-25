@@ -1,0 +1,98 @@
+[
+  {
+    "source_id": "kite_dock-01",
+    "proposition_id": "kite_dock-01-p3",
+    "kind": "exclusivity deletion",
+    "paraphrase": "Balance checks take place after the dock has closed, and at no earlier time.",
+    "corruption": "Balance is checked after the dock closes.",
+    "explanation": "Deletes the exclusion of earlier checks while retaining the after-closing event."
+  },
+  {
+    "source_id": "kite_dock-02",
+    "proposition_id": "kite_dock-02-p2",
+    "kind": "time substitution",
+    "paraphrase": "Today, the counterweight is not raised by the pulley.",
+    "corruption": "Yesterday, the pulley did not lift the counterweight.",
+    "explanation": "Changes the explicitly stated day from today to yesterday; does not establish today's event."
+  },
+  {
+    "source_id": "bubble_clock-01",
+    "proposition_id": "bubble_clock-01-p3",
+    "kind": "exclusivity deletion",
+    "paraphrase": "A signal cannot appear at a reading of six marks or less; whether it appears at higher readings is not specified.",
+    "corruption": "A signal appears above a threshold of six marks.",
+    "explanation": "Deletes the exclusion of signals at or below six; does not assert their occurrence."
+  },
+  {
+    "source_id": "bubble_clock-02",
+    "proposition_id": "bubble_clock-02-p1",
+    "kind": "location deletion",
+    "paraphrase": "Beside the bubble tube, the duration of Nira's signal is a quarter of a second.",
+    "corruption": "Nira's signal lasts 250 milliseconds.",
+    "explanation": "Retains duration and participant but omits the bubble-tube location."
+  },
+  {
+    "source_id": "ink_terrace-01",
+    "proposition_id": "ink_terrace-01-p1",
+    "kind": "comparison reversal",
+    "paraphrase": "On Luma's ink terrace, the narrow tray's evaporation is slower than the wide tray's.",
+    "corruption": "On Luma's ink terrace, evaporation is faster from the narrow tray than the wide tray.",
+    "explanation": "Reverses the ordering of wide and narrow trays."
+  },
+  {
+    "source_id": "ink_terrace-02",
+    "proposition_id": "ink_terrace-02-p1",
+    "kind": "entity substitution",
+    "paraphrase": "In the jar, Luma's settled suspension lies beneath the colored solution's surface.",
+    "corruption": "Luma's blue bead settles lower in the jar than the colored solution's surface.",
+    "explanation": "The lower participant is a blue bead rather than the suspension."
+  },
+  {
+    "source_id": "mask_automaton-01",
+    "proposition_id": "mask_automaton-01-p1",
+    "kind": "quantity deletion",
+    "paraphrase": "In Savo's mask automaton, one full revolution of the gear is driven by the spring.",
+    "corruption": "In Savo's mask automaton, the spring drives the gear.",
+    "explanation": "Retains driver and driven object but omits one turn."
+  },
+  {
+    "source_id": "mask_automaton-02",
+    "proposition_id": "mask_automaton-02-p1",
+    "kind": "occasion deletion",
+    "paraphrase": "During rehearsal, the mask opens after Savo has moved the axle.",
+    "corruption": "Savo moves the axle before the mask opens.",
+    "explanation": "Retains temporal order but omits the rehearsal setting."
+  },
+  {
+    "source_id": "shell_forecast-01",
+    "proposition_id": "shell_forecast-01-p1",
+    "kind": "condition substitution",
+    "paraphrase": "For Tola's shell game, it is possible for the estimate to be above baseline if the sample changes.",
+    "corruption": "For Tola's shell game, the estimate may exceed baseline if the box opens.",
+    "explanation": "Replaces the sample-change condition with opening the box."
+  },
+  {
+    "source_id": "shell_forecast-02",
+    "proposition_id": "shell_forecast-02-p1",
+    "kind": "condition entity substitution",
+    "paraphrase": "Unless the sample contains a spiral shell, Tola does not change the baseline.",
+    "corruption": "Tola changes the baseline only if the sample includes a striped shell.",
+    "explanation": "Changes the necessary shell type from spiral to striped; the next sentence's one refers to the changed shell."
+  },
+  {
+    "source_id": "glass_maze-01",
+    "proposition_id": "glass_maze-01-p4",
+    "kind": "process substitution",
+    "paraphrase": "Dye is dispersed through the liquid by diffusion.",
+    "corruption": "Refraction spreads dye through liquid.",
+    "explanation": "Replaces the dye-spreading process diffusion with refraction. Source consistency, not external scientific truth, is the target."
+  },
+  {
+    "source_id": "glass_maze-02",
+    "proposition_id": "glass_maze-02-p1",
+    "kind": "negation deletion",
+    "paraphrase": "In the maze, Navo's mesh does not refer to the entire filter assembly.",
+    "corruption": "Navo's mesh means the whole filter assembly in the maze.",
+    "explanation": "Changes an explicit exclusion into identity with the whole assembly."
+  }
+]

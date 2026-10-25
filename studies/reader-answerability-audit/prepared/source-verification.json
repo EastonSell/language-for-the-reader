@@ -1,0 +1,30 @@
+[
+  {
+    "bytes": 84145,
+    "git_blob_sha1": "75b8a3b9cfe1094f72c8d6e15e6acd02219d46dc",
+    "local": "source/source-aware-packet.json",
+    "remote": "studies/reader-capacity-gate/evaluation/source-aware-packet.json",
+    "sha256": "89774c847c81830ba8654de4baeba7b79574f40fbfa2e134e32b2ad2176aafae"
+  },
+  {
+    "bytes": 6944,
+    "git_blob_sha1": "274f2762777ff2286442f84609bbaf5f004f31d8",
+    "local": "source/historical-rubric.md",
+    "remote": "studies/reader-capacity-gate/evaluation/rubric.md",
+    "sha256": "64bced330fb4f59d951ac4fb798eecc16cb2aa199200afb375069369c5e642e2"
+  },
+  {
+    "bytes": 11007,
+    "git_blob_sha1": "b0e972e19a8d9339a07604beedc316c2583c0c63",
+    "local": "source/selection-controls-README.md",
+    "remote": "studies/reader-selection-controls/README.md",
+    "sha256": "9e815cf92eb0078a4e0c039cc9c4b32c50428019b1c3dd296fe11ffa19cd52a6"
+  },
+  {
+    "bytes": 4225,
+    "git_blob_sha1": "215f6dd450902fa1ab80ce3ad1f27e8bd04028e0",
+    "local": "source/selection-controls-REVIEW.md",
+    "remote": "studies/reader-selection-controls/REVIEW.md",
+    "sha256": "7e3c165a66620a4d33524d1ce706273941e56e65af5fbe5c2fd8f858b5f5a118"
+  }
+]

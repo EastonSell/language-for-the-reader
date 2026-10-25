@@ -1,0 +1,86 @@
+[
+  {
+    "case_id": "C4b1ab72b2d5bd8",
+    "decision": "answerable",
+    "answer": "Yes. Navo's mesh means the whole filter assembly in the maze.",
+    "evidence": ["Navo's mesh means the whole filter assembly in the maze."],
+    "rationale": "The passage explicitly defines mesh as the whole filter assembly."
+  },
+  {
+    "case_id": "C51d45f0fb31993",
+    "decision": "answerable",
+    "answer": "Savo moving the axle precedes the mask opening during rehearsal.",
+    "evidence": ["Savo moves the axle before the mask opens during rehearsal."],
+    "rationale": "The passage explicitly states the temporal order, without establishing causation."
+  },
+  {
+    "case_id": "C68a1cf6900be5f",
+    "decision": "supported",
+    "answer": "The passage states that diffusion disperses dye through the liquid.",
+    "evidence": ["dye is dispersed through the liquid by diffusion."],
+    "rationale": "Dispersing dye through liquid entails spreading it through liquid."
+  },
+  {
+    "case_id": "Ccda17a8834d304",
+    "decision": "not_supported",
+    "answer": "The empty passage establishes nothing about the spring or gear.",
+    "evidence": [],
+    "rationale": "No passage facts support any part of the claim."
+  },
+  {
+    "case_id": "Cde8c546bcc3a8b",
+    "decision": "supported",
+    "answer": "Balance is checked only after the dock closes.",
+    "evidence": ["Balance is checked only after the dock closes."],
+    "rationale": "The passage states the entire claim verbatim."
+  },
+  {
+    "case_id": "C1906586f40fe3a",
+    "decision": "answerable",
+    "answer": "250 milliseconds.",
+    "evidence": ["Nira's signal lasts 250 milliseconds."],
+    "rationale": "The signal's duration is explicitly provided."
+  },
+  {
+    "case_id": "C376c32ba15880f",
+    "decision": "answerable",
+    "answer": "The sample must contain a spiral shell, although that does not require a baseline change.",
+    "evidence": ["Unless the sample contains a spiral shell, Tola does not change the baseline.", "Including one does not require a change."],
+    "rationale": "A spiral shell is explicitly necessary but not sufficient for a baseline change."
+  },
+  {
+    "case_id": "Caa15c3831824b0",
+    "decision": "unanswerable",
+    "answer": "The passage does not identify anything lower than the colored solution's surface.",
+    "evidence": [],
+    "rationale": "The passage is empty and provides no spatial facts."
+  },
+  {
+    "case_id": "Cfcf59e2f4940db",
+    "decision": "not_supported",
+    "answer": "The passage says evaporation is faster from the narrow tray, not the wide tray.",
+    "evidence": ["On Luma's ink terrace, evaporation is faster from the narrow tray than the wide tray."],
+    "rationale": "The claim reverses the passage's explicit comparison."
+  },
+  {
+    "case_id": "C3e4af672613be6",
+    "decision": "supported",
+    "answer": "The estimate may exceed baseline if the sample changes.",
+    "evidence": ["For Tola's shell game, the estimate may exceed baseline if the sample changes."],
+    "rationale": "The passage states the entire conditional possibility verbatim."
+  },
+  {
+    "case_id": "C7c960b5d4141fd",
+    "decision": "supported",
+    "answer": "A signal can appear only at readings above six marks; higher readings do not guarantee one.",
+    "evidence": ["A signal cannot appear at a reading of six marks or less; whether it appears at higher readings is not specified."],
+    "rationale": "The claim states a necessary condition, not a guarantee. Prohibiting a signal at six marks or less entails that any signal appears only above six."
+  },
+  {
+    "case_id": "C76053c78979d95",
+    "decision": "answerable",
+    "answer": "No. The pulley does not lift the counterweight today.",
+    "evidence": ["Today, the counterweight is not raised by the pulley."],
+    "rationale": "The passage explicitly negates the pulley raising the counterweight today."
+  }
+]

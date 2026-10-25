@@ -1,0 +1,39 @@
+{
+  "repository": "EastonSell/language-for-the-reader",
+  "commit": "fb85a2ef6ea8d11bd0e5f6a82a15b78d8caeda21",
+  "retrieved_utc": "2026-10-25T05:04:59Z",
+  "files": [
+    {
+      "path": "studies/reader-capacity-gate/evaluation/rubric.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "274f2762777ff2286442f84609bbaf5f004f31d8",
+      "size": 6944,
+      "url": "https://api.github.com/repos/EastonSell/language-for-the-reader/git/blobs/274f2762777ff2286442f84609bbaf5f004f31d8"
+    },
+    {
+      "path": "studies/reader-capacity-gate/evaluation/source-aware-packet.json",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "75b8a3b9cfe1094f72c8d6e15e6acd02219d46dc",
+      "size": 84145,
+      "url": "https://api.github.com/repos/EastonSell/language-for-the-reader/git/blobs/75b8a3b9cfe1094f72c8d6e15e6acd02219d46dc"
+    },
+    {
+      "path": "studies/reader-selection-controls/README.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "b0e972e19a8d9339a07604beedc316c2583c0c63",
+      "size": 11007,
+      "url": "https://api.github.com/repos/EastonSell/language-for-the-reader/git/blobs/b0e972e19a8d9339a07604beedc316c2583c0c63"
+    },
+    {
+      "path": "studies/reader-selection-controls/REVIEW.md",
+      "mode": "100644",
+      "type": "blob",
+      "sha": "215f6dd450902fa1ab80ce3ad1f27e8bd04028e0",
+      "size": 4225,
+      "url": "https://api.github.com/repos/EastonSell/language-for-the-reader/git/blobs/215f6dd450902fa1ab80ce3ad1f27e8bd04028e0"
+    }
+  ]
+}

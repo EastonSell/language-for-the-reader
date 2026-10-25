@@ -1,0 +1,618 @@
+[
+  {
+    "block_id": "B01",
+    "cases": [
+      {
+        "case_id": "Cc4836e9b79f6a0",
+        "passage": "Aven's ramp carries three paper kites toward the dock's painted edge. The pulley does not lift the counterweight today. Not all kite positions provide balance.",
+        "query": "The pulley does not lift the counterweight today.",
+        "task": "claim"
+      },
+      {
+        "case_id": "C25e2189be736f9",
+        "passage": "In Navo's glass maze, the filter separates large flakes from the liquid. The mesh is the netlike material inside it. Refraction bends light at glass, while dye is dispersed through the liquid by diffusion.",
+        "query": "What spreads dye through liquid?",
+        "task": "question"
+      },
+      {
+        "case_id": "C7d7347200b1a39",
+        "passage": "",
+        "query": "What drives one gear turn?",
+        "task": "question"
+      },
+      {
+        "case_id": "C7f0851d98c0ddd",
+        "passage": "On Luma's ink terrace, evaporation is faster from the narrow tray than the wide tray. Condensation collects above both trays. The solution stands left of the suspension.",
+        "query": "Which tray evaporates faster?",
+        "task": "question"
+      },
+      {
+        "case_id": "C9b4ed31a584bbc",
+        "passage": "Beside the bubble tube, the duration of Nira's signal is a quarter of a second. The threshold stays at four marks. The sensor records an interval of two seconds between the first two bubbles.",
+        "query": "Nira's signal lasts 250 milliseconds beside the bubble tube.",
+        "task": "claim"
+      },
+      {
+        "case_id": "Cc098462428c612",
+        "passage": "",
+        "query": "Savo moves the axle before the mask opens during rehearsal.",
+        "task": "claim"
+      },
+      {
+        "case_id": "Cb18e369b0e45bc",
+        "passage": "Luma's blue bead settles lower in the jar than the colored solution's surface. Evaporation removes more water from the uncovered cup. Condensation is heavier on the colder lid.",
+        "query": "Luma's suspension settles lower in the jar than the colored solution's surface.",
+        "task": "claim"
+      },
+      {
+        "case_id": "Cb557edcc76c322",
+        "passage": "Tola changes the baseline only if the sample includes a spiral shell. Including one does not require a change. The estimate concerns the color variable in tomorrow's round.",
+        "query": "Tola changes the baseline only if the sample includes a spiral shell.",
+        "task": "claim"
+      },
+      {
+        "case_id": "C51f6f6b59de60d",
+        "passage": "For Tola's shell game, the estimate may exceed baseline if the sample changes. The variable is the number of striped shells. The shells remain inside a square blue box.",
+        "query": "When might estimate exceed baseline?",
+        "task": "question"
+      },
+      {
+        "case_id": "C72b7c0d39cddcd",
+        "passage": "At Aven's kite dock, the counterweight is not attached to the red kite. The pulley hangs over the ramp. Balance is checked only after the dock closes.",
+        "query": "When is balance checked?",
+        "task": "question"
+      },
+      {
+        "case_id": "Ca392bb2c85f5fa",
+        "passage": "In the maze, Navo's mesh does not refer to the entire filter assembly. Diffusion is the dye's spreading process. Refraction is a change in light direction, not a change in dye position.",
+        "query": "Navo's mesh does not mean the whole filter assembly in the maze.",
+        "task": "claim"
+      },
+      {
+        "case_id": "C654326a0ef42fe",
+        "passage": "At Nira's bubble clock, the sensor records one bubble every eight seconds. The interval is measured in seconds. A signal cannot appear at a reading of six marks or less; whether it appears at higher readings is not specified.",
+        "query": "At what readings may a signal appear?",
+        "task": "question"
+      }
+    ]
+  },
+  {
+    "block_id": "B02",
+    "cases": [
+      {
+        "case_id": "C4b1ab72b2d5bd8",
+        "passage": "Navo's mesh means the whole filter assembly in the maze. Diffusion is the dye's spreading process. Refraction is a change in light direction, not a change in dye position.",
+        "query": "Does mesh mean the whole filter assembly?",
+        "task": "question"
+      },
+      {
+        "case_id": "C51d45f0fb31993",
+        "passage": "Savo moves the axle before the mask opens during rehearsal. That order alone does not establish what opened the mask. The gear and spring sit beside the fixed pivot.",
+        "query": "What precedes the mask opening?",
+        "task": "question"
+      },
+      {
+        "case_id": "C68a1cf6900be5f",
+        "passage": "In Navo's glass maze, the filter separates large flakes from the liquid. The mesh is the netlike material inside it. Refraction bends light at glass, while dye is dispersed through the liquid by diffusion.",
+        "query": "Diffusion spreads dye through liquid.",
+        "task": "claim"
+      },
+      {
+        "case_id": "Ccda17a8834d304",
+        "passage": "",
+        "query": "In Savo's mask automaton, the spring drives the gear through one turn.",
+        "task": "claim"
+      },
+      {
+        "case_id": "Cde8c546bcc3a8b",
+        "passage": "At Aven's kite dock, the counterweight is not attached to the red kite. The pulley hangs over the ramp. Balance is checked only after the dock closes.",
+        "query": "Balance is checked only after the dock closes.",
+        "task": "claim"
+      },
+      {
+        "case_id": "C1906586f40fe3a",
+        "passage": "Nira's signal lasts 250 milliseconds. The threshold stays at four marks. The sensor records an interval of two seconds between the first two bubbles.",
+        "query": "How long does the signal last?",
+        "task": "question"
+      },
+      {
+        "case_id": "C376c32ba15880f",
+        "passage": "Unless the sample contains a spiral shell, Tola does not change the baseline. Including one does not require a change. The estimate concerns the color variable in tomorrow's round.",
+        "query": "What is necessary for a baseline change?",
+        "task": "question"
+      },
+      {
+        "case_id": "Caa15c3831824b0",
+        "passage": "",
+        "query": "What is lower than the colored solution's surface?",
+        "task": "question"
+      },
+      {
+        "case_id": "Cfcf59e2f4940db",
+        "passage": "On Luma's ink terrace, evaporation is faster from the narrow tray than the wide tray. Condensation collects above both trays. The solution stands left of the suspension.",
+        "query": "On Luma's ink terrace, evaporation is faster from the wide tray than the narrow tray.",
+        "task": "claim"
+      },
+      {
+        "case_id": "C3e4af672613be6",
+        "passage": "For Tola's shell game, the estimate may exceed baseline if the sample changes. The variable is the number of striped shells. The shells remain inside a square blue box.",
+        "query": "For Tola's shell game, the estimate may exceed baseline if the sample changes.",
+        "task": "claim"
+      },
+      {
+        "case_id": "C7c960b5d4141fd",
+        "passage": "At Nira's bubble clock, the sensor records one bubble every eight seconds. The interval is measured in seconds. A signal cannot appear at a reading of six marks or less; whether it appears at higher readings is not specified.",
+        "query": "A signal appears only above a threshold of six marks.",
+        "task": "claim"
+      },
+      {
+        "case_id": "C76053c78979d95",
+        "passage": "Aven's ramp carries three paper kites toward the dock's painted edge. Today, the counterweight is not raised by the pulley. Not all kite positions provide balance.",
+        "query": "Does the pulley lift the counterweight today?",
+        "task": "question"
+      }
+    ]
+  },
+  {
+    "block_id": "B03",
+    "cases": [
+      {
+        "case_id": "C79cafe31128305",
+        "passage": "At Aven's kite dock, the counterweight is not attached to the red kite. The pulley hangs over the ramp. Balance checks take place after the dock has closed, and at no earlier time.",
+        "query": "When is balance checked?",
+        "task": "question"
+      },
+      {
+        "case_id": "C99ca100a162148",
+        "passage": "",
+        "query": "Which tray evaporates faster?",
+        "task": "question"
+      },
+      {
+        "case_id": "Cd195c7a13ea2e6",
+        "passage": "",
+        "query": "Luma's suspension settles lower in the jar than the colored solution's surface.",
+        "task": "claim"
+      },
+      {
+        "case_id": "C1ca727ee3bd72c",
+        "passage": "Savo moves the axle before the mask opens during rehearsal. That order alone does not establish what opened the mask. The gear and spring sit beside the fixed pivot.",
+        "query": "Savo moves the axle before the mask opens during rehearsal.",
+        "task": "claim"
+      },
+      {
+        "case_id": "C60911ebeb4cc13",
+        "passage": "In Navo's glass maze, the filter separates large flakes from the liquid. The mesh is the netlike material inside it. Refraction bends light at glass, while refraction spreads dye through liquid.",
+        "query": "What spreads dye through liquid?",
+        "task": "question"
+      },
+      {
+        "case_id": "C1d59646f0600ae",
+        "passage": "For Tola's shell game, it is possible for the estimate to be above baseline if the sample changes. The variable is the number of striped shells. The shells remain inside a square blue box.",
+        "query": "When might estimate exceed baseline?",
+        "task": "question"
+      },
+      {
+        "case_id": "Cbf7a0d7b63b6b5",
+        "passage": "At Nira's bubble clock, the sensor records one bubble every eight seconds. The interval is measured in seconds. A signal appears above a threshold of six marks.",
+        "query": "At what readings may a signal appear?",
+        "task": "question"
+      },
+      {
+        "case_id": "Cdea5961d58518b",
+        "passage": "Unless the sample contains a spiral shell, Tola does not change the baseline. Including one does not require a change. The estimate concerns the color variable in tomorrow's round.",
+        "query": "Tola changes the baseline only if the sample includes a spiral shell.",
+        "task": "claim"
+      },
+      {
+        "case_id": "Cf254cf116d3bf8",
+        "passage": "Navo's mesh means the whole filter assembly in the maze. Diffusion is the dye's spreading process. Refraction is a change in light direction, not a change in dye position.",
+        "query": "Navo's mesh does not mean the whole filter assembly in the maze.",
+        "task": "claim"
+      },
+      {
+        "case_id": "C161917b5f1c2b9",
+        "passage": "Aven's ramp carries three paper kites toward the dock's painted edge. Today, the counterweight is not raised by the pulley. Not all kite positions provide balance.",
+        "query": "The pulley does not lift the counterweight today.",
+        "task": "claim"
+      },
+      {
+        "case_id": "Ce858725221d0ed",
+        "passage": "Nira's signal lasts 250 milliseconds. The threshold stays at four marks. The sensor records an interval of two seconds between the first two bubbles.",
+        "query": "Nira's signal lasts 250 milliseconds beside the bubble tube.",
+        "task": "claim"
+      },
+      {
+        "case_id": "C62655d264522ff",
+        "passage": "In Savo's mask automaton, the spring drives the gear through one turn. The axle supports the painted face. The pivot clicks afterward, but the click's cause is untested.",
+        "query": "What drives one gear turn?",
+        "task": "question"
+      }
+    ]
+  },
+  {
+    "block_id": "B04",
+    "cases": [
+      {
+        "case_id": "Cdf41590a2e22df",
+        "passage": "In Savo's mask automaton, the spring drives the gear through one turn. The axle supports the painted face. The pivot clicks afterward, but the click's cause is untested.",
+        "query": "In Savo's mask automaton, the spring drives the gear through one turn.",
+        "task": "claim"
+      },
+      {
+        "case_id": "Cf7f67ccdb64f27",
+        "passage": "Luma's suspension settles lower in the jar than the colored solution's surface. Evaporation removes more water from the uncovered cup. Condensation is heavier on the colder lid.",
+        "query": "What is lower than the colored solution's surface?",
+        "task": "question"
+      },
+      {
+        "case_id": "C687b863f575c79",
+        "passage": "Tola changes the baseline only if the sample includes a striped shell. Including one does not require a change. The estimate concerns the color variable in tomorrow's round.",
+        "query": "What is necessary for a baseline change?",
+        "task": "question"
+      },
+      {
+        "case_id": "C9d9f3421c8b769",
+        "passage": "",
+        "query": "Does mesh mean the whole filter assembly?",
+        "task": "question"
+      },
+      {
+        "case_id": "C000a38c1ec62b8",
+        "passage": "",
+        "query": "How long does the signal last?",
+        "task": "question"
+      },
+      {
+        "case_id": "C08cd88e034dba6",
+        "passage": "",
+        "query": "On Luma's ink terrace, evaporation is faster from the wide tray than the narrow tray.",
+        "task": "claim"
+      },
+      {
+        "case_id": "C4d3739e8dbb873",
+        "passage": "At Aven's kite dock, the counterweight is not attached to the red kite. The pulley hangs over the ramp. Balance checks take place after the dock has closed, and at no earlier time.",
+        "query": "Balance is checked only after the dock closes.",
+        "task": "claim"
+      },
+      {
+        "case_id": "Ca8f56f6944bddd",
+        "passage": "In Navo's glass maze, the filter separates large flakes from the liquid. The mesh is the netlike material inside it. Refraction bends light at glass, while refraction spreads dye through liquid.",
+        "query": "Diffusion spreads dye through liquid.",
+        "task": "claim"
+      },
+      {
+        "case_id": "C5c3fb69b944fd1",
+        "passage": "For Tola's shell game, it is possible for the estimate to be above baseline if the sample changes. The variable is the number of striped shells. The shells remain inside a square blue box.",
+        "query": "For Tola's shell game, the estimate may exceed baseline if the sample changes.",
+        "task": "claim"
+      },
+      {
+        "case_id": "Caf15f16fc28742",
+        "passage": "Aven's ramp carries three paper kites toward the dock's painted edge. Yesterday, the pulley did not lift the counterweight. Not all kite positions provide balance.",
+        "query": "Does the pulley lift the counterweight today?",
+        "task": "question"
+      },
+      {
+        "case_id": "C8dd92c9982412b",
+        "passage": "During rehearsal, the mask opens after Savo has moved the axle. That order alone does not establish what opened the mask. The gear and spring sit beside the fixed pivot.",
+        "query": "What precedes the mask opening?",
+        "task": "question"
+      },
+      {
+        "case_id": "C74c25c22ea7809",
+        "passage": "At Nira's bubble clock, the sensor records one bubble every eight seconds. The interval is measured in seconds. A signal appears above a threshold of six marks.",
+        "query": "A signal appears only above a threshold of six marks.",
+        "task": "claim"
+      }
+    ]
+  },
+  {
+    "block_id": "B05",
+    "cases": [
+      {
+        "case_id": "C417cc724ecbd56",
+        "passage": "On Luma's ink terrace, evaporation is faster from the wide tray than the narrow tray. Condensation collects above both trays. The solution stands left of the suspension.",
+        "query": "Which tray evaporates faster?",
+        "task": "question"
+      },
+      {
+        "case_id": "C4fc254f95a5ef8",
+        "passage": "",
+        "query": "At what readings may a signal appear?",
+        "task": "question"
+      },
+      {
+        "case_id": "C9c69b11c69e362",
+        "passage": "",
+        "query": "Nira's signal lasts 250 milliseconds beside the bubble tube.",
+        "task": "claim"
+      },
+      {
+        "case_id": "C19df92761abcab",
+        "passage": "Aven's ramp carries three paper kites toward the dock's painted edge. Yesterday, the pulley did not lift the counterweight. Not all kite positions provide balance.",
+        "query": "The pulley does not lift the counterweight today.",
+        "task": "claim"
+      },
+      {
+        "case_id": "Ce3230f615a1222",
+        "passage": "At Aven's kite dock, the counterweight is not attached to the red kite. The pulley hangs over the ramp. Balance is checked after the dock closes.",
+        "query": "When is balance checked?",
+        "task": "question"
+      },
+      {
+        "case_id": "Cece5c6460d3ff9",
+        "passage": "In Savo's mask automaton, one full revolution of the gear is driven by the spring. The axle supports the painted face. The pivot clicks afterward, but the click's cause is untested.",
+        "query": "What drives one gear turn?",
+        "task": "question"
+      },
+      {
+        "case_id": "C1445a5353d58ce",
+        "passage": "During rehearsal, the mask opens after Savo has moved the axle. That order alone does not establish what opened the mask. The gear and spring sit beside the fixed pivot.",
+        "query": "Savo moves the axle before the mask opens during rehearsal.",
+        "task": "claim"
+      },
+      {
+        "case_id": "C637c6f82aa5b73",
+        "passage": "",
+        "query": "Navo's mesh does not mean the whole filter assembly in the maze.",
+        "task": "claim"
+      },
+      {
+        "case_id": "C744e9d1200ff57",
+        "passage": "",
+        "query": "What spreads dye through liquid?",
+        "task": "question"
+      },
+      {
+        "case_id": "Ce810d89a5fb2c8",
+        "passage": "Luma's suspension settles lower in the jar than the colored solution's surface. Evaporation removes more water from the uncovered cup. Condensation is heavier on the colder lid.",
+        "query": "Luma's suspension settles lower in the jar than the colored solution's surface.",
+        "task": "claim"
+      },
+      {
+        "case_id": "C55aea26b6c4489",
+        "passage": "For Tola's shell game, the estimate may exceed baseline if the box opens. The variable is the number of striped shells. The shells remain inside a square blue box.",
+        "query": "When might estimate exceed baseline?",
+        "task": "question"
+      },
+      {
+        "case_id": "Cefc4e19918b6bd",
+        "passage": "Tola changes the baseline only if the sample includes a striped shell. Including one does not require a change. The estimate concerns the color variable in tomorrow's round.",
+        "query": "Tola changes the baseline only if the sample includes a spiral shell.",
+        "task": "claim"
+      }
+    ]
+  },
+  {
+    "block_id": "B06",
+    "cases": [
+      {
+        "case_id": "C860c9ffe37181d",
+        "passage": "",
+        "query": "Does the pulley lift the counterweight today?",
+        "task": "question"
+      },
+      {
+        "case_id": "C9db081702e7084",
+        "passage": "",
+        "query": "What is necessary for a baseline change?",
+        "task": "question"
+      },
+      {
+        "case_id": "C7d4c5938076282",
+        "passage": "",
+        "query": "A signal appears only above a threshold of six marks.",
+        "task": "claim"
+      },
+      {
+        "case_id": "C07f8bc7c427dba",
+        "passage": "Navo's mesh does not mean the whole filter assembly in the maze. Diffusion is the dye's spreading process. Refraction is a change in light direction, not a change in dye position.",
+        "query": "Does mesh mean the whole filter assembly?",
+        "task": "question"
+      },
+      {
+        "case_id": "C11172c31197ebb",
+        "passage": "Savo moves the axle before the mask opens. That order alone does not establish what opened the mask. The gear and spring sit beside the fixed pivot.",
+        "query": "What precedes the mask opening?",
+        "task": "question"
+      },
+      {
+        "case_id": "Ccf1181722bf23d",
+        "passage": "",
+        "query": "Diffusion spreads dye through liquid.",
+        "task": "claim"
+      },
+      {
+        "case_id": "Cddb1d2f9692af1",
+        "passage": "On Luma's ink terrace, evaporation is faster from the wide tray than the narrow tray. Condensation collects above both trays. The solution stands left of the suspension.",
+        "query": "On Luma's ink terrace, evaporation is faster from the wide tray than the narrow tray.",
+        "task": "claim"
+      },
+      {
+        "case_id": "C5349374d498709",
+        "passage": "In Savo's mask automaton, one full revolution of the gear is driven by the spring. The axle supports the painted face. The pivot clicks afterward, but the click's cause is untested.",
+        "query": "In Savo's mask automaton, the spring drives the gear through one turn.",
+        "task": "claim"
+      },
+      {
+        "case_id": "Cca4efc1e0c1670",
+        "passage": "Nira's signal lasts 250 milliseconds beside the bubble tube. The threshold stays at four marks. The sensor records an interval of two seconds between the first two bubbles.",
+        "query": "How long does the signal last?",
+        "task": "question"
+      },
+      {
+        "case_id": "C4996ae90264b21",
+        "passage": "In the jar, Luma's settled suspension lies beneath the colored solution's surface. Evaporation removes more water from the uncovered cup. Condensation is heavier on the colder lid.",
+        "query": "What is lower than the colored solution's surface?",
+        "task": "question"
+      },
+      {
+        "case_id": "Cf1c99ccc723d97",
+        "passage": "For Tola's shell game, the estimate may exceed baseline if the box opens. The variable is the number of striped shells. The shells remain inside a square blue box.",
+        "query": "For Tola's shell game, the estimate may exceed baseline if the sample changes.",
+        "task": "claim"
+      },
+      {
+        "case_id": "Cc2498c55ef4fc0",
+        "passage": "At Aven's kite dock, the counterweight is not attached to the red kite. The pulley hangs over the ramp. Balance is checked after the dock closes.",
+        "query": "Balance is checked only after the dock closes.",
+        "task": "claim"
+      }
+    ]
+  },
+  {
+    "block_id": "B07",
+    "cases": [
+      {
+        "case_id": "C782215bbb8900f",
+        "passage": "In the jar, Luma's settled suspension lies beneath the colored solution's surface. Evaporation removes more water from the uncovered cup. Condensation is heavier on the colder lid.",
+        "query": "Luma's suspension settles lower in the jar than the colored solution's surface.",
+        "task": "claim"
+      },
+      {
+        "case_id": "C89f6858de2f3f1",
+        "passage": "Nira's signal lasts 250 milliseconds beside the bubble tube. The threshold stays at four marks. The sensor records an interval of two seconds between the first two bubbles.",
+        "query": "Nira's signal lasts 250 milliseconds beside the bubble tube.",
+        "task": "claim"
+      },
+      {
+        "case_id": "C4c11fa1ea4bcc3",
+        "passage": "",
+        "query": "When is balance checked?",
+        "task": "question"
+      },
+      {
+        "case_id": "C419108d5f37527",
+        "passage": "",
+        "query": "When might estimate exceed baseline?",
+        "task": "question"
+      },
+      {
+        "case_id": "C7064f85fb390b5",
+        "passage": "",
+        "query": "Tola changes the baseline only if the sample includes a spiral shell.",
+        "task": "claim"
+      },
+      {
+        "case_id": "C52c70725773265",
+        "passage": "",
+        "query": "The pulley does not lift the counterweight today.",
+        "task": "claim"
+      },
+      {
+        "case_id": "C93ca82c13251d8",
+        "passage": "Savo moves the axle before the mask opens. That order alone does not establish what opened the mask. The gear and spring sit beside the fixed pivot.",
+        "query": "Savo moves the axle before the mask opens during rehearsal.",
+        "task": "claim"
+      },
+      {
+        "case_id": "Ccb2eecf3cc8a99",
+        "passage": "Navo's mesh does not mean the whole filter assembly in the maze. Diffusion is the dye's spreading process. Refraction is a change in light direction, not a change in dye position.",
+        "query": "Navo's mesh does not mean the whole filter assembly in the maze.",
+        "task": "claim"
+      },
+      {
+        "case_id": "C37d2a85d0a51f2",
+        "passage": "In Navo's glass maze, the filter separates large flakes from the liquid. The mesh is the netlike material inside it. Refraction bends light at glass, while diffusion spreads dye through liquid.",
+        "query": "What spreads dye through liquid?",
+        "task": "question"
+      },
+      {
+        "case_id": "Cf7ed6cd44bbef1",
+        "passage": "At Nira's bubble clock, the sensor records one bubble every eight seconds. The interval is measured in seconds. A signal appears only above a threshold of six marks.",
+        "query": "At what readings may a signal appear?",
+        "task": "question"
+      },
+      {
+        "case_id": "Ca72c8a36675eff",
+        "passage": "In Savo's mask automaton, the spring drives the gear. The axle supports the painted face. The pivot clicks afterward, but the click's cause is untested.",
+        "query": "What drives one gear turn?",
+        "task": "question"
+      },
+      {
+        "case_id": "Ca7eb56664a4c44",
+        "passage": "On Luma's ink terrace, the narrow tray's evaporation is slower than the wide tray's. Condensation collects above both trays. The solution stands left of the suspension.",
+        "query": "Which tray evaporates faster?",
+        "task": "question"
+      }
+    ]
+  },
+  {
+    "block_id": "B08",
+    "cases": [
+      {
+        "case_id": "C101aba9cb14331",
+        "passage": "",
+        "query": "For Tola's shell game, the estimate may exceed baseline if the sample changes.",
+        "task": "claim"
+      },
+      {
+        "case_id": "C472ec521cc5eb3",
+        "passage": "",
+        "query": "What precedes the mask opening?",
+        "task": "question"
+      },
+      {
+        "case_id": "C071bb0bd394c36",
+        "passage": "",
+        "query": "Balance is checked only after the dock closes.",
+        "task": "claim"
+      },
+      {
+        "case_id": "C94e235dfbbff77",
+        "passage": "In the maze, Navo's mesh does not refer to the entire filter assembly. Diffusion is the dye's spreading process. Refraction is a change in light direction, not a change in dye position.",
+        "query": "Does mesh mean the whole filter assembly?",
+        "task": "question"
+      },
+      {
+        "case_id": "C6930c3e3b70d79",
+        "passage": "Luma's blue bead settles lower in the jar than the colored solution's surface. Evaporation removes more water from the uncovered cup. Condensation is heavier on the colder lid.",
+        "query": "What is lower than the colored solution's surface?",
+        "task": "question"
+      },
+      {
+        "case_id": "Ce85586598d8e49",
+        "passage": "Beside the bubble tube, the duration of Nira's signal is a quarter of a second. The threshold stays at four marks. The sensor records an interval of two seconds between the first two bubbles.",
+        "query": "How long does the signal last?",
+        "task": "question"
+      },
+      {
+        "case_id": "C2d8779990c83b7",
+        "passage": "At Nira's bubble clock, the sensor records one bubble every eight seconds. The interval is measured in seconds. A signal appears only above a threshold of six marks.",
+        "query": "A signal appears only above a threshold of six marks.",
+        "task": "claim"
+      },
+      {
+        "case_id": "C9d28a46b3f7e1c",
+        "passage": "Tola changes the baseline only if the sample includes a spiral shell. Including one does not require a change. The estimate concerns the color variable in tomorrow's round.",
+        "query": "What is necessary for a baseline change?",
+        "task": "question"
+      },
+      {
+        "case_id": "C64fc24c5955a10",
+        "passage": "Aven's ramp carries three paper kites toward the dock's painted edge. The pulley does not lift the counterweight today. Not all kite positions provide balance.",
+        "query": "Does the pulley lift the counterweight today?",
+        "task": "question"
+      },
+      {
+        "case_id": "C21ff236487c07d",
+        "passage": "On Luma's ink terrace, the narrow tray's evaporation is slower than the wide tray's. Condensation collects above both trays. The solution stands left of the suspension.",
+        "query": "On Luma's ink terrace, evaporation is faster from the wide tray than the narrow tray.",
+        "task": "claim"
+      },
+      {
+        "case_id": "C19c567ed6758e5",
+        "passage": "In Navo's glass maze, the filter separates large flakes from the liquid. The mesh is the netlike material inside it. Refraction bends light at glass, while diffusion spreads dye through liquid.",
+        "query": "Diffusion spreads dye through liquid.",
+        "task": "claim"
+      },
+      {
+        "case_id": "C932376557e930e",
+        "passage": "In Savo's mask automaton, the spring drives the gear. The axle supports the painted face. The pivot clicks afterward, but the click's cause is untested.",
+        "query": "In Savo's mask automaton, the spring drives the gear through one turn.",
+        "task": "claim"
+      }
+    ]
+  }
+]

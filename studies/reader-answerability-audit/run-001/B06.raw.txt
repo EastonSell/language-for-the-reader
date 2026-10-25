@@ -1,0 +1,102 @@
+[
+  {
+    "case_id": "C860c9ffe37181d",
+    "decision": "unanswerable",
+    "answer": "The passage does not establish whether the pulley lifts the counterweight today.",
+    "evidence": [],
+    "rationale": "The passage is empty and supplies no facts."
+  },
+  {
+    "case_id": "C9db081702e7084",
+    "decision": "unanswerable",
+    "answer": "The passage does not identify anything necessary for a baseline change.",
+    "evidence": [],
+    "rationale": "The passage is empty and supplies no facts."
+  },
+  {
+    "case_id": "C7d4c5938076282",
+    "decision": "not_supported",
+    "answer": "The signal's threshold and appearance conditions are not established.",
+    "evidence": [],
+    "rationale": "An empty passage cannot support the claim."
+  },
+  {
+    "case_id": "C07f8bc7c427dba",
+    "decision": "answerable",
+    "answer": "No. Navo's mesh does not mean the whole filter assembly.",
+    "evidence": [
+      "Navo's mesh does not mean the whole filter assembly in the maze."
+    ],
+    "rationale": "The passage explicitly denies that mesh means the whole filter assembly."
+  },
+  {
+    "case_id": "C11172c31197ebb",
+    "decision": "answerable",
+    "answer": "Savo moving the axle precedes the mask opening.",
+    "evidence": [
+      "Savo moves the axle before the mask opens."
+    ],
+    "rationale": "The passage explicitly establishes this temporal order, without establishing causation."
+  },
+  {
+    "case_id": "Ccf1181722bf23d",
+    "decision": "not_supported",
+    "answer": "The passage does not establish that diffusion spreads dye through liquid.",
+    "evidence": [],
+    "rationale": "An empty passage cannot support the claim."
+  },
+  {
+    "case_id": "Cddb1d2f9692af1",
+    "decision": "supported",
+    "answer": "Evaporation is faster from the wide tray than the narrow tray on Luma's ink terrace.",
+    "evidence": [
+      "On Luma's ink terrace, evaporation is faster from the wide tray than the narrow tray."
+    ],
+    "rationale": "The passage explicitly states the entire claim."
+  },
+  {
+    "case_id": "C5349374d498709",
+    "decision": "supported",
+    "answer": "The spring drives the gear through one full turn in Savo's mask automaton.",
+    "evidence": [
+      "In Savo's mask automaton, one full revolution of the gear is driven by the spring."
+    ],
+    "rationale": "One full revolution means one turn, and the passage identifies the spring as its driver."
+  },
+  {
+    "case_id": "Cca4efc1e0c1670",
+    "decision": "answerable",
+    "answer": "250 milliseconds.",
+    "evidence": [
+      "Nira's signal lasts 250 milliseconds beside the bubble tube."
+    ],
+    "rationale": "The passage explicitly gives the signal's duration."
+  },
+  {
+    "case_id": "C4996ae90264b21",
+    "decision": "answerable",
+    "answer": "Luma's settled suspension is lower than the colored solution's surface.",
+    "evidence": [
+      "In the jar, Luma's settled suspension lies beneath the colored solution's surface."
+    ],
+    "rationale": "The passage directly identifies what lies beneath the surface."
+  },
+  {
+    "case_id": "Cf1c99ccc723d97",
+    "decision": "not_supported",
+    "answer": "The stated condition is that the box opens, not that the sample changes.",
+    "evidence": [
+      "For Tola's shell game, the estimate may exceed baseline if the box opens."
+    ],
+    "rationale": "The passage does not establish the claimed condition involving a sample change."
+  },
+  {
+    "case_id": "Cc2498c55ef4fc0",
+    "decision": "not_supported",
+    "answer": "Balance is checked after the dock closes, but the passage does not say checks occur only then.",
+    "evidence": [
+      "Balance is checked after the dock closes."
+    ],
+    "rationale": "The passage establishes an after-closing check without excluding checks before closing."
+  }
+]

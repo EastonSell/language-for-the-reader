@@ -1,0 +1,2742 @@
+[
+  {
+    "glossary": {
+      "balance": {
+        "concept_id": "balance",
+        "definition": "a state with opposing effects evenly matched",
+        "domain": "mechanics",
+        "held_out": false,
+        "term": "balance"
+      },
+      "counterweight": {
+        "concept_id": "counterweight",
+        "definition": "a weight used to offset another load",
+        "domain": "mechanics",
+        "held_out": false,
+        "term": "counterweight"
+      },
+      "pulley": {
+        "concept_id": "pulley",
+        "definition": "a grooved wheel that guides a cord",
+        "domain": "mechanics",
+        "held_out": false,
+        "term": "pulley"
+      },
+      "ramp": {
+        "concept_id": "ramp",
+        "definition": "a sloping surface joining different heights",
+        "domain": "mechanics",
+        "held_out": false,
+        "term": "ramp"
+      }
+    },
+    "output_id": "O001",
+    "profile": {
+      "knowledge_bits": {
+        "balance": 1,
+        "counterweight": 1,
+        "pulley": 0,
+        "ramp": 0
+      },
+      "known_concept_ids": [
+        "counterweight",
+        "balance"
+      ],
+      "known_meanings": [
+        {
+          "concept_id": "counterweight",
+          "meaning": "a weight used to offset another load"
+        },
+        {
+          "concept_id": "balance",
+          "meaning": "a state with opposing effects evenly matched"
+        }
+      ],
+      "profile_id": "kite_dock-01-A",
+      "unknown_concept_ids": [
+        "ramp",
+        "pulley"
+      ]
+    },
+    "profile_id": "kite_dock-01-A",
+    "proposition_ids": [
+      "kite_dock-01-p1",
+      "kite_dock-01-p2",
+      "kite_dock-01-p3"
+    ],
+    "propositions": [
+      {
+        "acceptable_alternatives": [],
+        "expected_answer": "No, at Aven's kite dock it is not.",
+        "proposition_id": "kite_dock-01-p1",
+        "question": "Is the counterweight attached to the red kite?",
+        "required": true,
+        "source_evidence": {
+          "end": 71,
+          "start": 0,
+          "text": "At Aven's kite dock, the counterweight is not attached to the red kite."
+        },
+        "statement": "At Aven's kite dock, the counterweight is not attached to the red kite."
+      },
+      {
+        "acceptable_alternatives": [],
+        "expected_answer": "Over the ramp.",
+        "proposition_id": "kite_dock-01-p2",
+        "question": "Where does the pulley hang?",
+        "required": true,
+        "source_evidence": {
+          "end": 103,
+          "start": 72,
+          "text": "The pulley hangs over the ramp."
+        },
+        "statement": "The pulley hangs over the ramp."
+      },
+      {
+        "acceptable_alternatives": [],
+        "expected_answer": "Only after the dock closes.",
+        "proposition_id": "kite_dock-01-p3",
+        "question": "When is balance checked?",
+        "required": true,
+        "source_evidence": {
+          "end": 150,
+          "start": 104,
+          "text": "Balance is checked only after the dock closes."
+        },
+        "statement": "Balance is checked only after the dock closes."
+      }
+    ],
+    "source": "At Aven's kite dock, the counterweight is not attached to the red kite. The pulley hangs over the ramp. Balance is checked only after the dock closes.",
+    "source_id": "kite_dock-01",
+    "unknown_concept_ids": [
+      "ramp",
+      "pulley"
+    ]
+  },
+  {
+    "glossary": {
+      "balance": {
+        "concept_id": "balance",
+        "definition": "a state with opposing effects evenly matched",
+        "domain": "mechanics",
+        "held_out": false,
+        "term": "balance"
+      },
+      "counterweight": {
+        "concept_id": "counterweight",
+        "definition": "a weight used to offset another load",
+        "domain": "mechanics",
+        "held_out": false,
+        "term": "counterweight"
+      },
+      "pulley": {
+        "concept_id": "pulley",
+        "definition": "a grooved wheel that guides a cord",
+        "domain": "mechanics",
+        "held_out": false,
+        "term": "pulley"
+      },
+      "ramp": {
+        "concept_id": "ramp",
+        "definition": "a sloping surface joining different heights",
+        "domain": "mechanics",
+        "held_out": false,
+        "term": "ramp"
+      }
+    },
+    "output_id": "O002",
+    "profile": {
+      "knowledge_bits": {
+        "balance": 0,
+        "counterweight": 0,
+        "pulley": 1,
+        "ramp": 1
+      },
+      "known_concept_ids": [
+        "ramp",
+        "pulley"
+      ],
+      "known_meanings": [
+        {
+          "concept_id": "ramp",
+          "meaning": "a sloping surface joining different heights"
+        },
+        {
+          "concept_id": "pulley",
+          "meaning": "a grooved wheel that guides a cord"
+        }
+      ],
+      "profile_id": "kite_dock-01-B",
+      "unknown_concept_ids": [
+        "counterweight",
+        "balance"
+      ]
+    },
+    "profile_id": "kite_dock-01-B",
+    "proposition_ids": [
+      "kite_dock-01-p1",
+      "kite_dock-01-p2",
+      "kite_dock-01-p3"
+    ],
+    "propositions": [
+      {
+        "acceptable_alternatives": [],
+        "expected_answer": "No, at Aven's kite dock it is not.",
+        "proposition_id": "kite_dock-01-p1",
+        "question": "Is the counterweight attached to the red kite?",
+        "required": true,
+        "source_evidence": {
+          "end": 71,
+          "start": 0,
+          "text": "At Aven's kite dock, the counterweight is not attached to the red kite."
+        },
+        "statement": "At Aven's kite dock, the counterweight is not attached to the red kite."
+      },
+      {
+        "acceptable_alternatives": [],
+        "expected_answer": "Over the ramp.",
+        "proposition_id": "kite_dock-01-p2",
+        "question": "Where does the pulley hang?",
+        "required": true,
+        "source_evidence": {
+          "end": 103,
+          "start": 72,
+          "text": "The pulley hangs over the ramp."
+        },
+        "statement": "The pulley hangs over the ramp."
+      },
+      {
+        "acceptable_alternatives": [],
+        "expected_answer": "Only after the dock closes.",
+        "proposition_id": "kite_dock-01-p3",
+        "question": "When is balance checked?",
+        "required": true,
+        "source_evidence": {
+          "end": 150,
+          "start": 104,
+          "text": "Balance is checked only after the dock closes."
+        },
+        "statement": "Balance is checked only after the dock closes."
+      }
+    ],
+    "source": "At Aven's kite dock, the counterweight is not attached to the red kite. The pulley hangs over the ramp. Balance is checked only after the dock closes.",
+    "source_id": "kite_dock-01",
+    "unknown_concept_ids": [
+      "counterweight",
+      "balance"
+    ]
+  },
+  {
+    "glossary": {
+      "balance": {
+        "concept_id": "balance",
+        "definition": "a state with opposing effects evenly matched",
+        "domain": "mechanics",
+        "held_out": false,
+        "term": "balance"
+      },
+      "counterweight": {
+        "concept_id": "counterweight",
+        "definition": "a weight used to offset another load",
+        "domain": "mechanics",
+        "held_out": false,
+        "term": "counterweight"
+      },
+      "pulley": {
+        "concept_id": "pulley",
+        "definition": "a grooved wheel that guides a cord",
+        "domain": "mechanics",
+        "held_out": false,
+        "term": "pulley"
+      },
+      "ramp": {
+        "concept_id": "ramp",
+        "definition": "a sloping surface joining different heights",
+        "domain": "mechanics",
+        "held_out": false,
+        "term": "ramp"
+      }
+    },
+    "output_id": "O003",
+    "profile": {
+      "knowledge_bits": {
+        "balance": 1,
+        "counterweight": 1,
+        "pulley": 0,
+        "ramp": 0
+      },
+      "known_concept_ids": [
+        "balance",
+        "counterweight"
+      ],
+      "known_meanings": [
+        {
+          "concept_id": "balance",
+          "meaning": "a state with opposing effects evenly matched"
+        },
+        {
+          "concept_id": "counterweight",
+          "meaning": "a weight used to offset another load"
+        }
+      ],
+      "profile_id": "kite_dock-02-A",
+      "unknown_concept_ids": [
+        "pulley",
+        "ramp"
+      ]
+    },
+    "profile_id": "kite_dock-02-A",
+    "proposition_ids": [
+      "kite_dock-02-p1",
+      "kite_dock-02-p2",
+      "kite_dock-02-p3"
+    ],
+    "propositions": [
+      {
+        "acceptable_alternatives": [],
+        "expected_answer": "Three paper kites toward the dock's painted edge.",
+        "proposition_id": "kite_dock-02-p1",
+        "question": "What does the ramp carry and where?",
+        "required": true,
+        "source_evidence": {
+          "end": 69,
+          "start": 0,
+          "text": "Aven's ramp carries three paper kites toward the dock's painted edge."
+        },
+        "statement": "Aven's ramp carries three paper kites toward the dock's painted edge."
+      },
+      {
+        "acceptable_alternatives": [],
+        "expected_answer": "No.",
+        "proposition_id": "kite_dock-02-p2",
+        "question": "Does the pulley lift the counterweight today?",
+        "required": true,
+        "source_evidence": {
+          "end": 119,
+          "start": 70,
+          "text": "The pulley does not lift the counterweight today."
+        },
+        "statement": "The pulley does not lift the counterweight today."
+      },
+      {
+        "acceptable_alternatives": [],
+        "expected_answer": "No; this does not say that none do.",
+        "proposition_id": "kite_dock-02-p3",
+        "question": "Do all kite positions provide balance?",
+        "required": true,
+        "source_evidence": {
+          "end": 159,
+          "start": 120,
+          "text": "Not all kite positions provide balance."
+        },
+        "statement": "Not all kite positions provide balance."
+      }
+    ],
+    "source": "Aven's ramp carries three paper kites toward the dock's painted edge. The pulley does not lift the counterweight today. Not all kite positions provide balance.",
+    "source_id": "kite_dock-02",
+    "unknown_concept_ids": [
+      "pulley",
+      "ramp"
+    ]
+  },
+  {
+    "glossary": {
+      "balance": {
+        "concept_id": "balance",
+        "definition": "a state with opposing effects evenly matched",
+        "domain": "mechanics",
+        "held_out": false,
+        "term": "balance"
+      },
+      "counterweight": {
+        "concept_id": "counterweight",
+        "definition": "a weight used to offset another load",
+        "domain": "mechanics",
+        "held_out": false,
+        "term": "counterweight"
+      },
+      "pulley": {
+        "concept_id": "pulley",
+        "definition": "a grooved wheel that guides a cord",
+        "domain": "mechanics",
+        "held_out": false,
+        "term": "pulley"
+      },
+      "ramp": {
+        "concept_id": "ramp",
+        "definition": "a sloping surface joining different heights",
+        "domain": "mechanics",
+        "held_out": false,
+        "term": "ramp"
+      }
+    },
+    "output_id": "O004",
+    "profile": {
+      "knowledge_bits": {
+        "balance": 0,
+        "counterweight": 0,
+        "pulley": 1,
+        "ramp": 1
+      },
+      "known_concept_ids": [
+        "ramp",
+        "pulley"
+      ],
+      "known_meanings": [
+        {
+          "concept_id": "ramp",
+          "meaning": "a sloping surface joining different heights"
+        },
+        {
+          "concept_id": "pulley",
+          "meaning": "a grooved wheel that guides a cord"
+        }
+      ],
+      "profile_id": "kite_dock-02-B",
+      "unknown_concept_ids": [
+        "counterweight",
+        "balance"
+      ]
+    },
+    "profile_id": "kite_dock-02-B",
+    "proposition_ids": [
+      "kite_dock-02-p1",
+      "kite_dock-02-p2",
+      "kite_dock-02-p3"
+    ],
+    "propositions": [
+      {
+        "acceptable_alternatives": [],
+        "expected_answer": "Three paper kites toward the dock's painted edge.",
+        "proposition_id": "kite_dock-02-p1",
+        "question": "What does the ramp carry and where?",
+        "required": true,
+        "source_evidence": {
+          "end": 69,
+          "start": 0,
+          "text": "Aven's ramp carries three paper kites toward the dock's painted edge."
+        },
+        "statement": "Aven's ramp carries three paper kites toward the dock's painted edge."
+      },
+      {
+        "acceptable_alternatives": [],
+        "expected_answer": "No.",
+        "proposition_id": "kite_dock-02-p2",
+        "question": "Does the pulley lift the counterweight today?",
+        "required": true,
+        "source_evidence": {
+          "end": 119,
+          "start": 70,
+          "text": "The pulley does not lift the counterweight today."
+        },
+        "statement": "The pulley does not lift the counterweight today."
+      },
+      {
+        "acceptable_alternatives": [],
+        "expected_answer": "No; this does not say that none do.",
+        "proposition_id": "kite_dock-02-p3",
+        "question": "Do all kite positions provide balance?",
+        "required": true,
+        "source_evidence": {
+          "end": 159,
+          "start": 120,
+          "text": "Not all kite positions provide balance."
+        },
+        "statement": "Not all kite positions provide balance."
+      }
+    ],
+    "source": "Aven's ramp carries three paper kites toward the dock's painted edge. The pulley does not lift the counterweight today. Not all kite positions provide balance.",
+    "source_id": "kite_dock-02",
+    "unknown_concept_ids": [
+      "counterweight",
+      "balance"
+    ]
+  },
+  {
+    "glossary": {
+      "interval": {
+        "concept_id": "interval",
+        "definition": "a gap between two stated times or values",
+        "domain": "measurement",
+        "held_out": false,
+        "term": "interval"
+      },
+      "sensor": {
+        "concept_id": "sensor",
+        "definition": "a device that detects a physical condition",
+        "domain": "measurement",
+        "held_out": false,
+        "term": "sensor"
+      },
+      "signal": {
+        "concept_id": "signal",
+        "definition": "a message or change that carries information",
+        "domain": "measurement",
+        "held_out": false,
+        "term": "signal"
+      },
+      "threshold": {
+        "concept_id": "threshold",
+        "definition": "a specified boundary value for a response",
+        "domain": "measurement",
+        "held_out": false,
+        "term": "threshold"
+      }
+    },
+    "output_id": "O005",
+    "profile": {
+      "knowledge_bits": {
+        "interval": 1,
+        "sensor": 1,
+        "signal": 0,
+        "threshold": 0
+      },
+      "known_concept_ids": [
+        "sensor",
+        "interval"
+      ],
+      "known_meanings": [
+        {
+          "concept_id": "sensor",
+          "meaning": "a device that detects a physical condition"
+        },
+        {
+          "concept_id": "interval",
+          "meaning": "a gap between two stated times or values"
+        }
+      ],
+      "profile_id": "bubble_clock-01-A",
+      "unknown_concept_ids": [
+        "signal",
+        "threshold"
+      ]
+    },
+    "profile_id": "bubble_clock-01-A",
+    "proposition_ids": [
+      "bubble_clock-01-p1",
+      "bubble_clock-01-p2",
+      "bubble_clock-01-p3"
+    ],
+    "propositions": [
+      {
+        "acceptable_alternatives": [],
+        "expected_answer": "Every eight seconds at Nira's bubble clock.",
+        "proposition_id": "bubble_clock-01-p1",
+        "question": "How often does the sensor record a bubble?",
+        "required": true,
+        "source_evidence": {
+          "end": 74,
+          "start": 0,
+          "text": "At Nira's bubble clock, the sensor records one bubble every eight seconds."
+        },
+        "statement": "At Nira's bubble clock, the sensor records one bubble every eight seconds."
+      },
+      {
+        "acceptable_alternatives": [],
+        "expected_answer": "Seconds.",
+        "proposition_id": "bubble_clock-01-p2",
+        "question": "What units measure the interval?",
+        "required": true,
+        "source_evidence": {
+          "end": 111,
+          "start": 75,
+          "text": "The interval is measured in seconds."
+        },
+        "statement": "The interval is measured in seconds."
+      },
+      {
+        "acceptable_alternatives": [],
+        "expected_answer": "Only above six marks; equality is excluded and sufficiency unstated.",
+        "proposition_id": "bubble_clock-01-p3",
+        "question": "At what readings may a signal appear?",
+        "required": true,
+        "source_evidence": {
+          "end": 165,
+          "start": 112,
+          "text": "A signal appears only above a threshold of six marks."
+        },
+        "statement": "A signal appears only above a threshold of six marks."
+      }
+    ],
+    "source": "At Nira's bubble clock, the sensor records one bubble every eight seconds. The interval is measured in seconds. A signal appears only above a threshold of six marks.",
+    "source_id": "bubble_clock-01",
+    "unknown_concept_ids": [
+      "signal",
+      "threshold"
+    ]
+  },
+  {
+    "glossary": {
+      "interval": {
+        "concept_id": "interval",
+        "definition": "a gap between two stated times or values",
+        "domain": "measurement",
+        "held_out": false,
+        "term": "interval"
+      },
+      "sensor": {
+        "concept_id": "sensor",
+        "definition": "a device that detects a physical condition",
+        "domain": "measurement",
+        "held_out": false,
+        "term": "sensor"
+      },
+      "signal": {
+        "concept_id": "signal",
+        "definition": "a message or change that carries information",
+        "domain": "measurement",
+        "held_out": false,
+        "term": "signal"
+      },
+      "threshold": {
+        "concept_id": "threshold",
+        "definition": "a specified boundary value for a response",
+        "domain": "measurement",
+        "held_out": false,
+        "term": "threshold"
+      }
+    },
+    "output_id": "O006",
+    "profile": {
+      "knowledge_bits": {
+        "interval": 0,
+        "sensor": 0,
+        "signal": 1,
+        "threshold": 1
+      },
+      "known_concept_ids": [
+        "signal",
+        "threshold"
+      ],
+      "known_meanings": [
+        {
+          "concept_id": "signal",
+          "meaning": "a message or change that carries information"
+        },
+        {
+          "concept_id": "threshold",
+          "meaning": "a specified boundary value for a response"
+        }
+      ],
+      "profile_id": "bubble_clock-01-B",
+      "unknown_concept_ids": [
+        "interval",
+        "sensor"
+      ]
+    },
+    "profile_id": "bubble_clock-01-B",
+    "proposition_ids": [
+      "bubble_clock-01-p1",
+      "bubble_clock-01-p2",
+      "bubble_clock-01-p3"
+    ],
+    "propositions": [
+      {
+        "acceptable_alternatives": [],
+        "expected_answer": "Every eight seconds at Nira's bubble clock.",
+        "proposition_id": "bubble_clock-01-p1",
+        "question": "How often does the sensor record a bubble?",
+        "required": true,
+        "source_evidence": {
+          "end": 74,
+          "start": 0,
+          "text": "At Nira's bubble clock, the sensor records one bubble every eight seconds."
+        },
+        "statement": "At Nira's bubble clock, the sensor records one bubble every eight seconds."
+      },
+      {
+        "acceptable_alternatives": [],
+        "expected_answer": "Seconds.",
+        "proposition_id": "bubble_clock-01-p2",
+        "question": "What units measure the interval?",
+        "required": true,
+        "source_evidence": {
+          "end": 111,
+          "start": 75,
+          "text": "The interval is measured in seconds."
+        },
+        "statement": "The interval is measured in seconds."
+      },
+      {
+        "acceptable_alternatives": [],
+        "expected_answer": "Only above six marks; equality is excluded and sufficiency unstated.",
+        "proposition_id": "bubble_clock-01-p3",
+        "question": "At what readings may a signal appear?",
+        "required": true,
+        "source_evidence": {
+          "end": 165,
+          "start": 112,
+          "text": "A signal appears only above a threshold of six marks."
+        },
+        "statement": "A signal appears only above a threshold of six marks."
+      }
+    ],
+    "source": "At Nira's bubble clock, the sensor records one bubble every eight seconds. The interval is measured in seconds. A signal appears only above a threshold of six marks.",
+    "source_id": "bubble_clock-01",
+    "unknown_concept_ids": [
+      "interval",
+      "sensor"
+    ]
+  },
+  {
+    "glossary": {
+      "interval": {
+        "concept_id": "interval",
+        "definition": "a gap between two stated times or values",
+        "domain": "measurement",
+        "held_out": false,
+        "term": "interval"
+      },
+      "sensor": {
+        "concept_id": "sensor",
+        "definition": "a device that detects a physical condition",
+        "domain": "measurement",
+        "held_out": false,
+        "term": "sensor"
+      },
+      "signal": {
+        "concept_id": "signal",
+        "definition": "a message or change that carries information",
+        "domain": "measurement",
+        "held_out": false,
+        "term": "signal"
+      },
+      "threshold": {
+        "concept_id": "threshold",
+        "definition": "a specified boundary value for a response",
+        "domain": "measurement",
+        "held_out": false,
+        "term": "threshold"
+      }
+    },
+    "output_id": "O007",
+    "profile": {
+      "knowledge_bits": {
+        "interval": 1,
+        "sensor": 1,
+        "signal": 0,
+        "threshold": 0
+      },
+      "known_concept_ids": [
+        "interval",
+        "sensor"
+      ],
+      "known_meanings": [
+        {
+          "concept_id": "interval",
+          "meaning": "a gap between two stated times or values"
+        },
+        {
+          "concept_id": "sensor",
+          "meaning": "a device that detects a physical condition"
+        }
+      ],
+      "profile_id": "bubble_clock-02-A",
+      "unknown_concept_ids": [
+        "threshold",
+        "signal"
+      ]
+    },
+    "profile_id": "bubble_clock-02-A",
+    "proposition_ids": [
+      "bubble_clock-02-p1",
+      "bubble_clock-02-p2",
+      "bubble_clock-02-p3"
+    ],
+    "propositions": [
+      {
+        "acceptable_alternatives": [],
+        "expected_answer": "250 milliseconds beside Nira's bubble tube.",
+        "proposition_id": "bubble_clock-02-p1",
+        "question": "How long does the signal last?",
+        "required": true,
+        "source_evidence": {
+          "end": 60,
+          "start": 0,
+          "text": "Nira's signal lasts 250 milliseconds beside the bubble tube."
+        },
+        "statement": "Nira's signal lasts 250 milliseconds beside the bubble tube."
+      },
+      {
+        "acceptable_alternatives": [],
+        "expected_answer": "Four marks.",
+        "proposition_id": "bubble_clock-02-p2",
+        "question": "What is the unchanged threshold?",
+        "required": true,
+        "source_evidence": {
+          "end": 95,
+          "start": 61,
+          "text": "The threshold stays at four marks."
+        },
+        "statement": "The threshold stays at four marks."
+      },
+      {
+        "acceptable_alternatives": [],
+        "expected_answer": "Two seconds, as recorded by the sensor.",
+        "proposition_id": "bubble_clock-02-p3",
+        "question": "What is the first bubble interval?",
+        "required": true,
+        "source_evidence": {
+          "end": 172,
+          "start": 96,
+          "text": "The sensor records an interval of two seconds between the first two bubbles."
+        },
+        "statement": "The sensor records an interval of two seconds between the first two bubbles."
+      }
+    ],
+    "source": "Nira's signal lasts 250 milliseconds beside the bubble tube. The threshold stays at four marks. The sensor records an interval of two seconds between the first two bubbles.",
+    "source_id": "bubble_clock-02",
+    "unknown_concept_ids": [
+      "threshold",
+      "signal"
+    ]
+  },
+  {
+    "glossary": {
+      "interval": {
+        "concept_id": "interval",
+        "definition": "a gap between two stated times or values",
+        "domain": "measurement",
+        "held_out": false,
+        "term": "interval"
+      },
+      "sensor": {
+        "concept_id": "sensor",
+        "definition": "a device that detects a physical condition",
+        "domain": "measurement",
+        "held_out": false,
+        "term": "sensor"
+      },
+      "signal": {
+        "concept_id": "signal",
+        "definition": "a message or change that carries information",
+        "domain": "measurement",
+        "held_out": false,
+        "term": "signal"
+      },
+      "threshold": {
+        "concept_id": "threshold",
+        "definition": "a specified boundary value for a response",
+        "domain": "measurement",
+        "held_out": false,
+        "term": "threshold"
+      }
+    },
+    "output_id": "O008",
+    "profile": {
+      "knowledge_bits": {
+        "interval": 0,
+        "sensor": 0,
+        "signal": 1,
+        "threshold": 1
+      },
+      "known_concept_ids": [
+        "signal",
+        "threshold"
+      ],
+      "known_meanings": [
+        {
+          "concept_id": "signal",
+          "meaning": "a message or change that carries information"
+        },
+        {
+          "concept_id": "threshold",
+          "meaning": "a specified boundary value for a response"
+        }
+      ],
+      "profile_id": "bubble_clock-02-B",
+      "unknown_concept_ids": [
+        "sensor",
+        "interval"
+      ]
+    },
+    "profile_id": "bubble_clock-02-B",
+    "proposition_ids": [
+      "bubble_clock-02-p1",
+      "bubble_clock-02-p2",
+      "bubble_clock-02-p3"
+    ],
+    "propositions": [
+      {
+        "acceptable_alternatives": [],
+        "expected_answer": "250 milliseconds beside Nira's bubble tube.",
+        "proposition_id": "bubble_clock-02-p1",
+        "question": "How long does the signal last?",
+        "required": true,
+        "source_evidence": {
+          "end": 60,
+          "start": 0,
+          "text": "Nira's signal lasts 250 milliseconds beside the bubble tube."
+        },
+        "statement": "Nira's signal lasts 250 milliseconds beside the bubble tube."
+      },
+      {
+        "acceptable_alternatives": [],
+        "expected_answer": "Four marks.",
+        "proposition_id": "bubble_clock-02-p2",
+        "question": "What is the unchanged threshold?",
+        "required": true,
+        "source_evidence": {
+          "end": 95,
+          "start": 61,
+          "text": "The threshold stays at four marks."
+        },
+        "statement": "The threshold stays at four marks."
+      },
+      {
+        "acceptable_alternatives": [],
+        "expected_answer": "Two seconds, as recorded by the sensor.",
+        "proposition_id": "bubble_clock-02-p3",
+        "question": "What is the first bubble interval?",
+        "required": true,
+        "source_evidence": {
+          "end": 172,
+          "start": 96,
+          "text": "The sensor records an interval of two seconds between the first two bubbles."
+        },
+        "statement": "The sensor records an interval of two seconds between the first two bubbles."
+      }
+    ],
+    "source": "Nira's signal lasts 250 milliseconds beside the bubble tube. The threshold stays at four marks. The sensor records an interval of two seconds between the first two bubbles.",
+    "source_id": "bubble_clock-02",
+    "unknown_concept_ids": [
+      "sensor",
+      "interval"
+    ]
+  },
+  {
+    "glossary": {
+      "condensation": {
+        "concept_id": "condensation",
+        "definition": "gas changing to liquid",
+        "domain": "process",
+        "held_out": false,
+        "term": "condensation"
+      },
+      "evaporation": {
+        "concept_id": "evaporation",
+        "definition": "liquid changing to gas at its surface",
+        "domain": "process",
+        "held_out": false,
+        "term": "evaporation"
+      },
+      "solution": {
+        "concept_id": "solution",
+        "definition": "a mixture with a substance dissolved throughout",
+        "domain": "process",
+        "held_out": false,
+        "term": "solution"
+      },
+      "suspension": {
+        "concept_id": "suspension",
+        "definition": "a mixture containing undissolved particles",
+        "domain": "process",
+        "held_out": false,
+        "term": "suspension"
+      }
+    },
+    "output_id": "O009",
+    "profile": {
+      "knowledge_bits": {
+        "condensation": 1,
+        "evaporation": 1,
+        "solution": 0,
+        "suspension": 0
+      },
+      "known_concept_ids": [
+        "evaporation",
+        "condensation"
+      ],
+      "known_meanings": [
+        {
+          "concept_id": "evaporation",
+          "meaning": "liquid changing to gas at its surface"
+        },
+        {
+          "concept_id": "condensation",
+          "meaning": "gas changing to liquid"
+        }
+      ],
+      "profile_id": "ink_terrace-01-A",
+      "unknown_concept_ids": [
+        "suspension",
+        "solution"
+      ]
+    },
+    "profile_id": "ink_terrace-01-A",
+    "proposition_ids": [
+      "ink_terrace-01-p1",
+      "ink_terrace-01-p2",
+      "ink_terrace-01-p3"
+    ],
+    "propositions": [
+      {
+        "acceptable_alternatives": [],
+        "expected_answer": "The wide tray on Luma's ink terrace.",
+        "proposition_id": "ink_terrace-01-p1",
+        "question": "Which tray evaporates faster?",
+        "required": true,
+        "source_evidence": {
+          "end": 85,
+          "start": 0,
+          "text": "On Luma's ink terrace, evaporation is faster from the wide tray than the narrow tray."
+        },
+        "statement": "On Luma's ink terrace, evaporation is faster from the wide tray than the narrow tray."
+      },
+      {
+        "acceptable_alternatives": [],
+        "expected_answer": "Above both trays.",
+        "proposition_id": "ink_terrace-01-p2",
+        "question": "Where does condensation collect?",
+        "required": true,
+        "source_evidence": {
+          "end": 125,
+          "start": 86,
+          "text": "Condensation collects above both trays."
+        },
+        "statement": "Condensation collects above both trays."
+      },
+      {
+        "acceptable_alternatives": [],
+        "expected_answer": "To its left.",
+        "proposition_id": "ink_terrace-01-p3",
+        "question": "Where is solution relative to suspension?",
+        "required": true,
+        "source_evidence": {
+          "end": 169,
+          "start": 126,
+          "text": "The solution stands left of the suspension."
+        },
+        "statement": "The solution stands left of the suspension."
+      }
+    ],
+    "source": "On Luma's ink terrace, evaporation is faster from the wide tray than the narrow tray. Condensation collects above both trays. The solution stands left of the suspension.",
+    "source_id": "ink_terrace-01",
+    "unknown_concept_ids": [
+      "suspension",
+      "solution"
+    ]
+  },
+  {
+    "glossary": {
+      "condensation": {
+        "concept_id": "condensation",
+        "definition": "gas changing to liquid",
+        "domain": "process",
+        "held_out": false,
+        "term": "condensation"
+      },
+      "evaporation": {
+        "concept_id": "evaporation",
+        "definition": "liquid changing to gas at its surface",
+        "domain": "process",
+        "held_out": false,
+        "term": "evaporation"
+      },
+      "solution": {
+        "concept_id": "solution",
+        "definition": "a mixture with a substance dissolved throughout",
+        "domain": "process",
+        "held_out": false,
+        "term": "solution"
+      },
+      "suspension": {
+        "concept_id": "suspension",
+        "definition": "a mixture containing undissolved particles",
+        "domain": "process",
+        "held_out": false,
+        "term": "suspension"
+      }
+    },
+    "output_id": "O010",
+    "profile": {
+      "knowledge_bits": {
+        "condensation": 0,
+        "evaporation": 0,
+        "solution": 1,
+        "suspension": 1
+      },
+      "known_concept_ids": [
+        "suspension",
+        "solution"
+      ],
+      "known_meanings": [
+        {
+          "concept_id": "suspension",
+          "meaning": "a mixture containing undissolved particles"
+        },
+        {
+          "concept_id": "solution",
+          "meaning": "a mixture with a substance dissolved throughout"
+        }
+      ],
+      "profile_id": "ink_terrace-01-B",
+      "unknown_concept_ids": [
+        "condensation",
+        "evaporation"
+      ]
+    },
+    "profile_id": "ink_terrace-01-B",
+    "proposition_ids": [
+      "ink_terrace-01-p1",
+      "ink_terrace-01-p2",
+      "ink_terrace-01-p3"
+    ],
+    "propositions": [
+      {
+        "acceptable_alternatives": [],
+        "expected_answer": "The wide tray on Luma's ink terrace.",
+        "proposition_id": "ink_terrace-01-p1",
+        "question": "Which tray evaporates faster?",
+        "required": true,
+        "source_evidence": {
+          "end": 85,
+          "start": 0,
+          "text": "On Luma's ink terrace, evaporation is faster from the wide tray than the narrow tray."
+        },
+        "statement": "On Luma's ink terrace, evaporation is faster from the wide tray than the narrow tray."
+      },
+      {
+        "acceptable_alternatives": [],
+        "expected_answer": "Above both trays.",
+        "proposition_id": "ink_terrace-01-p2",
+        "question": "Where does condensation collect?",
+        "required": true,
+        "source_evidence": {
+          "end": 125,
+          "start": 86,
+          "text": "Condensation collects above both trays."
+        },
+        "statement": "Condensation collects above both trays."
+      },
+      {
+        "acceptable_alternatives": [],
+        "expected_answer": "To its left.",
+        "proposition_id": "ink_terrace-01-p3",
+        "question": "Where is solution relative to suspension?",
+        "required": true,
+        "source_evidence": {
+          "end": 169,
+          "start": 126,
+          "text": "The solution stands left of the suspension."
+        },
+        "statement": "The solution stands left of the suspension."
+      }
+    ],
+    "source": "On Luma's ink terrace, evaporation is faster from the wide tray than the narrow tray. Condensation collects above both trays. The solution stands left of the suspension.",
+    "source_id": "ink_terrace-01",
+    "unknown_concept_ids": [
+      "condensation",
+      "evaporation"
+    ]
+  },
+  {
+    "glossary": {
+      "condensation": {
+        "concept_id": "condensation",
+        "definition": "gas changing to liquid",
+        "domain": "process",
+        "held_out": false,
+        "term": "condensation"
+      },
+      "evaporation": {
+        "concept_id": "evaporation",
+        "definition": "liquid changing to gas at its surface",
+        "domain": "process",
+        "held_out": false,
+        "term": "evaporation"
+      },
+      "solution": {
+        "concept_id": "solution",
+        "definition": "a mixture with a substance dissolved throughout",
+        "domain": "process",
+        "held_out": false,
+        "term": "solution"
+      },
+      "suspension": {
+        "concept_id": "suspension",
+        "definition": "a mixture containing undissolved particles",
+        "domain": "process",
+        "held_out": false,
+        "term": "suspension"
+      }
+    },
+    "output_id": "O011",
+    "profile": {
+      "knowledge_bits": {
+        "condensation": 1,
+        "evaporation": 1,
+        "solution": 0,
+        "suspension": 0
+      },
+      "known_concept_ids": [
+        "evaporation",
+        "condensation"
+      ],
+      "known_meanings": [
+        {
+          "concept_id": "evaporation",
+          "meaning": "liquid changing to gas at its surface"
+        },
+        {
+          "concept_id": "condensation",
+          "meaning": "gas changing to liquid"
+        }
+      ],
+      "profile_id": "ink_terrace-02-A",
+      "unknown_concept_ids": [
+        "solution",
+        "suspension"
+      ]
+    },
+    "profile_id": "ink_terrace-02-A",
+    "proposition_ids": [
+      "ink_terrace-02-p1",
+      "ink_terrace-02-p2",
+      "ink_terrace-02-p3"
+    ],
+    "propositions": [
+      {
+        "acceptable_alternatives": [],
+        "expected_answer": "The settled suspension in Luma's jar.",
+        "proposition_id": "ink_terrace-02-p1",
+        "question": "What is lower than the colored solution's surface?",
+        "required": true,
+        "source_evidence": {
+          "end": 79,
+          "start": 0,
+          "text": "Luma's suspension settles lower in the jar than the colored solution's surface."
+        },
+        "statement": "Luma's suspension settles lower in the jar than the colored solution's surface."
+      },
+      {
+        "acceptable_alternatives": [],
+        "expected_answer": "The uncovered cup.",
+        "proposition_id": "ink_terrace-02-p2",
+        "question": "Which cup loses more water through evaporation?",
+        "required": true,
+        "source_evidence": {
+          "end": 134,
+          "start": 80,
+          "text": "Evaporation removes more water from the uncovered cup."
+        },
+        "statement": "Evaporation removes more water from the uncovered cup."
+      },
+      {
+        "acceptable_alternatives": [],
+        "expected_answer": "The colder lid.",
+        "proposition_id": "ink_terrace-02-p3",
+        "question": "Which lid has heavier condensation?",
+        "required": true,
+        "source_evidence": {
+          "end": 177,
+          "start": 135,
+          "text": "Condensation is heavier on the colder lid."
+        },
+        "statement": "Condensation is heavier on the colder lid."
+      }
+    ],
+    "source": "Luma's suspension settles lower in the jar than the colored solution's surface. Evaporation removes more water from the uncovered cup. Condensation is heavier on the colder lid.",
+    "source_id": "ink_terrace-02",
+    "unknown_concept_ids": [
+      "solution",
+      "suspension"
+    ]
+  },
+  {
+    "glossary": {
+      "condensation": {
+        "concept_id": "condensation",
+        "definition": "gas changing to liquid",
+        "domain": "process",
+        "held_out": false,
+        "term": "condensation"
+      },
+      "evaporation": {
+        "concept_id": "evaporation",
+        "definition": "liquid changing to gas at its surface",
+        "domain": "process",
+        "held_out": false,
+        "term": "evaporation"
+      },
+      "solution": {
+        "concept_id": "solution",
+        "definition": "a mixture with a substance dissolved throughout",
+        "domain": "process",
+        "held_out": false,
+        "term": "solution"
+      },
+      "suspension": {
+        "concept_id": "suspension",
+        "definition": "a mixture containing undissolved particles",
+        "domain": "process",
+        "held_out": false,
+        "term": "suspension"
+      }
+    },
+    "output_id": "O012",
+    "profile": {
+      "knowledge_bits": {
+        "condensation": 0,
+        "evaporation": 0,
+        "solution": 1,
+        "suspension": 1
+      },
+      "known_concept_ids": [
+        "suspension",
+        "solution"
+      ],
+      "known_meanings": [
+        {
+          "concept_id": "suspension",
+          "meaning": "a mixture containing undissolved particles"
+        },
+        {
+          "concept_id": "solution",
+          "meaning": "a mixture with a substance dissolved throughout"
+        }
+      ],
+      "profile_id": "ink_terrace-02-B",
+      "unknown_concept_ids": [
+        "evaporation",
+        "condensation"
+      ]
+    },
+    "profile_id": "ink_terrace-02-B",
+    "proposition_ids": [
+      "ink_terrace-02-p1",
+      "ink_terrace-02-p2",
+      "ink_terrace-02-p3"
+    ],
+    "propositions": [
+      {
+        "acceptable_alternatives": [],
+        "expected_answer": "The settled suspension in Luma's jar.",
+        "proposition_id": "ink_terrace-02-p1",
+        "question": "What is lower than the colored solution's surface?",
+        "required": true,
+        "source_evidence": {
+          "end": 79,
+          "start": 0,
+          "text": "Luma's suspension settles lower in the jar than the colored solution's surface."
+        },
+        "statement": "Luma's suspension settles lower in the jar than the colored solution's surface."
+      },
+      {
+        "acceptable_alternatives": [],
+        "expected_answer": "The uncovered cup.",
+        "proposition_id": "ink_terrace-02-p2",
+        "question": "Which cup loses more water through evaporation?",
+        "required": true,
+        "source_evidence": {
+          "end": 134,
+          "start": 80,
+          "text": "Evaporation removes more water from the uncovered cup."
+        },
+        "statement": "Evaporation removes more water from the uncovered cup."
+      },
+      {
+        "acceptable_alternatives": [],
+        "expected_answer": "The colder lid.",
+        "proposition_id": "ink_terrace-02-p3",
+        "question": "Which lid has heavier condensation?",
+        "required": true,
+        "source_evidence": {
+          "end": 177,
+          "start": 135,
+          "text": "Condensation is heavier on the colder lid."
+        },
+        "statement": "Condensation is heavier on the colder lid."
+      }
+    ],
+    "source": "Luma's suspension settles lower in the jar than the colored solution's surface. Evaporation removes more water from the uncovered cup. Condensation is heavier on the colder lid.",
+    "source_id": "ink_terrace-02",
+    "unknown_concept_ids": [
+      "evaporation",
+      "condensation"
+    ]
+  },
+  {
+    "glossary": {
+      "axle": {
+        "concept_id": "axle",
+        "definition": "a shaft on which a wheel turns",
+        "domain": "mechanics",
+        "held_out": false,
+        "term": "axle"
+      },
+      "gear": {
+        "concept_id": "gear",
+        "definition": "a toothed wheel that passes motion to another part",
+        "domain": "mechanics",
+        "held_out": false,
+        "term": "gear"
+      },
+      "pivot": {
+        "concept_id": "pivot",
+        "definition": "the support or point about which something turns",
+        "domain": "mechanics",
+        "held_out": false,
+        "term": "pivot"
+      },
+      "spring": {
+        "concept_id": "spring",
+        "definition": "an elastic part that stores energy when deformed",
+        "domain": "mechanics",
+        "held_out": false,
+        "term": "spring"
+      }
+    },
+    "output_id": "O013",
+    "profile": {
+      "knowledge_bits": {
+        "axle": 0,
+        "gear": 1,
+        "pivot": 0,
+        "spring": 1
+      },
+      "known_concept_ids": [
+        "spring",
+        "gear"
+      ],
+      "known_meanings": [
+        {
+          "concept_id": "spring",
+          "meaning": "an elastic part that stores energy when deformed"
+        },
+        {
+          "concept_id": "gear",
+          "meaning": "a toothed wheel that passes motion to another part"
+        }
+      ],
+      "profile_id": "mask_automaton-01-A",
+      "unknown_concept_ids": [
+        "pivot",
+        "axle"
+      ]
+    },
+    "profile_id": "mask_automaton-01-A",
+    "proposition_ids": [
+      "mask_automaton-01-p1",
+      "mask_automaton-01-p2",
+      "mask_automaton-01-p3"
+    ],
+    "propositions": [
+      {
+        "acceptable_alternatives": [],
+        "expected_answer": "The spring in Savo's mask automaton.",
+        "proposition_id": "mask_automaton-01-p1",
+        "question": "What drives one gear turn?",
+        "required": true,
+        "source_evidence": {
+          "end": 70,
+          "start": 0,
+          "text": "In Savo's mask automaton, the spring drives the gear through one turn."
+        },
+        "statement": "In Savo's mask automaton, the spring drives the gear through one turn."
+      },
+      {
+        "acceptable_alternatives": [],
+        "expected_answer": "The painted face.",
+        "proposition_id": "mask_automaton-01-p2",
+        "question": "What does the axle support?",
+        "required": true,
+        "source_evidence": {
+          "end": 106,
+          "start": 71,
+          "text": "The axle supports the painted face."
+        },
+        "statement": "The axle supports the painted face."
+      },
+      {
+        "acceptable_alternatives": [],
+        "expected_answer": "No; it occurs afterward but its cause is untested.",
+        "proposition_id": "mask_automaton-01-p3",
+        "question": "Is the pivot click's cause established?",
+        "required": true,
+        "source_evidence": {
+          "end": 169,
+          "start": 107,
+          "text": "The pivot clicks afterward, but the click's cause is untested."
+        },
+        "statement": "The pivot clicks afterward, but the click's cause is untested."
+      }
+    ],
+    "source": "In Savo's mask automaton, the spring drives the gear through one turn. The axle supports the painted face. The pivot clicks afterward, but the click's cause is untested.",
+    "source_id": "mask_automaton-01",
+    "unknown_concept_ids": [
+      "pivot",
+      "axle"
+    ]
+  },
+  {
+    "glossary": {
+      "axle": {
+        "concept_id": "axle",
+        "definition": "a shaft on which a wheel turns",
+        "domain": "mechanics",
+        "held_out": false,
+        "term": "axle"
+      },
+      "gear": {
+        "concept_id": "gear",
+        "definition": "a toothed wheel that passes motion to another part",
+        "domain": "mechanics",
+        "held_out": false,
+        "term": "gear"
+      },
+      "pivot": {
+        "concept_id": "pivot",
+        "definition": "the support or point about which something turns",
+        "domain": "mechanics",
+        "held_out": false,
+        "term": "pivot"
+      },
+      "spring": {
+        "concept_id": "spring",
+        "definition": "an elastic part that stores energy when deformed",
+        "domain": "mechanics",
+        "held_out": false,
+        "term": "spring"
+      }
+    },
+    "output_id": "O014",
+    "profile": {
+      "knowledge_bits": {
+        "axle": 1,
+        "gear": 0,
+        "pivot": 1,
+        "spring": 0
+      },
+      "known_concept_ids": [
+        "axle",
+        "pivot"
+      ],
+      "known_meanings": [
+        {
+          "concept_id": "axle",
+          "meaning": "a shaft on which a wheel turns"
+        },
+        {
+          "concept_id": "pivot",
+          "meaning": "the support or point about which something turns"
+        }
+      ],
+      "profile_id": "mask_automaton-01-B",
+      "unknown_concept_ids": [
+        "gear",
+        "spring"
+      ]
+    },
+    "profile_id": "mask_automaton-01-B",
+    "proposition_ids": [
+      "mask_automaton-01-p1",
+      "mask_automaton-01-p2",
+      "mask_automaton-01-p3"
+    ],
+    "propositions": [
+      {
+        "acceptable_alternatives": [],
+        "expected_answer": "The spring in Savo's mask automaton.",
+        "proposition_id": "mask_automaton-01-p1",
+        "question": "What drives one gear turn?",
+        "required": true,
+        "source_evidence": {
+          "end": 70,
+          "start": 0,
+          "text": "In Savo's mask automaton, the spring drives the gear through one turn."
+        },
+        "statement": "In Savo's mask automaton, the spring drives the gear through one turn."
+      },
+      {
+        "acceptable_alternatives": [],
+        "expected_answer": "The painted face.",
+        "proposition_id": "mask_automaton-01-p2",
+        "question": "What does the axle support?",
+        "required": true,
+        "source_evidence": {
+          "end": 106,
+          "start": 71,
+          "text": "The axle supports the painted face."
+        },
+        "statement": "The axle supports the painted face."
+      },
+      {
+        "acceptable_alternatives": [],
+        "expected_answer": "No; it occurs afterward but its cause is untested.",
+        "proposition_id": "mask_automaton-01-p3",
+        "question": "Is the pivot click's cause established?",
+        "required": true,
+        "source_evidence": {
+          "end": 169,
+          "start": 107,
+          "text": "The pivot clicks afterward, but the click's cause is untested."
+        },
+        "statement": "The pivot clicks afterward, but the click's cause is untested."
+      }
+    ],
+    "source": "In Savo's mask automaton, the spring drives the gear through one turn. The axle supports the painted face. The pivot clicks afterward, but the click's cause is untested.",
+    "source_id": "mask_automaton-01",
+    "unknown_concept_ids": [
+      "gear",
+      "spring"
+    ]
+  },
+  {
+    "glossary": {
+      "axle": {
+        "concept_id": "axle",
+        "definition": "a shaft on which a wheel turns",
+        "domain": "mechanics",
+        "held_out": false,
+        "term": "axle"
+      },
+      "gear": {
+        "concept_id": "gear",
+        "definition": "a toothed wheel that passes motion to another part",
+        "domain": "mechanics",
+        "held_out": false,
+        "term": "gear"
+      },
+      "pivot": {
+        "concept_id": "pivot",
+        "definition": "the support or point about which something turns",
+        "domain": "mechanics",
+        "held_out": false,
+        "term": "pivot"
+      },
+      "spring": {
+        "concept_id": "spring",
+        "definition": "an elastic part that stores energy when deformed",
+        "domain": "mechanics",
+        "held_out": false,
+        "term": "spring"
+      }
+    },
+    "output_id": "O015",
+    "profile": {
+      "knowledge_bits": {
+        "axle": 0,
+        "gear": 1,
+        "pivot": 0,
+        "spring": 1
+      },
+      "known_concept_ids": [
+        "spring",
+        "gear"
+      ],
+      "known_meanings": [
+        {
+          "concept_id": "spring",
+          "meaning": "an elastic part that stores energy when deformed"
+        },
+        {
+          "concept_id": "gear",
+          "meaning": "a toothed wheel that passes motion to another part"
+        }
+      ],
+      "profile_id": "mask_automaton-02-A",
+      "unknown_concept_ids": [
+        "axle",
+        "pivot"
+      ]
+    },
+    "profile_id": "mask_automaton-02-A",
+    "proposition_ids": [
+      "mask_automaton-02-p1",
+      "mask_automaton-02-p2",
+      "mask_automaton-02-p3"
+    ],
+    "propositions": [
+      {
+        "acceptable_alternatives": [],
+        "expected_answer": "Savo moves the axle during rehearsal.",
+        "proposition_id": "mask_automaton-02-p1",
+        "question": "What precedes the mask opening?",
+        "required": true,
+        "source_evidence": {
+          "end": 59,
+          "start": 0,
+          "text": "Savo moves the axle before the mask opens during rehearsal."
+        },
+        "statement": "Savo moves the axle before the mask opens during rehearsal."
+      },
+      {
+        "acceptable_alternatives": [],
+        "expected_answer": "No.",
+        "proposition_id": "mask_automaton-02-p2",
+        "question": "Does that order establish the opening's cause?",
+        "required": true,
+        "source_evidence": {
+          "end": 117,
+          "start": 60,
+          "text": "That order alone does not establish what opened the mask."
+        },
+        "statement": "That order alone does not establish what opened the mask."
+      },
+      {
+        "acceptable_alternatives": [],
+        "expected_answer": "Beside the fixed pivot.",
+        "proposition_id": "mask_automaton-02-p3",
+        "question": "Where are the gear and spring?",
+        "required": true,
+        "source_evidence": {
+          "end": 165,
+          "start": 118,
+          "text": "The gear and spring sit beside the fixed pivot."
+        },
+        "statement": "The gear and spring sit beside the fixed pivot."
+      }
+    ],
+    "source": "Savo moves the axle before the mask opens during rehearsal. That order alone does not establish what opened the mask. The gear and spring sit beside the fixed pivot.",
+    "source_id": "mask_automaton-02",
+    "unknown_concept_ids": [
+      "axle",
+      "pivot"
+    ]
+  },
+  {
+    "glossary": {
+      "axle": {
+        "concept_id": "axle",
+        "definition": "a shaft on which a wheel turns",
+        "domain": "mechanics",
+        "held_out": false,
+        "term": "axle"
+      },
+      "gear": {
+        "concept_id": "gear",
+        "definition": "a toothed wheel that passes motion to another part",
+        "domain": "mechanics",
+        "held_out": false,
+        "term": "gear"
+      },
+      "pivot": {
+        "concept_id": "pivot",
+        "definition": "the support or point about which something turns",
+        "domain": "mechanics",
+        "held_out": false,
+        "term": "pivot"
+      },
+      "spring": {
+        "concept_id": "spring",
+        "definition": "an elastic part that stores energy when deformed",
+        "domain": "mechanics",
+        "held_out": false,
+        "term": "spring"
+      }
+    },
+    "output_id": "O016",
+    "profile": {
+      "knowledge_bits": {
+        "axle": 1,
+        "gear": 0,
+        "pivot": 1,
+        "spring": 0
+      },
+      "known_concept_ids": [
+        "pivot",
+        "axle"
+      ],
+      "known_meanings": [
+        {
+          "concept_id": "pivot",
+          "meaning": "the support or point about which something turns"
+        },
+        {
+          "concept_id": "axle",
+          "meaning": "a shaft on which a wheel turns"
+        }
+      ],
+      "profile_id": "mask_automaton-02-B",
+      "unknown_concept_ids": [
+        "gear",
+        "spring"
+      ]
+    },
+    "profile_id": "mask_automaton-02-B",
+    "proposition_ids": [
+      "mask_automaton-02-p1",
+      "mask_automaton-02-p2",
+      "mask_automaton-02-p3"
+    ],
+    "propositions": [
+      {
+        "acceptable_alternatives": [],
+        "expected_answer": "Savo moves the axle during rehearsal.",
+        "proposition_id": "mask_automaton-02-p1",
+        "question": "What precedes the mask opening?",
+        "required": true,
+        "source_evidence": {
+          "end": 59,
+          "start": 0,
+          "text": "Savo moves the axle before the mask opens during rehearsal."
+        },
+        "statement": "Savo moves the axle before the mask opens during rehearsal."
+      },
+      {
+        "acceptable_alternatives": [],
+        "expected_answer": "No.",
+        "proposition_id": "mask_automaton-02-p2",
+        "question": "Does that order establish the opening's cause?",
+        "required": true,
+        "source_evidence": {
+          "end": 117,
+          "start": 60,
+          "text": "That order alone does not establish what opened the mask."
+        },
+        "statement": "That order alone does not establish what opened the mask."
+      },
+      {
+        "acceptable_alternatives": [],
+        "expected_answer": "Beside the fixed pivot.",
+        "proposition_id": "mask_automaton-02-p3",
+        "question": "Where are the gear and spring?",
+        "required": true,
+        "source_evidence": {
+          "end": 165,
+          "start": 118,
+          "text": "The gear and spring sit beside the fixed pivot."
+        },
+        "statement": "The gear and spring sit beside the fixed pivot."
+      }
+    ],
+    "source": "Savo moves the axle before the mask opens during rehearsal. That order alone does not establish what opened the mask. The gear and spring sit beside the fixed pivot.",
+    "source_id": "mask_automaton-02",
+    "unknown_concept_ids": [
+      "gear",
+      "spring"
+    ]
+  },
+  {
+    "glossary": {
+      "baseline": {
+        "concept_id": "baseline",
+        "definition": "a reference value used for comparison",
+        "domain": "measurement",
+        "held_out": false,
+        "term": "baseline"
+      },
+      "estimate": {
+        "concept_id": "estimate",
+        "definition": "an approximate value rather than an exact one",
+        "domain": "measurement",
+        "held_out": false,
+        "term": "estimate"
+      },
+      "sample": {
+        "concept_id": "sample",
+        "definition": "a selected part of a larger set",
+        "domain": "measurement",
+        "held_out": false,
+        "term": "sample"
+      },
+      "variable": {
+        "concept_id": "variable",
+        "definition": "a feature whose value can change",
+        "domain": "measurement",
+        "held_out": false,
+        "term": "variable"
+      }
+    },
+    "output_id": "O017",
+    "profile": {
+      "knowledge_bits": {
+        "baseline": 1,
+        "estimate": 0,
+        "sample": 0,
+        "variable": 1
+      },
+      "known_concept_ids": [
+        "baseline",
+        "variable"
+      ],
+      "known_meanings": [
+        {
+          "concept_id": "baseline",
+          "meaning": "a reference value used for comparison"
+        },
+        {
+          "concept_id": "variable",
+          "meaning": "a feature whose value can change"
+        }
+      ],
+      "profile_id": "shell_forecast-01-A",
+      "unknown_concept_ids": [
+        "sample",
+        "estimate"
+      ]
+    },
+    "profile_id": "shell_forecast-01-A",
+    "proposition_ids": [
+      "shell_forecast-01-p1",
+      "shell_forecast-01-p2",
+      "shell_forecast-01-p3"
+    ],
+    "propositions": [
+      {
+        "acceptable_alternatives": [],
+        "expected_answer": "If the sample changes in Tola's shell game; it is not guaranteed.",
+        "proposition_id": "shell_forecast-01-p1",
+        "question": "When might estimate exceed baseline?",
+        "required": true,
+        "source_evidence": {
+          "end": 78,
+          "start": 0,
+          "text": "For Tola's shell game, the estimate may exceed baseline if the sample changes."
+        },
+        "statement": "For Tola's shell game, the estimate may exceed baseline if the sample changes."
+      },
+      {
+        "acceptable_alternatives": [],
+        "expected_answer": "Number of striped shells.",
+        "proposition_id": "shell_forecast-01-p2",
+        "question": "What is the variable?",
+        "required": true,
+        "source_evidence": {
+          "end": 124,
+          "start": 79,
+          "text": "The variable is the number of striped shells."
+        },
+        "statement": "The variable is the number of striped shells."
+      },
+      {
+        "acceptable_alternatives": [],
+        "expected_answer": "Inside a square blue box.",
+        "proposition_id": "shell_forecast-01-p3",
+        "question": "Where do shells remain?",
+        "required": true,
+        "source_evidence": {
+          "end": 168,
+          "start": 125,
+          "text": "The shells remain inside a square blue box."
+        },
+        "statement": "The shells remain inside a square blue box."
+      }
+    ],
+    "source": "For Tola's shell game, the estimate may exceed baseline if the sample changes. The variable is the number of striped shells. The shells remain inside a square blue box.",
+    "source_id": "shell_forecast-01",
+    "unknown_concept_ids": [
+      "sample",
+      "estimate"
+    ]
+  },
+  {
+    "glossary": {
+      "baseline": {
+        "concept_id": "baseline",
+        "definition": "a reference value used for comparison",
+        "domain": "measurement",
+        "held_out": false,
+        "term": "baseline"
+      },
+      "estimate": {
+        "concept_id": "estimate",
+        "definition": "an approximate value rather than an exact one",
+        "domain": "measurement",
+        "held_out": false,
+        "term": "estimate"
+      },
+      "sample": {
+        "concept_id": "sample",
+        "definition": "a selected part of a larger set",
+        "domain": "measurement",
+        "held_out": false,
+        "term": "sample"
+      },
+      "variable": {
+        "concept_id": "variable",
+        "definition": "a feature whose value can change",
+        "domain": "measurement",
+        "held_out": false,
+        "term": "variable"
+      }
+    },
+    "output_id": "O018",
+    "profile": {
+      "knowledge_bits": {
+        "baseline": 0,
+        "estimate": 1,
+        "sample": 1,
+        "variable": 0
+      },
+      "known_concept_ids": [
+        "sample",
+        "estimate"
+      ],
+      "known_meanings": [
+        {
+          "concept_id": "sample",
+          "meaning": "a selected part of a larger set"
+        },
+        {
+          "concept_id": "estimate",
+          "meaning": "an approximate value rather than an exact one"
+        }
+      ],
+      "profile_id": "shell_forecast-01-B",
+      "unknown_concept_ids": [
+        "variable",
+        "baseline"
+      ]
+    },
+    "profile_id": "shell_forecast-01-B",
+    "proposition_ids": [
+      "shell_forecast-01-p1",
+      "shell_forecast-01-p2",
+      "shell_forecast-01-p3"
+    ],
+    "propositions": [
+      {
+        "acceptable_alternatives": [],
+        "expected_answer": "If the sample changes in Tola's shell game; it is not guaranteed.",
+        "proposition_id": "shell_forecast-01-p1",
+        "question": "When might estimate exceed baseline?",
+        "required": true,
+        "source_evidence": {
+          "end": 78,
+          "start": 0,
+          "text": "For Tola's shell game, the estimate may exceed baseline if the sample changes."
+        },
+        "statement": "For Tola's shell game, the estimate may exceed baseline if the sample changes."
+      },
+      {
+        "acceptable_alternatives": [],
+        "expected_answer": "Number of striped shells.",
+        "proposition_id": "shell_forecast-01-p2",
+        "question": "What is the variable?",
+        "required": true,
+        "source_evidence": {
+          "end": 124,
+          "start": 79,
+          "text": "The variable is the number of striped shells."
+        },
+        "statement": "The variable is the number of striped shells."
+      },
+      {
+        "acceptable_alternatives": [],
+        "expected_answer": "Inside a square blue box.",
+        "proposition_id": "shell_forecast-01-p3",
+        "question": "Where do shells remain?",
+        "required": true,
+        "source_evidence": {
+          "end": 168,
+          "start": 125,
+          "text": "The shells remain inside a square blue box."
+        },
+        "statement": "The shells remain inside a square blue box."
+      }
+    ],
+    "source": "For Tola's shell game, the estimate may exceed baseline if the sample changes. The variable is the number of striped shells. The shells remain inside a square blue box.",
+    "source_id": "shell_forecast-01",
+    "unknown_concept_ids": [
+      "variable",
+      "baseline"
+    ]
+  },
+  {
+    "glossary": {
+      "baseline": {
+        "concept_id": "baseline",
+        "definition": "a reference value used for comparison",
+        "domain": "measurement",
+        "held_out": false,
+        "term": "baseline"
+      },
+      "estimate": {
+        "concept_id": "estimate",
+        "definition": "an approximate value rather than an exact one",
+        "domain": "measurement",
+        "held_out": false,
+        "term": "estimate"
+      },
+      "sample": {
+        "concept_id": "sample",
+        "definition": "a selected part of a larger set",
+        "domain": "measurement",
+        "held_out": false,
+        "term": "sample"
+      },
+      "variable": {
+        "concept_id": "variable",
+        "definition": "a feature whose value can change",
+        "domain": "measurement",
+        "held_out": false,
+        "term": "variable"
+      }
+    },
+    "output_id": "O019",
+    "profile": {
+      "knowledge_bits": {
+        "baseline": 1,
+        "estimate": 0,
+        "sample": 0,
+        "variable": 1
+      },
+      "known_concept_ids": [
+        "baseline",
+        "variable"
+      ],
+      "known_meanings": [
+        {
+          "concept_id": "baseline",
+          "meaning": "a reference value used for comparison"
+        },
+        {
+          "concept_id": "variable",
+          "meaning": "a feature whose value can change"
+        }
+      ],
+      "profile_id": "shell_forecast-02-A",
+      "unknown_concept_ids": [
+        "estimate",
+        "sample"
+      ]
+    },
+    "profile_id": "shell_forecast-02-A",
+    "proposition_ids": [
+      "shell_forecast-02-p1",
+      "shell_forecast-02-p2",
+      "shell_forecast-02-p3"
+    ],
+    "propositions": [
+      {
+        "acceptable_alternatives": [],
+        "expected_answer": "The sample must include a spiral shell.",
+        "proposition_id": "shell_forecast-02-p1",
+        "question": "What is necessary for a baseline change?",
+        "required": true,
+        "source_evidence": {
+          "end": 69,
+          "start": 0,
+          "text": "Tola changes the baseline only if the sample includes a spiral shell."
+        },
+        "statement": "Tola changes the baseline only if the sample includes a spiral shell."
+      },
+      {
+        "acceptable_alternatives": [],
+        "expected_answer": "No.",
+        "proposition_id": "shell_forecast-02-p2",
+        "question": "Does a spiral shell require a change?",
+        "required": true,
+        "source_evidence": {
+          "end": 110,
+          "start": 70,
+          "text": "Including one does not require a change."
+        },
+        "statement": "Including one does not require a change."
+      },
+      {
+        "acceptable_alternatives": [],
+        "expected_answer": "The color variable in tomorrow's round.",
+        "proposition_id": "shell_forecast-02-p3",
+        "question": "What does the estimate concern?",
+        "required": true,
+        "source_evidence": {
+          "end": 172,
+          "start": 111,
+          "text": "The estimate concerns the color variable in tomorrow's round."
+        },
+        "statement": "The estimate concerns the color variable in tomorrow's round."
+      }
+    ],
+    "source": "Tola changes the baseline only if the sample includes a spiral shell. Including one does not require a change. The estimate concerns the color variable in tomorrow's round.",
+    "source_id": "shell_forecast-02",
+    "unknown_concept_ids": [
+      "estimate",
+      "sample"
+    ]
+  },
+  {
+    "glossary": {
+      "baseline": {
+        "concept_id": "baseline",
+        "definition": "a reference value used for comparison",
+        "domain": "measurement",
+        "held_out": false,
+        "term": "baseline"
+      },
+      "estimate": {
+        "concept_id": "estimate",
+        "definition": "an approximate value rather than an exact one",
+        "domain": "measurement",
+        "held_out": false,
+        "term": "estimate"
+      },
+      "sample": {
+        "concept_id": "sample",
+        "definition": "a selected part of a larger set",
+        "domain": "measurement",
+        "held_out": false,
+        "term": "sample"
+      },
+      "variable": {
+        "concept_id": "variable",
+        "definition": "a feature whose value can change",
+        "domain": "measurement",
+        "held_out": false,
+        "term": "variable"
+      }
+    },
+    "output_id": "O020",
+    "profile": {
+      "knowledge_bits": {
+        "baseline": 0,
+        "estimate": 1,
+        "sample": 1,
+        "variable": 0
+      },
+      "known_concept_ids": [
+        "estimate",
+        "sample"
+      ],
+      "known_meanings": [
+        {
+          "concept_id": "estimate",
+          "meaning": "an approximate value rather than an exact one"
+        },
+        {
+          "concept_id": "sample",
+          "meaning": "a selected part of a larger set"
+        }
+      ],
+      "profile_id": "shell_forecast-02-B",
+      "unknown_concept_ids": [
+        "variable",
+        "baseline"
+      ]
+    },
+    "profile_id": "shell_forecast-02-B",
+    "proposition_ids": [
+      "shell_forecast-02-p1",
+      "shell_forecast-02-p2",
+      "shell_forecast-02-p3"
+    ],
+    "propositions": [
+      {
+        "acceptable_alternatives": [],
+        "expected_answer": "The sample must include a spiral shell.",
+        "proposition_id": "shell_forecast-02-p1",
+        "question": "What is necessary for a baseline change?",
+        "required": true,
+        "source_evidence": {
+          "end": 69,
+          "start": 0,
+          "text": "Tola changes the baseline only if the sample includes a spiral shell."
+        },
+        "statement": "Tola changes the baseline only if the sample includes a spiral shell."
+      },
+      {
+        "acceptable_alternatives": [],
+        "expected_answer": "No.",
+        "proposition_id": "shell_forecast-02-p2",
+        "question": "Does a spiral shell require a change?",
+        "required": true,
+        "source_evidence": {
+          "end": 110,
+          "start": 70,
+          "text": "Including one does not require a change."
+        },
+        "statement": "Including one does not require a change."
+      },
+      {
+        "acceptable_alternatives": [],
+        "expected_answer": "The color variable in tomorrow's round.",
+        "proposition_id": "shell_forecast-02-p3",
+        "question": "What does the estimate concern?",
+        "required": true,
+        "source_evidence": {
+          "end": 172,
+          "start": 111,
+          "text": "The estimate concerns the color variable in tomorrow's round."
+        },
+        "statement": "The estimate concerns the color variable in tomorrow's round."
+      }
+    ],
+    "source": "Tola changes the baseline only if the sample includes a spiral shell. Including one does not require a change. The estimate concerns the color variable in tomorrow's round.",
+    "source_id": "shell_forecast-02",
+    "unknown_concept_ids": [
+      "variable",
+      "baseline"
+    ]
+  },
+  {
+    "glossary": {
+      "diffusion": {
+        "concept_id": "diffusion",
+        "definition": "particles spreading through their random motion",
+        "domain": "process",
+        "held_out": false,
+        "term": "diffusion"
+      },
+      "filter": {
+        "concept_id": "filter",
+        "definition": "a barrier that lets some material pass and stops some",
+        "domain": "process",
+        "held_out": false,
+        "term": "filter"
+      },
+      "mesh": {
+        "concept_id": "mesh",
+        "definition": "a netlike material with many openings",
+        "domain": "process",
+        "held_out": false,
+        "term": "mesh"
+      },
+      "refraction": {
+        "concept_id": "refraction",
+        "definition": "light changing direction when entering another material",
+        "domain": "process",
+        "held_out": false,
+        "term": "refraction"
+      }
+    },
+    "output_id": "O021",
+    "profile": {
+      "knowledge_bits": {
+        "diffusion": 1,
+        "filter": 0,
+        "mesh": 1,
+        "refraction": 0
+      },
+      "known_concept_ids": [
+        "mesh",
+        "diffusion"
+      ],
+      "known_meanings": [
+        {
+          "concept_id": "mesh",
+          "meaning": "a netlike material with many openings"
+        },
+        {
+          "concept_id": "diffusion",
+          "meaning": "particles spreading through their random motion"
+        }
+      ],
+      "profile_id": "glass_maze-01-A",
+      "unknown_concept_ids": [
+        "filter",
+        "refraction"
+      ]
+    },
+    "profile_id": "glass_maze-01-A",
+    "proposition_ids": [
+      "glass_maze-01-p1",
+      "glass_maze-01-p2",
+      "glass_maze-01-p3",
+      "glass_maze-01-p4"
+    ],
+    "propositions": [
+      {
+        "acceptable_alternatives": [],
+        "expected_answer": "Large flakes from liquid in Navo's glass maze.",
+        "proposition_id": "glass_maze-01-p1",
+        "question": "What does the filter separate?",
+        "required": true,
+        "source_evidence": {
+          "end": 72,
+          "start": 0,
+          "text": "In Navo's glass maze, the filter separates large flakes from the liquid."
+        },
+        "statement": "In Navo's glass maze, the filter separates large flakes from the liquid."
+      },
+      {
+        "acceptable_alternatives": [],
+        "expected_answer": "The netlike material inside the filter.",
+        "proposition_id": "glass_maze-01-p2",
+        "question": "What is mesh here?",
+        "required": true,
+        "source_evidence": {
+          "end": 116,
+          "start": 73,
+          "text": "The mesh is the netlike material inside it."
+        },
+        "statement": "The mesh is the netlike material inside it."
+      },
+      {
+        "acceptable_alternatives": [],
+        "expected_answer": "Refraction.",
+        "proposition_id": "glass_maze-01-p3",
+        "question": "What bends light at glass?",
+        "required": true,
+        "source_evidence": {
+          "end": 193,
+          "start": 117,
+          "text": "Refraction bends light at glass, while diffusion spreads dye through liquid."
+        },
+        "statement": "Refraction bends light at glass."
+      },
+      {
+        "acceptable_alternatives": [],
+        "expected_answer": "Diffusion.",
+        "proposition_id": "glass_maze-01-p4",
+        "question": "What spreads dye through liquid?",
+        "required": true,
+        "source_evidence": {
+          "end": 193,
+          "start": 117,
+          "text": "Refraction bends light at glass, while diffusion spreads dye through liquid."
+        },
+        "statement": "Diffusion spreads dye through liquid."
+      }
+    ],
+    "source": "In Navo's glass maze, the filter separates large flakes from the liquid. The mesh is the netlike material inside it. Refraction bends light at glass, while diffusion spreads dye through liquid.",
+    "source_id": "glass_maze-01",
+    "unknown_concept_ids": [
+      "filter",
+      "refraction"
+    ]
+  },
+  {
+    "glossary": {
+      "diffusion": {
+        "concept_id": "diffusion",
+        "definition": "particles spreading through their random motion",
+        "domain": "process",
+        "held_out": false,
+        "term": "diffusion"
+      },
+      "filter": {
+        "concept_id": "filter",
+        "definition": "a barrier that lets some material pass and stops some",
+        "domain": "process",
+        "held_out": false,
+        "term": "filter"
+      },
+      "mesh": {
+        "concept_id": "mesh",
+        "definition": "a netlike material with many openings",
+        "domain": "process",
+        "held_out": false,
+        "term": "mesh"
+      },
+      "refraction": {
+        "concept_id": "refraction",
+        "definition": "light changing direction when entering another material",
+        "domain": "process",
+        "held_out": false,
+        "term": "refraction"
+      }
+    },
+    "output_id": "O022",
+    "profile": {
+      "knowledge_bits": {
+        "diffusion": 0,
+        "filter": 1,
+        "mesh": 0,
+        "refraction": 1
+      },
+      "known_concept_ids": [
+        "filter",
+        "refraction"
+      ],
+      "known_meanings": [
+        {
+          "concept_id": "filter",
+          "meaning": "a barrier that lets some material pass and stops some"
+        },
+        {
+          "concept_id": "refraction",
+          "meaning": "light changing direction when entering another material"
+        }
+      ],
+      "profile_id": "glass_maze-01-B",
+      "unknown_concept_ids": [
+        "mesh",
+        "diffusion"
+      ]
+    },
+    "profile_id": "glass_maze-01-B",
+    "proposition_ids": [
+      "glass_maze-01-p1",
+      "glass_maze-01-p2",
+      "glass_maze-01-p3",
+      "glass_maze-01-p4"
+    ],
+    "propositions": [
+      {
+        "acceptable_alternatives": [],
+        "expected_answer": "Large flakes from liquid in Navo's glass maze.",
+        "proposition_id": "glass_maze-01-p1",
+        "question": "What does the filter separate?",
+        "required": true,
+        "source_evidence": {
+          "end": 72,
+          "start": 0,
+          "text": "In Navo's glass maze, the filter separates large flakes from the liquid."
+        },
+        "statement": "In Navo's glass maze, the filter separates large flakes from the liquid."
+      },
+      {
+        "acceptable_alternatives": [],
+        "expected_answer": "The netlike material inside the filter.",
+        "proposition_id": "glass_maze-01-p2",
+        "question": "What is mesh here?",
+        "required": true,
+        "source_evidence": {
+          "end": 116,
+          "start": 73,
+          "text": "The mesh is the netlike material inside it."
+        },
+        "statement": "The mesh is the netlike material inside it."
+      },
+      {
+        "acceptable_alternatives": [],
+        "expected_answer": "Refraction.",
+        "proposition_id": "glass_maze-01-p3",
+        "question": "What bends light at glass?",
+        "required": true,
+        "source_evidence": {
+          "end": 193,
+          "start": 117,
+          "text": "Refraction bends light at glass, while diffusion spreads dye through liquid."
+        },
+        "statement": "Refraction bends light at glass."
+      },
+      {
+        "acceptable_alternatives": [],
+        "expected_answer": "Diffusion.",
+        "proposition_id": "glass_maze-01-p4",
+        "question": "What spreads dye through liquid?",
+        "required": true,
+        "source_evidence": {
+          "end": 193,
+          "start": 117,
+          "text": "Refraction bends light at glass, while diffusion spreads dye through liquid."
+        },
+        "statement": "Diffusion spreads dye through liquid."
+      }
+    ],
+    "source": "In Navo's glass maze, the filter separates large flakes from the liquid. The mesh is the netlike material inside it. Refraction bends light at glass, while diffusion spreads dye through liquid.",
+    "source_id": "glass_maze-01",
+    "unknown_concept_ids": [
+      "mesh",
+      "diffusion"
+    ]
+  },
+  {
+    "glossary": {
+      "diffusion": {
+        "concept_id": "diffusion",
+        "definition": "particles spreading through their random motion",
+        "domain": "process",
+        "held_out": false,
+        "term": "diffusion"
+      },
+      "filter": {
+        "concept_id": "filter",
+        "definition": "a barrier that lets some material pass and stops some",
+        "domain": "process",
+        "held_out": false,
+        "term": "filter"
+      },
+      "mesh": {
+        "concept_id": "mesh",
+        "definition": "a netlike material with many openings",
+        "domain": "process",
+        "held_out": false,
+        "term": "mesh"
+      },
+      "refraction": {
+        "concept_id": "refraction",
+        "definition": "light changing direction when entering another material",
+        "domain": "process",
+        "held_out": false,
+        "term": "refraction"
+      }
+    },
+    "output_id": "O023",
+    "profile": {
+      "knowledge_bits": {
+        "diffusion": 1,
+        "filter": 0,
+        "mesh": 1,
+        "refraction": 0
+      },
+      "known_concept_ids": [
+        "mesh",
+        "diffusion"
+      ],
+      "known_meanings": [
+        {
+          "concept_id": "mesh",
+          "meaning": "a netlike material with many openings"
+        },
+        {
+          "concept_id": "diffusion",
+          "meaning": "particles spreading through their random motion"
+        }
+      ],
+      "profile_id": "glass_maze-02-A",
+      "unknown_concept_ids": [
+        "filter",
+        "refraction"
+      ]
+    },
+    "profile_id": "glass_maze-02-A",
+    "proposition_ids": [
+      "glass_maze-02-p1",
+      "glass_maze-02-p2",
+      "glass_maze-02-p3"
+    ],
+    "propositions": [
+      {
+        "acceptable_alternatives": [],
+        "expected_answer": "No, not in Navo's maze.",
+        "proposition_id": "glass_maze-02-p1",
+        "question": "Does mesh mean the whole filter assembly?",
+        "required": true,
+        "source_evidence": {
+          "end": 64,
+          "start": 0,
+          "text": "Navo's mesh does not mean the whole filter assembly in the maze."
+        },
+        "statement": "Navo's mesh does not mean the whole filter assembly in the maze."
+      },
+      {
+        "acceptable_alternatives": [],
+        "expected_answer": "Diffusion.",
+        "proposition_id": "glass_maze-02-p2",
+        "question": "What process spreads the dye?",
+        "required": true,
+        "source_evidence": {
+          "end": 106,
+          "start": 65,
+          "text": "Diffusion is the dye's spreading process."
+        },
+        "statement": "Diffusion is the dye's spreading process."
+      },
+      {
+        "acceptable_alternatives": [],
+        "expected_answer": "Light direction, not dye position.",
+        "proposition_id": "glass_maze-02-p3",
+        "question": "What changes through refraction?",
+        "required": true,
+        "source_evidence": {
+          "end": 179,
+          "start": 107,
+          "text": "Refraction is a change in light direction, not a change in dye position."
+        },
+        "statement": "Refraction is a change in light direction, not a change in dye position."
+      }
+    ],
+    "source": "Navo's mesh does not mean the whole filter assembly in the maze. Diffusion is the dye's spreading process. Refraction is a change in light direction, not a change in dye position.",
+    "source_id": "glass_maze-02",
+    "unknown_concept_ids": [
+      "filter",
+      "refraction"
+    ]
+  },
+  {
+    "glossary": {
+      "diffusion": {
+        "concept_id": "diffusion",
+        "definition": "particles spreading through their random motion",
+        "domain": "process",
+        "held_out": false,
+        "term": "diffusion"
+      },
+      "filter": {
+        "concept_id": "filter",
+        "definition": "a barrier that lets some material pass and stops some",
+        "domain": "process",
+        "held_out": false,
+        "term": "filter"
+      },
+      "mesh": {
+        "concept_id": "mesh",
+        "definition": "a netlike material with many openings",
+        "domain": "process",
+        "held_out": false,
+        "term": "mesh"
+      },
+      "refraction": {
+        "concept_id": "refraction",
+        "definition": "light changing direction when entering another material",
+        "domain": "process",
+        "held_out": false,
+        "term": "refraction"
+      }
+    },
+    "output_id": "O024",
+    "profile": {
+      "knowledge_bits": {
+        "diffusion": 0,
+        "filter": 1,
+        "mesh": 0,
+        "refraction": 1
+      },
+      "known_concept_ids": [
+        "refraction",
+        "filter"
+      ],
+      "known_meanings": [
+        {
+          "concept_id": "refraction",
+          "meaning": "light changing direction when entering another material"
+        },
+        {
+          "concept_id": "filter",
+          "meaning": "a barrier that lets some material pass and stops some"
+        }
+      ],
+      "profile_id": "glass_maze-02-B",
+      "unknown_concept_ids": [
+        "mesh",
+        "diffusion"
+      ]
+    },
+    "profile_id": "glass_maze-02-B",
+    "proposition_ids": [
+      "glass_maze-02-p1",
+      "glass_maze-02-p2",
+      "glass_maze-02-p3"
+    ],
+    "propositions": [
+      {
+        "acceptable_alternatives": [],
+        "expected_answer": "No, not in Navo's maze.",
+        "proposition_id": "glass_maze-02-p1",
+        "question": "Does mesh mean the whole filter assembly?",
+        "required": true,
+        "source_evidence": {
+          "end": 64,
+          "start": 0,
+          "text": "Navo's mesh does not mean the whole filter assembly in the maze."
+        },
+        "statement": "Navo's mesh does not mean the whole filter assembly in the maze."
+      },
+      {
+        "acceptable_alternatives": [],
+        "expected_answer": "Diffusion.",
+        "proposition_id": "glass_maze-02-p2",
+        "question": "What process spreads the dye?",
+        "required": true,
+        "source_evidence": {
+          "end": 106,
+          "start": 65,
+          "text": "Diffusion is the dye's spreading process."
+        },
+        "statement": "Diffusion is the dye's spreading process."
+      },
+      {
+        "acceptable_alternatives": [],
+        "expected_answer": "Light direction, not dye position.",
+        "proposition_id": "glass_maze-02-p3",
+        "question": "What changes through refraction?",
+        "required": true,
+        "source_evidence": {
+          "end": 179,
+          "start": 107,
+          "text": "Refraction is a change in light direction, not a change in dye position."
+        },
+        "statement": "Refraction is a change in light direction, not a change in dye position."
+      }
+    ],
+    "source": "Navo's mesh does not mean the whole filter assembly in the maze. Diffusion is the dye's spreading process. Refraction is a change in light direction, not a change in dye position.",
+    "source_id": "glass_maze-02",
+    "unknown_concept_ids": [
+      "mesh",
+      "diffusion"
+    ]
+  }
+]

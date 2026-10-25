@@ -1,0 +1,96 @@
+Evaluate the 12 independent passage tasks below. Use only each task's passage.
+Do not use tools, browse, read files, consult other agents, or use outside facts.
+Do not assume that a question or claim supplies facts missing from its passage.
+For question tasks, answer the query from the passage and decide:
+answerable = the passage supports a definite answer to the question;
+unanswerable = the passage does not supply enough information for a definite answer;
+uncertain = you cannot resolve its answerability.
+For claim tasks, decide:
+supported = the passage entails the ENTIRE claim, including each participant, restriction,
+quantity, location, condition, time and negation;
+not_supported = any part of the claim is absent, contradicted or otherwise not established;
+uncertain = you cannot resolve its entailment.
+An empty passage supplies no facts. Evaluate each task independently.
+Return ONLY one JSON array with exactly one object per case, using exactly these fields:
+case_id: copy the ID;
+decision: one of the three labels for that task;
+answer: a concise answer or explanation, at most 80 whitespace-separated words;
+evidence: a list of exact, contiguous, nonempty quotes from THIS passage, or [] if none;
+rationale: at most 60 whitespace-separated words explaining the decision.
+Do not quote the query as passage evidence. Do not add fields, Markdown or commentary.
+
+TASKS:
+[
+  {
+    "case_id": "C417cc724ecbd56",
+    "passage": "On Luma's ink terrace, evaporation is faster from the wide tray than the narrow tray. Condensation collects above both trays. The solution stands left of the suspension.",
+    "query": "Which tray evaporates faster?",
+    "task": "question"
+  },
+  {
+    "case_id": "C4fc254f95a5ef8",
+    "passage": "",
+    "query": "At what readings may a signal appear?",
+    "task": "question"
+  },
+  {
+    "case_id": "C9c69b11c69e362",
+    "passage": "",
+    "query": "Nira's signal lasts 250 milliseconds beside the bubble tube.",
+    "task": "claim"
+  },
+  {
+    "case_id": "C19df92761abcab",
+    "passage": "Aven's ramp carries three paper kites toward the dock's painted edge. Yesterday, the pulley did not lift the counterweight. Not all kite positions provide balance.",
+    "query": "The pulley does not lift the counterweight today.",
+    "task": "claim"
+  },
+  {
+    "case_id": "Ce3230f615a1222",
+    "passage": "At Aven's kite dock, the counterweight is not attached to the red kite. The pulley hangs over the ramp. Balance is checked after the dock closes.",
+    "query": "When is balance checked?",
+    "task": "question"
+  },
+  {
+    "case_id": "Cece5c6460d3ff9",
+    "passage": "In Savo's mask automaton, one full revolution of the gear is driven by the spring. The axle supports the painted face. The pivot clicks afterward, but the click's cause is untested.",
+    "query": "What drives one gear turn?",
+    "task": "question"
+  },
+  {
+    "case_id": "C1445a5353d58ce",
+    "passage": "During rehearsal, the mask opens after Savo has moved the axle. That order alone does not establish what opened the mask. The gear and spring sit beside the fixed pivot.",
+    "query": "Savo moves the axle before the mask opens during rehearsal.",
+    "task": "claim"
+  },
+  {
+    "case_id": "C637c6f82aa5b73",
+    "passage": "",
+    "query": "Navo's mesh does not mean the whole filter assembly in the maze.",
+    "task": "claim"
+  },
+  {
+    "case_id": "C744e9d1200ff57",
+    "passage": "",
+    "query": "What spreads dye through liquid?",
+    "task": "question"
+  },
+  {
+    "case_id": "Ce810d89a5fb2c8",
+    "passage": "Luma's suspension settles lower in the jar than the colored solution's surface. Evaporation removes more water from the uncovered cup. Condensation is heavier on the colder lid.",
+    "query": "Luma's suspension settles lower in the jar than the colored solution's surface.",
+    "task": "claim"
+  },
+  {
+    "case_id": "C55aea26b6c4489",
+    "passage": "For Tola's shell game, the estimate may exceed baseline if the box opens. The variable is the number of striped shells. The shells remain inside a square blue box.",
+    "query": "When might estimate exceed baseline?",
+    "task": "question"
+  },
+  {
+    "case_id": "Cefc4e19918b6bd",
+    "passage": "Tola changes the baseline only if the sample includes a striped shell. Including one does not require a change. The estimate concerns the color variable in tomorrow's round.",
+    "query": "Tola changes the baseline only if the sample includes a spiral shell.",
+    "task": "claim"
+  }
+]

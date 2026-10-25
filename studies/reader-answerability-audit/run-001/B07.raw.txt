@@ -1,0 +1,86 @@
+[
+  {
+    "case_id": "C782215bbb8900f",
+    "decision": "supported",
+    "answer": "Luma's settled suspension lies below the colored solution's surface.",
+    "evidence": ["In the jar, Luma's settled suspension lies beneath the colored solution's surface."],
+    "rationale": "The passage explicitly places the settled suspension beneath the solution's surface in the jar."
+  },
+  {
+    "case_id": "C89f6858de2f3f1",
+    "decision": "supported",
+    "answer": "Nira's signal lasts 250 milliseconds beside the bubble tube.",
+    "evidence": ["Nira's signal lasts 250 milliseconds beside the bubble tube."],
+    "rationale": "The passage states the entire claim verbatim."
+  },
+  {
+    "case_id": "C4c11fa1ea4bcc3",
+    "decision": "unanswerable",
+    "answer": "The passage does not state when balance is checked.",
+    "evidence": [],
+    "rationale": "The passage is empty and supplies no timing information."
+  },
+  {
+    "case_id": "C419108d5f37527",
+    "decision": "unanswerable",
+    "answer": "The passage does not state when estimate might exceed baseline.",
+    "evidence": [],
+    "rationale": "The passage is empty and supplies no conditions or timing."
+  },
+  {
+    "case_id": "C7064f85fb390b5",
+    "decision": "not_supported",
+    "answer": "The condition for Tola changing the baseline is not established.",
+    "evidence": [],
+    "rationale": "The empty passage establishes neither the action nor the spiral-shell condition."
+  },
+  {
+    "case_id": "C52c70725773265",
+    "decision": "not_supported",
+    "answer": "The passage does not establish whether the pulley lifts the counterweight today.",
+    "evidence": [],
+    "rationale": "The empty passage supplies no facts supporting the negation or its timing."
+  },
+  {
+    "case_id": "C93ca82c13251d8",
+    "decision": "not_supported",
+    "answer": "The order is established, but the rehearsal setting is not.",
+    "evidence": ["Savo moves the axle before the mask opens."],
+    "rationale": "The passage supports the sequence but never states that it occurs during rehearsal."
+  },
+  {
+    "case_id": "Ccb2eecf3cc8a99",
+    "decision": "supported",
+    "answer": "Navo's mesh does not mean the whole filter assembly in the maze.",
+    "evidence": ["Navo's mesh does not mean the whole filter assembly in the maze."],
+    "rationale": "The passage states the entire claim verbatim."
+  },
+  {
+    "case_id": "C37d2a85d0a51f2",
+    "decision": "answerable",
+    "answer": "Diffusion.",
+    "evidence": ["diffusion spreads dye through liquid."],
+    "rationale": "The passage explicitly identifies diffusion as what spreads dye through liquid."
+  },
+  {
+    "case_id": "Cf7ed6cd44bbef1",
+    "decision": "answerable",
+    "answer": "Only at readings above six marks.",
+    "evidence": ["A signal appears only above a threshold of six marks."],
+    "rationale": "The passage explicitly restricts possible signal appearance to readings above six marks."
+  },
+  {
+    "case_id": "Ca72c8a36675eff",
+    "decision": "answerable",
+    "answer": "The spring.",
+    "evidence": ["In Savo's mask automaton, the spring drives the gear."],
+    "rationale": "The passage identifies the spring as the gear's driver, answering what drives its turn."
+  },
+  {
+    "case_id": "Ca7eb56664a4c44",
+    "decision": "answerable",
+    "answer": "The wide tray.",
+    "evidence": ["On Luma's ink terrace, the narrow tray's evaporation is slower than the wide tray's."],
+    "rationale": "If the narrow tray's evaporation is slower, the wide tray's evaporation is faster."
+  }
+]

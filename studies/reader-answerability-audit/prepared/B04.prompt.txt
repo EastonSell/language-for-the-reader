@@ -1,0 +1,96 @@
+Evaluate the 12 independent passage tasks below. Use only each task's passage.
+Do not use tools, browse, read files, consult other agents, or use outside facts.
+Do not assume that a question or claim supplies facts missing from its passage.
+For question tasks, answer the query from the passage and decide:
+answerable = the passage supports a definite answer to the question;
+unanswerable = the passage does not supply enough information for a definite answer;
+uncertain = you cannot resolve its answerability.
+For claim tasks, decide:
+supported = the passage entails the ENTIRE claim, including each participant, restriction,
+quantity, location, condition, time and negation;
+not_supported = any part of the claim is absent, contradicted or otherwise not established;
+uncertain = you cannot resolve its entailment.
+An empty passage supplies no facts. Evaluate each task independently.
+Return ONLY one JSON array with exactly one object per case, using exactly these fields:
+case_id: copy the ID;
+decision: one of the three labels for that task;
+answer: a concise answer or explanation, at most 80 whitespace-separated words;
+evidence: a list of exact, contiguous, nonempty quotes from THIS passage, or [] if none;
+rationale: at most 60 whitespace-separated words explaining the decision.
+Do not quote the query as passage evidence. Do not add fields, Markdown or commentary.
+
+TASKS:
+[
+  {
+    "case_id": "Cdf41590a2e22df",
+    "passage": "In Savo's mask automaton, the spring drives the gear through one turn. The axle supports the painted face. The pivot clicks afterward, but the click's cause is untested.",
+    "query": "In Savo's mask automaton, the spring drives the gear through one turn.",
+    "task": "claim"
+  },
+  {
+    "case_id": "Cf7f67ccdb64f27",
+    "passage": "Luma's suspension settles lower in the jar than the colored solution's surface. Evaporation removes more water from the uncovered cup. Condensation is heavier on the colder lid.",
+    "query": "What is lower than the colored solution's surface?",
+    "task": "question"
+  },
+  {
+    "case_id": "C687b863f575c79",
+    "passage": "Tola changes the baseline only if the sample includes a striped shell. Including one does not require a change. The estimate concerns the color variable in tomorrow's round.",
+    "query": "What is necessary for a baseline change?",
+    "task": "question"
+  },
+  {
+    "case_id": "C9d9f3421c8b769",
+    "passage": "",
+    "query": "Does mesh mean the whole filter assembly?",
+    "task": "question"
+  },
+  {
+    "case_id": "C000a38c1ec62b8",
+    "passage": "",
+    "query": "How long does the signal last?",
+    "task": "question"
+  },
+  {
+    "case_id": "C08cd88e034dba6",
+    "passage": "",
+    "query": "On Luma's ink terrace, evaporation is faster from the wide tray than the narrow tray.",
+    "task": "claim"
+  },
+  {
+    "case_id": "C4d3739e8dbb873",
+    "passage": "At Aven's kite dock, the counterweight is not attached to the red kite. The pulley hangs over the ramp. Balance checks take place after the dock has closed, and at no earlier time.",
+    "query": "Balance is checked only after the dock closes.",
+    "task": "claim"
+  },
+  {
+    "case_id": "Ca8f56f6944bddd",
+    "passage": "In Navo's glass maze, the filter separates large flakes from the liquid. The mesh is the netlike material inside it. Refraction bends light at glass, while refraction spreads dye through liquid.",
+    "query": "Diffusion spreads dye through liquid.",
+    "task": "claim"
+  },
+  {
+    "case_id": "C5c3fb69b944fd1",
+    "passage": "For Tola's shell game, it is possible for the estimate to be above baseline if the sample changes. The variable is the number of striped shells. The shells remain inside a square blue box.",
+    "query": "For Tola's shell game, the estimate may exceed baseline if the sample changes.",
+    "task": "claim"
+  },
+  {
+    "case_id": "Caf15f16fc28742",
+    "passage": "Aven's ramp carries three paper kites toward the dock's painted edge. Yesterday, the pulley did not lift the counterweight. Not all kite positions provide balance.",
+    "query": "Does the pulley lift the counterweight today?",
+    "task": "question"
+  },
+  {
+    "case_id": "C8dd92c9982412b",
+    "passage": "During rehearsal, the mask opens after Savo has moved the axle. That order alone does not establish what opened the mask. The gear and spring sit beside the fixed pivot.",
+    "query": "What precedes the mask opening?",
+    "task": "question"
+  },
+  {
+    "case_id": "C74c25c22ea7809",
+    "passage": "At Nira's bubble clock, the sensor records one bubble every eight seconds. The interval is measured in seconds. A signal appears above a threshold of six marks.",
+    "query": "A signal appears only above a threshold of six marks.",
+    "task": "claim"
+  }
+]

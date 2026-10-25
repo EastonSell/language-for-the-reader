@@ -1,0 +1,105 @@
+[
+  {
+    "case_id": "C101aba9cb14331",
+    "decision": "not_supported",
+    "answer": "The empty passage does not establish the claim.",
+    "evidence": [],
+    "rationale": "No facts establish that the estimate may exceed baseline when the sample changes."
+  },
+  {
+    "case_id": "C472ec521cc5eb3",
+    "decision": "unanswerable",
+    "answer": "The passage does not say what precedes the mask opening.",
+    "evidence": [],
+    "rationale": "The passage is empty and supplies no event sequence."
+  },
+  {
+    "case_id": "C071bb0bd394c36",
+    "decision": "not_supported",
+    "answer": "The passage does not establish when balance is checked.",
+    "evidence": [],
+    "rationale": "The empty passage supplies no facts about balance checks or dock closure."
+  },
+  {
+    "case_id": "C94e235dfbbff77",
+    "decision": "answerable",
+    "answer": "No. Mesh does not mean the whole filter assembly.",
+    "evidence": [
+      "In the maze, Navo's mesh does not refer to the entire filter assembly."
+    ],
+    "rationale": "The passage explicitly denies that mesh refers to the entire assembly."
+  },
+  {
+    "case_id": "C6930c3e3b70d79",
+    "decision": "answerable",
+    "answer": "Luma's blue bead.",
+    "evidence": [
+      "Luma's blue bead settles lower in the jar than the colored solution's surface."
+    ],
+    "rationale": "The passage identifies the blue bead as lower than the solution's surface."
+  },
+  {
+    "case_id": "Ce85586598d8e49",
+    "decision": "answerable",
+    "answer": "A quarter of a second.",
+    "evidence": [
+      "Beside the bubble tube, the duration of Nira's signal is a quarter of a second."
+    ],
+    "rationale": "The signal's duration is explicitly stated."
+  },
+  {
+    "case_id": "C2d8779990c83b7",
+    "decision": "supported",
+    "answer": "The passage explicitly states the claim.",
+    "evidence": [
+      "A signal appears only above a threshold of six marks."
+    ],
+    "rationale": "The passage establishes the signal condition and the six-mark threshold exactly."
+  },
+  {
+    "case_id": "C9d28a46b3f7e1c",
+    "decision": "answerable",
+    "answer": "The sample must include a spiral shell; inclusion alone does not require a change.",
+    "evidence": [
+      "Tola changes the baseline only if the sample includes a spiral shell.",
+      "Including one does not require a change."
+    ],
+    "rationale": "The passage makes inclusion of a spiral shell necessary but not sufficient."
+  },
+  {
+    "case_id": "C64fc24c5955a10",
+    "decision": "answerable",
+    "answer": "No. The pulley does not lift the counterweight today.",
+    "evidence": [
+      "The pulley does not lift the counterweight today."
+    ],
+    "rationale": "The passage directly answers the question with an explicit negation."
+  },
+  {
+    "case_id": "C21ff236487c07d",
+    "decision": "supported",
+    "answer": "The wide tray's evaporation is faster than the narrow tray's.",
+    "evidence": [
+      "On Luma's ink terrace, the narrow tray's evaporation is slower than the wide tray's."
+    ],
+    "rationale": "The claim reverses the passage's equivalent slower-than comparison while preserving the location."
+  },
+  {
+    "case_id": "C19c567ed6758e5",
+    "decision": "supported",
+    "answer": "The passage states that diffusion spreads dye through liquid.",
+    "evidence": [
+      "diffusion spreads dye through liquid."
+    ],
+    "rationale": "The entire claim is explicitly established."
+  },
+  {
+    "case_id": "C932376557e930e",
+    "decision": "not_supported",
+    "answer": "The spring drives the gear, but the passage does not specify one turn.",
+    "evidence": [
+      "In Savo's mask automaton, the spring drives the gear."
+    ],
+    "rationale": "The claimed quantity of one turn is absent from the passage."
+  }
+]

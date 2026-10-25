@@ -1,0 +1,627 @@
+{
+  "checks": {
+    "always_negative": {
+      "cells": [
+        {
+          "denominator": 12,
+          "invalid_or_missing": 0,
+          "positive": 0,
+          "positive_rate_bounds": [
+            0.0,
+            0.0
+          ],
+          "protocol": "legacy",
+          "uncertain": 0,
+          "ungrounded_positive": 0,
+          "valid": 12,
+          "variant": "literal"
+        },
+        {
+          "denominator": 12,
+          "invalid_or_missing": 0,
+          "positive": 0,
+          "positive_rate_bounds": [
+            0.0,
+            0.0
+          ],
+          "protocol": "legacy",
+          "uncertain": 0,
+          "ungrounded_positive": 0,
+          "valid": 12,
+          "variant": "paraphrase"
+        },
+        {
+          "denominator": 12,
+          "invalid_or_missing": 0,
+          "positive": 0,
+          "positive_rate_bounds": [
+            0.0,
+            0.0
+          ],
+          "protocol": "legacy",
+          "uncertain": 0,
+          "ungrounded_positive": 0,
+          "valid": 12,
+          "variant": "corrupted"
+        },
+        {
+          "denominator": 12,
+          "invalid_or_missing": 0,
+          "positive": 0,
+          "positive_rate_bounds": [
+            0.0,
+            0.0
+          ],
+          "protocol": "legacy",
+          "uncertain": 0,
+          "ungrounded_positive": 0,
+          "valid": 12,
+          "variant": "no_passage"
+        },
+        {
+          "denominator": 12,
+          "invalid_or_missing": 0,
+          "positive": 0,
+          "positive_rate_bounds": [
+            0.0,
+            0.0
+          ],
+          "protocol": "entailment",
+          "uncertain": 0,
+          "ungrounded_positive": 0,
+          "valid": 12,
+          "variant": "literal"
+        },
+        {
+          "denominator": 12,
+          "invalid_or_missing": 0,
+          "positive": 0,
+          "positive_rate_bounds": [
+            0.0,
+            0.0
+          ],
+          "protocol": "entailment",
+          "uncertain": 0,
+          "ungrounded_positive": 0,
+          "valid": 12,
+          "variant": "paraphrase"
+        },
+        {
+          "denominator": 12,
+          "invalid_or_missing": 0,
+          "positive": 0,
+          "positive_rate_bounds": [
+            0.0,
+            0.0
+          ],
+          "protocol": "entailment",
+          "uncertain": 0,
+          "ungrounded_positive": 0,
+          "valid": 12,
+          "variant": "corrupted"
+        },
+        {
+          "denominator": 12,
+          "invalid_or_missing": 0,
+          "positive": 0,
+          "positive_rate_bounds": [
+            0.0,
+            0.0
+          ],
+          "protocol": "entailment",
+          "uncertain": 0,
+          "ungrounded_positive": 0,
+          "valid": 12,
+          "variant": "no_passage"
+        }
+      ],
+      "complete_valid_admitted": true,
+      "expected_count": 96,
+      "global_errors": [],
+      "invalid_count": 0,
+      "kind": "mechanical_certification_score_not_human_comprehension",
+      "missing_count": 0,
+      "operational_hypothesis_supported": false,
+      "primary_difference": 0.0,
+      "source_pairs": [
+        {
+          "difference": 0,
+          "entailment_positive": false,
+          "legacy_positive": false,
+          "source_id": "bubble_clock-01"
+        },
+        {
+          "difference": 0,
+          "entailment_positive": false,
+          "legacy_positive": false,
+          "source_id": "bubble_clock-02"
+        },
+        {
+          "difference": 0,
+          "entailment_positive": false,
+          "legacy_positive": false,
+          "source_id": "glass_maze-01"
+        },
+        {
+          "difference": 0,
+          "entailment_positive": false,
+          "legacy_positive": false,
+          "source_id": "glass_maze-02"
+        },
+        {
+          "difference": 0,
+          "entailment_positive": false,
+          "legacy_positive": false,
+          "source_id": "ink_terrace-01"
+        },
+        {
+          "difference": 0,
+          "entailment_positive": false,
+          "legacy_positive": false,
+          "source_id": "ink_terrace-02"
+        },
+        {
+          "difference": 0,
+          "entailment_positive": false,
+          "legacy_positive": false,
+          "source_id": "kite_dock-01"
+        },
+        {
+          "difference": 0,
+          "entailment_positive": false,
+          "legacy_positive": false,
+          "source_id": "kite_dock-02"
+        },
+        {
+          "difference": 0,
+          "entailment_positive": false,
+          "legacy_positive": false,
+          "source_id": "mask_automaton-01"
+        },
+        {
+          "difference": 0,
+          "entailment_positive": false,
+          "legacy_positive": false,
+          "source_id": "mask_automaton-02"
+        },
+        {
+          "difference": 0,
+          "entailment_positive": false,
+          "legacy_positive": false,
+          "source_id": "shell_forecast-01"
+        },
+        {
+          "difference": 0,
+          "entailment_positive": false,
+          "legacy_positive": false,
+          "source_id": "shell_forecast-02"
+        }
+      ],
+      "valid_count": 96
+    },
+    "always_positive": {
+      "cells": [
+        {
+          "denominator": 12,
+          "invalid_or_missing": 0,
+          "positive": 12,
+          "positive_rate_bounds": [
+            1.0,
+            1.0
+          ],
+          "protocol": "legacy",
+          "uncertain": 0,
+          "ungrounded_positive": 0,
+          "valid": 12,
+          "variant": "literal"
+        },
+        {
+          "denominator": 12,
+          "invalid_or_missing": 0,
+          "positive": 12,
+          "positive_rate_bounds": [
+            1.0,
+            1.0
+          ],
+          "protocol": "legacy",
+          "uncertain": 0,
+          "ungrounded_positive": 0,
+          "valid": 12,
+          "variant": "paraphrase"
+        },
+        {
+          "denominator": 12,
+          "invalid_or_missing": 0,
+          "positive": 12,
+          "positive_rate_bounds": [
+            1.0,
+            1.0
+          ],
+          "protocol": "legacy",
+          "uncertain": 0,
+          "ungrounded_positive": 0,
+          "valid": 12,
+          "variant": "corrupted"
+        },
+        {
+          "denominator": 12,
+          "invalid_or_missing": 0,
+          "positive": 12,
+          "positive_rate_bounds": [
+            1.0,
+            1.0
+          ],
+          "protocol": "legacy",
+          "uncertain": 0,
+          "ungrounded_positive": 12,
+          "valid": 12,
+          "variant": "no_passage"
+        },
+        {
+          "denominator": 12,
+          "invalid_or_missing": 0,
+          "positive": 12,
+          "positive_rate_bounds": [
+            1.0,
+            1.0
+          ],
+          "protocol": "entailment",
+          "uncertain": 0,
+          "ungrounded_positive": 0,
+          "valid": 12,
+          "variant": "literal"
+        },
+        {
+          "denominator": 12,
+          "invalid_or_missing": 0,
+          "positive": 12,
+          "positive_rate_bounds": [
+            1.0,
+            1.0
+          ],
+          "protocol": "entailment",
+          "uncertain": 0,
+          "ungrounded_positive": 0,
+          "valid": 12,
+          "variant": "paraphrase"
+        },
+        {
+          "denominator": 12,
+          "invalid_or_missing": 0,
+          "positive": 12,
+          "positive_rate_bounds": [
+            1.0,
+            1.0
+          ],
+          "protocol": "entailment",
+          "uncertain": 0,
+          "ungrounded_positive": 0,
+          "valid": 12,
+          "variant": "corrupted"
+        },
+        {
+          "denominator": 12,
+          "invalid_or_missing": 0,
+          "positive": 12,
+          "positive_rate_bounds": [
+            1.0,
+            1.0
+          ],
+          "protocol": "entailment",
+          "uncertain": 0,
+          "ungrounded_positive": 12,
+          "valid": 12,
+          "variant": "no_passage"
+        }
+      ],
+      "complete_valid_admitted": true,
+      "expected_count": 96,
+      "global_errors": [],
+      "invalid_count": 0,
+      "kind": "mechanical_certification_score_not_human_comprehension",
+      "missing_count": 0,
+      "operational_hypothesis_supported": false,
+      "primary_difference": 0.0,
+      "source_pairs": [
+        {
+          "difference": 0,
+          "entailment_positive": true,
+          "legacy_positive": true,
+          "source_id": "bubble_clock-01"
+        },
+        {
+          "difference": 0,
+          "entailment_positive": true,
+          "legacy_positive": true,
+          "source_id": "bubble_clock-02"
+        },
+        {
+          "difference": 0,
+          "entailment_positive": true,
+          "legacy_positive": true,
+          "source_id": "glass_maze-01"
+        },
+        {
+          "difference": 0,
+          "entailment_positive": true,
+          "legacy_positive": true,
+          "source_id": "glass_maze-02"
+        },
+        {
+          "difference": 0,
+          "entailment_positive": true,
+          "legacy_positive": true,
+          "source_id": "ink_terrace-01"
+        },
+        {
+          "difference": 0,
+          "entailment_positive": true,
+          "legacy_positive": true,
+          "source_id": "ink_terrace-02"
+        },
+        {
+          "difference": 0,
+          "entailment_positive": true,
+          "legacy_positive": true,
+          "source_id": "kite_dock-01"
+        },
+        {
+          "difference": 0,
+          "entailment_positive": true,
+          "legacy_positive": true,
+          "source_id": "kite_dock-02"
+        },
+        {
+          "difference": 0,
+          "entailment_positive": true,
+          "legacy_positive": true,
+          "source_id": "mask_automaton-01"
+        },
+        {
+          "difference": 0,
+          "entailment_positive": true,
+          "legacy_positive": true,
+          "source_id": "mask_automaton-02"
+        },
+        {
+          "difference": 0,
+          "entailment_positive": true,
+          "legacy_positive": true,
+          "source_id": "shell_forecast-01"
+        },
+        {
+          "difference": 0,
+          "entailment_positive": true,
+          "legacy_positive": true,
+          "source_id": "shell_forecast-02"
+        }
+      ],
+      "valid_count": 96
+    },
+    "claim_substring": {
+      "cells": [
+        {
+          "denominator": 12,
+          "positive": 12,
+          "variant": "literal"
+        },
+        {
+          "denominator": 12,
+          "positive": 0,
+          "variant": "paraphrase"
+        },
+        {
+          "denominator": 12,
+          "positive": 0,
+          "variant": "corrupted"
+        },
+        {
+          "denominator": 12,
+          "positive": 0,
+          "variant": "no_passage"
+        }
+      ],
+      "input_scope": "entailment only"
+    },
+    "oracle": {
+      "cells": [
+        {
+          "denominator": 12,
+          "invalid_or_missing": 0,
+          "positive": 12,
+          "positive_rate_bounds": [
+            1.0,
+            1.0
+          ],
+          "protocol": "legacy",
+          "uncertain": 0,
+          "ungrounded_positive": 0,
+          "valid": 12,
+          "variant": "literal"
+        },
+        {
+          "denominator": 12,
+          "invalid_or_missing": 0,
+          "positive": 12,
+          "positive_rate_bounds": [
+            1.0,
+            1.0
+          ],
+          "protocol": "legacy",
+          "uncertain": 0,
+          "ungrounded_positive": 0,
+          "valid": 12,
+          "variant": "paraphrase"
+        },
+        {
+          "denominator": 12,
+          "invalid_or_missing": 0,
+          "positive": 0,
+          "positive_rate_bounds": [
+            0.0,
+            0.0
+          ],
+          "protocol": "legacy",
+          "uncertain": 0,
+          "ungrounded_positive": 0,
+          "valid": 12,
+          "variant": "corrupted"
+        },
+        {
+          "denominator": 12,
+          "invalid_or_missing": 0,
+          "positive": 0,
+          "positive_rate_bounds": [
+            0.0,
+            0.0
+          ],
+          "protocol": "legacy",
+          "uncertain": 0,
+          "ungrounded_positive": 0,
+          "valid": 12,
+          "variant": "no_passage"
+        },
+        {
+          "denominator": 12,
+          "invalid_or_missing": 0,
+          "positive": 12,
+          "positive_rate_bounds": [
+            1.0,
+            1.0
+          ],
+          "protocol": "entailment",
+          "uncertain": 0,
+          "ungrounded_positive": 0,
+          "valid": 12,
+          "variant": "literal"
+        },
+        {
+          "denominator": 12,
+          "invalid_or_missing": 0,
+          "positive": 12,
+          "positive_rate_bounds": [
+            1.0,
+            1.0
+          ],
+          "protocol": "entailment",
+          "uncertain": 0,
+          "ungrounded_positive": 0,
+          "valid": 12,
+          "variant": "paraphrase"
+        },
+        {
+          "denominator": 12,
+          "invalid_or_missing": 0,
+          "positive": 0,
+          "positive_rate_bounds": [
+            0.0,
+            0.0
+          ],
+          "protocol": "entailment",
+          "uncertain": 0,
+          "ungrounded_positive": 0,
+          "valid": 12,
+          "variant": "corrupted"
+        },
+        {
+          "denominator": 12,
+          "invalid_or_missing": 0,
+          "positive": 0,
+          "positive_rate_bounds": [
+            0.0,
+            0.0
+          ],
+          "protocol": "entailment",
+          "uncertain": 0,
+          "ungrounded_positive": 0,
+          "valid": 12,
+          "variant": "no_passage"
+        }
+      ],
+      "complete_valid_admitted": true,
+      "expected_count": 96,
+      "global_errors": [],
+      "invalid_count": 0,
+      "kind": "mechanical_certification_score_not_human_comprehension",
+      "missing_count": 0,
+      "operational_hypothesis_supported": false,
+      "primary_difference": 0.0,
+      "source_pairs": [
+        {
+          "difference": 0,
+          "entailment_positive": false,
+          "legacy_positive": false,
+          "source_id": "bubble_clock-01"
+        },
+        {
+          "difference": 0,
+          "entailment_positive": false,
+          "legacy_positive": false,
+          "source_id": "bubble_clock-02"
+        },
+        {
+          "difference": 0,
+          "entailment_positive": false,
+          "legacy_positive": false,
+          "source_id": "glass_maze-01"
+        },
+        {
+          "difference": 0,
+          "entailment_positive": false,
+          "legacy_positive": false,
+          "source_id": "glass_maze-02"
+        },
+        {
+          "difference": 0,
+          "entailment_positive": false,
+          "legacy_positive": false,
+          "source_id": "ink_terrace-01"
+        },
+        {
+          "difference": 0,
+          "entailment_positive": false,
+          "legacy_positive": false,
+          "source_id": "ink_terrace-02"
+        },
+        {
+          "difference": 0,
+          "entailment_positive": false,
+          "legacy_positive": false,
+          "source_id": "kite_dock-01"
+        },
+        {
+          "difference": 0,
+          "entailment_positive": false,
+          "legacy_positive": false,
+          "source_id": "kite_dock-02"
+        },
+        {
+          "difference": 0,
+          "entailment_positive": false,
+          "legacy_positive": false,
+          "source_id": "mask_automaton-01"
+        },
+        {
+          "difference": 0,
+          "entailment_positive": false,
+          "legacy_positive": false,
+          "source_id": "mask_automaton-02"
+        },
+        {
+          "difference": 0,
+          "entailment_positive": false,
+          "legacy_positive": false,
+          "source_id": "shell_forecast-01"
+        },
+        {
+          "difference": 0,
+          "entailment_positive": false,
+          "legacy_positive": false,
+          "source_id": "shell_forecast-02"
+        }
+      ],
+      "valid_count": 96
+    }
+  },
+  "kind": "synthetic_harness_checks_not_answerer_results"
+}
