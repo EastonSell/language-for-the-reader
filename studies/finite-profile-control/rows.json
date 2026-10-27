@@ -1,0 +1,194 @@
+[
+  {
+    "known": [
+      0,
+      1
+    ],
+    "policy": "lookup",
+    "answer": [
+      2,
+      3
+    ],
+    "split": "exposed",
+    "valid": true,
+    "exact": 1,
+    "recall": 1.0,
+    "selectivity": 1
+  },
+  {
+    "known": [
+      0,
+      1
+    ],
+    "policy": "oracle",
+    "answer": [
+      2,
+      3
+    ],
+    "split": "exposed",
+    "valid": true,
+    "exact": 1,
+    "recall": 1.0,
+    "selectivity": 1
+  },
+  {
+    "known": [
+      0,
+      2
+    ],
+    "policy": "lookup",
+    "answer": [
+      1,
+      3
+    ],
+    "split": "exposed",
+    "valid": true,
+    "exact": 1,
+    "recall": 1.0,
+    "selectivity": 1
+  },
+  {
+    "known": [
+      0,
+      2
+    ],
+    "policy": "oracle",
+    "answer": [
+      1,
+      3
+    ],
+    "split": "exposed",
+    "valid": true,
+    "exact": 1,
+    "recall": 1.0,
+    "selectivity": 1
+  },
+  {
+    "known": [
+      0,
+      3
+    ],
+    "policy": "lookup",
+    "answer": [
+      0,
+      1
+    ],
+    "split": "unexposed",
+    "valid": true,
+    "exact": 0,
+    "recall": 0.5,
+    "selectivity": 0
+  },
+  {
+    "known": [
+      0,
+      3
+    ],
+    "policy": "oracle",
+    "answer": [
+      1,
+      2
+    ],
+    "split": "unexposed",
+    "valid": true,
+    "exact": 1,
+    "recall": 1.0,
+    "selectivity": 1
+  },
+  {
+    "known": [
+      1,
+      2
+    ],
+    "policy": "lookup",
+    "answer": [
+      0,
+      1
+    ],
+    "split": "unexposed",
+    "valid": true,
+    "exact": 0,
+    "recall": 0.5,
+    "selectivity": 0
+  },
+  {
+    "known": [
+      1,
+      2
+    ],
+    "policy": "oracle",
+    "answer": [
+      0,
+      3
+    ],
+    "split": "unexposed",
+    "valid": true,
+    "exact": 1,
+    "recall": 1.0,
+    "selectivity": 1
+  },
+  {
+    "known": [
+      1,
+      3
+    ],
+    "policy": "lookup",
+    "answer": [
+      0,
+      2
+    ],
+    "split": "exposed",
+    "valid": true,
+    "exact": 1,
+    "recall": 1.0,
+    "selectivity": 1
+  },
+  {
+    "known": [
+      1,
+      3
+    ],
+    "policy": "oracle",
+    "answer": [
+      0,
+      2
+    ],
+    "split": "exposed",
+    "valid": true,
+    "exact": 1,
+    "recall": 1.0,
+    "selectivity": 1
+  },
+  {
+    "known": [
+      2,
+      3
+    ],
+    "policy": "lookup",
+    "answer": [
+      0,
+      1
+    ],
+    "split": "exposed",
+    "valid": true,
+    "exact": 1,
+    "recall": 1.0,
+    "selectivity": 1
+  },
+  {
+    "known": [
+      2,
+      3
+    ],
+    "policy": "oracle",
+    "answer": [
+      0,
+      1
+    ],
+    "split": "exposed",
+    "valid": true,
+    "exact": 1,
+    "recall": 1.0,
+    "selectivity": 1
+  }
+]
