@@ -31,6 +31,8 @@ The answerability audit is not a correction to the historical rubric, which alre
 
 [Selection controls](studies/reader-selection-controls/README.md) further separate choosing unfamiliar meanings from expressing them faithfully: a deterministic input-only complement rule selects 576/576 exact pairs across permutations of 24 profiles from 12 source scenarios. This is an algebraic/synthetic control, **not model performance or 576 independent examples**. The [exploratory fourth-label probe](pretrained/exploratory-results/RESULTS.md) also remains exploratory because its facts were already inspected.
 
+The [finite-profile lookup counterexample](studies/finite-profile-control/README.md) constructs a profile-aware memorizer with perfect exposed-pair scores and zero exact success on two unexposed profiles. This exhaustive synthetic result shows why exposed paired scores alone do not establish transfer; it is not a new model or human study.
+
 ## Inspect the evidence
 
 - [Evidence guide](docs/EVIDENCE_GUIDE.md): measures, failure examples and reproduction limits through the capacity gate.
@@ -39,6 +41,18 @@ The answerability audit is not a correction to the historical rubric, which alre
 - [Pilot raw generations and findings](pretrained/results/RESULTS.md), [capacity source/output/ratings package](studies/reader-capacity-gate/README.md), [answerability audit](studies/reader-answerability-audit/README.md), and [cue-control prompts and raw judgments](studies/reader-cue-control/README.md).
 
 ## Verify saved evidence first
+
+**One-command offline quickcheck (Python 3.10+, standard library only):**
+
+```sh
+python -B tooling/check_saved_evidence.py
+# Optional full machine-readable report:
+python -B tooling/check_saved_evidence.py --json
+```
+
+This runs seven existing saved-evidence/synthetic-regression checks, reports all failures, and returns nonzero if any fail. A verified capacity package still records a **failed scientific gate**. See [check scope, troubleshooting and JSON output](tooling/SAVED_EVIDENCE.md). No models, evaluators, training or new semantic judgments are involved.
+
+For individual checks:
 
 The following commands run from the repository root with Python 3.10+ and the standard library. They check retained files, mappings, counts and synthetic regression cases; **they do not load a model, dispatch AI evaluators, retrain, rerate semantics or measure comprehension**. Use `-B` to avoid adding bytecode to sealed packages.
 
